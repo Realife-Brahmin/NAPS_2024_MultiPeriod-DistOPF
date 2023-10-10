@@ -1,0 +1,5 @@
+\standalonepreambles
+\subpreamble{../sections/intro/intro.tex}
+\usepackage {lipsum}
+\endsubpreamble
+\endstandalonepreambles

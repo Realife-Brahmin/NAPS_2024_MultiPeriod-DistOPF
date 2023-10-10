@@ -1,13 +1,19 @@
-\documentclass[conference]{IEEEtran}
+\documentclass[conference]{IEEEtran} % default
 
-\usepackage{cite}
-\usepackage{amsmath,amssymb,amsfonts}
-\usepackage{algorithmic}
-\usepackage{graphicx}
-\usepackage{textcomp}
-\usepackage{xcolor}
+\usepackage{cite} % default
+\usepackage{amsmath,amssymb,amsfonts} % default
+\usepackage{algorithmic} % default
+\usepackage{graphicx} % default
 
-\title{Multi-Period Optimal Power Flow based on Spatially Distributed Computing}
+\usepackage[subpreambles=true]{standalone}
+\usepackage{import}
+
+% \usepackage{lipsum} 
+
+\usepackage{textcomp} % default
+\usepackage{xcolor} % default
+
+\title{A Fast Multi-Period Optimal Power Flow Algorithm based on Spatially Distributed Computing}
 
 % Redefine the IEEEauthorrefmark command for using numbers as superscripts
 \makeatletter
@@ -41,9 +47,8 @@ or Math in Paper Title or Abstract.
 component, formatting, style, styling, insert
 \end{IEEEkeywords}
 
-\section{Introduction}
-This document is a model and instructions for \LaTeX.
-Please observe the conference page limits. 
+% \import{../sections/intro/}{intro.tex}
+\import{../sections/intro/}{intro.tex}
 
 \section{Ease of Use}
 \cite{bfm01,Nazir2018Jun,Nazir2019Jun,ddp_sugar_01,Qian2014Jul}
