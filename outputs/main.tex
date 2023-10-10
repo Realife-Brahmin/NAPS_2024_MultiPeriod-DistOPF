@@ -7,29 +7,23 @@
 \usepackage{textcomp}
 \usepackage{xcolor}
 
-\title{Conference Paper Title*\\
-{\footnotesize \textsuperscript{*}Note: Sub-titles are not captured in Xplore and
-should not be used}
-\thanks{Identify applicable funding agency here. If none, delete this.}
-}
+\title{Multi-Period Optimal Power Flow based on Spatially Distributed Computing}
 
-\author{\IEEEauthorblockN{1\textsuperscript{st} Given Name Surname}
-\IEEEauthorblockA{\textit{dept. name of organization (of Aff.)} \\
-\textit{name of organization (of Aff.)}\\
-City, Country \\
-email address or ORCID}
-\and
-\IEEEauthorblockN{2\textsuperscript{nd} Given Name Surname}
-\IEEEauthorblockA{\textit{dept. name of organization (of Aff.)} \\
-\textit{name of organization (of Aff.)}\\
-City, Country \\
-email address or ORCID}
-\and
-\IEEEauthorblockN{3\textsuperscript{rd} Given Name Surname}
-\IEEEauthorblockA{\textit{dept. name of organization (of Aff.)} \\
-\textit{name of organization (of Aff.)}\\
-City, Country \\
-email address or ORCID}
+% Redefine the IEEEauthorrefmark command for using numbers as superscripts
+\makeatletter
+\newcommand{\mysup}[1]{\@fnsymbol{#1}}
+\makeatother
+
+\author{
+    \IEEEauthorblockN{
+        Aryan Ritwajeet Jha\mysup{1}, \textit{Student Member, IEEE},
+        Subho Paul\mysup{1}, \textit{Member, IEEE},
+        Anamika Dubey\mysup{1}, \textit{Senior Member, IEEE}
+        }
+\IEEEauthorblockA{\IEEEauthorrefmark{1}\textit{School of Electrical Engineering \& Computer Science} \\
+\textit{Washington State University}\\
+Pullman, WA\\
+\{aryan.r.jha, subho.paul, anamika.dubey\}@wsu.edu}
 }
 
 \begin{document}
@@ -52,7 +46,7 @@ This document is a model and instructions for \LaTeX.
 Please observe the conference page limits. 
 
 \section{Ease of Use}
-I have cited this document \cite{Khoe:1994:CML:2288694.2294265} \cite{bfm01}
+\cite{bfm01,Nazir2018Jun,Nazir2019Jun,ddp_sugar_01,Qian2014Jul}
 
 \subsection{Maintaining the Integrity of the Specifications}
 
