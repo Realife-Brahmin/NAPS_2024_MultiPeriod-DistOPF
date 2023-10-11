@@ -2,4 +2,16 @@
 \subpreamble{../sections/intro/intro.tex}
 \usepackage {lipsum}
 \endsubpreamble
+\subpreamble{../sections/theory/theory.tex}
+\usepackage {lipsum}
+\endsubpreamble
+\subpreamble{../sections/simulation/simulation.tex}
+\usepackage {lipsum}
+\endsubpreamble
+\subpreamble{../sections/results/results.tex}
+\usepackage {lipsum}
+\endsubpreamble
+\subpreamble{../sections/conclusion/conclusion.tex}
+\usepackage {lipsum}
+\endsubpreamble
 \endstandalonepreambles
