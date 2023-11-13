@@ -3,12 +3,55 @@
 % Any packages or configurations specific to this section
 \usepackage{lipsum}
 
+\newcommand{\spheading}[2][10em]{% \spheading[<width>]{<stuff>}
+  \rotatebox{90}{\parbox{#1}{\raggedright #2}}}
+
 \begin{document}
 
 \section{Introduction}
 
 \subsection{Background and Prior Arts}
+Presently, optimal power flow (OPF) tools are developed to run the MV/LV distribution grids in the most economical, reliable, and secure manner. The usefulness of OPF studies is gaining more interest due to penetration of distributed energy resources (DERs), especially solar photovoltaic panels. Power generation from these DERs are influenced majorly by the weather conditions, hence highly intermittent nature. Presently, deployment of battery units are becoming more pertinent to mitigate the uncertainty effect and maintain the power balance by controlling the charging and/or discharging operations \cite{tgangwar}. However, inclusion of batteries converts the conventional single period time decoupled OPF problem into a multi-period time coupled OPF analysis.
+
+Traditionally, centralized OPF methods were popular where required data are accumulated at a central controller location \cite{spaul}. The central controller is responsible to process all the accumulated data, solving the OPF algorithm and dispatch control signals to the controlling resources. Yuan et al. \cite{Yuan} proposed a linear OPF model for distribution network depending upon the locational marginal price (LMP). The LMP is calculated by including reactive power components and voltage constraints.  
+
+\begin{table}[t]
+\caption{\textsc{Taxonomy table for comparison}}
+\label{table1}
+\begin{center}
+\begin{tabular}{|p{1.2cm}||p{0.2cm}||p{0.2cm}||p{0.45cm}||p{0.45cm}||p{0.45cm}||p{0.45cm}||p{0.8cm}|}   %{l *{8}{r}}
+    \hline
+    \spheading{References} & 
+    \spheading{DERs} & 
+    \spheading{Batteries} & 
+    \spheading{Single period OPF} & 
+    \spheading{Multi-period OPF} & 
+    \spheading{Centralized OPF} &
+    \spheading{Distributed OPF} &
+    \spheading{Framework} \\
+    \hline
+    \cite{Yuan}     &      &            & \checkmark     &      & \checkmark     &    & Linear \\ \hline
+    
+    
+    \cite{}     &      & \checkmark           & \checkmark     &      &   & \checkmark & \\ \hline
+    
+    \cite{}, \cite{}     & \checkmark     & \checkmark     &      &      &   & \checkmark  & \\ \hline
+    
+    \cite{}-\cite{}     & \checkmark     &           &      & \checkmark     &      &     & \checkmark \\ \hline
+    
+    \cite{}, \cite{}     &      & \checkmark          &      & \checkmark     &      &   & \checkmark\\ \hline
+    
+    \cite{}-\cite{}     & \checkmark     &           &      & \checkmark     &       &    & \checkmark\\ \hline
+    
+    This paper &  \checkmark    & \checkmark  &      &   \checkmark   &    & \checkmark    &  Non-convex \\
+    \hline
+  \end{tabular}
+\end{center}
+\end{table}
+
 
 \subsection{Research Gaps and Contributions}
+A taxonomy table to compare the existing studies and the present work is provided in \ref{table1}.
+
 
 \end{document}
