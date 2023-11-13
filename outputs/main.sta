@@ -1,14 +1,11 @@
 \standalonepreambles
 \subpreamble{../sections/intro/intro.tex}
-\usepackage {lipsum}
+\usepackage {lipsum}\newcommand {\spheading }[2][10em]{\rotatebox {90}{\parbox {#1}{\raggedright #2}}}
 \endsubpreamble
 \subpreamble{../sections/theory/theory.tex}
-\usepackage {lipsum}
+\usepackage {cite} \usepackage {amsmath,amssymb,amsfonts} \usepackage {cleveref}\usepackage {algorithmic} \usepackage {graphicx} \usepackage [subpreambles=true]{standalone}\usepackage {import}\usepackage {textcomp} \usepackage {xcolor} \usepackage {lipsum}\definecolor {darkgreen}{rgb}{0.0,0.5,0.0}
 \endsubpreamble
 \subpreamble{../sections/simulation/simulation.tex}
-\usepackage {lipsum}
-\endsubpreamble
-\subpreamble{../sections/results/results.tex}
 \usepackage {lipsum}
 \endsubpreamble
 \subpreamble{../sections/conclusion/conclusion.tex}

@@ -21,6 +21,22 @@
 \providecommand{\BIBdecl}{\relax}
 \BIBdecl
 
+\bibitem{tgangwar}
+T.~Gangwar, N.~P. Padhy, and P.~Jena, ``Storage allocation in active
+  distribution networks considering life cycle and uncertainty,'' \emph{IEEE
+  Trans. Ind. Inform.}, vol.~19, no.~1, pp. 339--350, Jan. 2023.
+
+\bibitem{spaul}
+S.~Paul and N.~P. Padhy, ``Real-time advanced energy-efficient management of an
+  active radial distribution network,'' \emph{IEEE Syst. J.}, vol.~16, no.~3,
+  pp. 3602--3612, Sept. 2022.
+
+\bibitem{Yuan}
+H.~Yuan, F.~Li, Y.~Wei, and J.~Zhu, ``Novel linearized power flow and
+  linearized opf models for active distribution networks with application in
+  distribution lmp,'' \emph{IEEE Trans. Smart Grid}, vol.~9, no.~1, pp.
+  438--448, Jan. 2018.
+
 \bibitem{bfm01}
 M.~Farivar and S.~H. Low, ``{Branch flow model: Relaxations and
   convexification},'' \emph{2012 IEEE 51st IEEE Conference on Decision and
