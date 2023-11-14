@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.10) (preloaded format=pdflatex 2023.10.10)  13 NOV 2023 18:43
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.10) (preloaded format=pdflatex 2023.10.10)  13 NOV 2023 18:31
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**"c:/Users/Aryan Ritwajeet Jha/Documents/documents_general/PESGM2024_MultiPeriod-DistOPF/sections/theory/theory.tex"
-(c:/Users/Aryan Ritwajeet Jha/Documents/documents_general/PESGM2024_MultiPeriod-DistOPF/sections/theory/theory.tex
+**"c:/Users/Aryan Ritwajeet Jha/Documents/documents_general/PESGM2024_MultiPeriod-DistOPF/sections/intro/intro.tex"
+(c:/Users/Aryan Ritwajeet Jha/Documents/documents_general/PESGM2024_MultiPeriod-DistOPF/sections/intro/intro.tex
 LaTeX2e <2023-06-01> patch level 1
 L3 programming layer <2023-08-29>
 (C:\Users\Aryan Ritwajeet Jha\AppData\Local\Programs\MiKTeX\tex/latex/base\article.cls
@@ -164,23 +164,23 @@ Package: lipsum 2021-09-20 v2.7 150 paragraphs of Lorem Ipsum dummy text
 \g__lipsum_par_int=\count276
 \l__lipsum_a_int=\count277
 \l__lipsum_b_int=\count278
- (C:\Users\Aryan Ritwajeet Jha\AppData\Local\Programs\MiKTeX\tex/latex/lipsum\lipsum.ltd.tex)) (theory.aux)
-\openout1 = `theory.aux'.
+ (C:\Users\Aryan Ritwajeet Jha\AppData\Local\Programs\MiKTeX\tex/latex/lipsum\lipsum.ltd.tex)) (intro.aux)
+\openout1 = `intro.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
  (C:\Users\Aryan Ritwajeet Jha\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count279
@@ -200,25 +200,109 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 48
  (C:\Users\Aryan Ritwajeet Jha\AppData\Local\Programs\MiKTeX\tex/latex/00miktex\epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
-LaTeX Font Info:    Trying to load font information for U+msa on input line 30.
- (C:\Users\Aryan Ritwajeet Jha\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
+
+LaTeX Warning: Citation `tgangwar' on page 1 undefined on input line 29.
+
+
+LaTeX Warning: Citation `spaul' on page 1 undefined on input line 31.
+
+
+LaTeX Warning: Citation `Yuan' on page 1 undefined on input line 31.
+
+
+LaTeX Warning: Citation `Guo' on page 1 undefined on input line 33.
+
+LaTeX Font Info:    Trying to load font information for U+msa on input line 39.
+(C:\Users\Aryan Ritwajeet Jha\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 30.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 39.
  (C:\Users\Aryan Ritwajeet Jha\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
+Overfull \hbox (1.14285pt too wide) in paragraph at lines 42--42
+[][]| 
+ []
 
-LaTeX Warning: Citation `bfm01' on page 1 undefined on input line 34.
+
+Overfull \hbox (1.14285pt too wide) in paragraph at lines 43--43
+[][]| 
+ []
+
+
+LaTeX Warning: Citation `Yuan' on page 1 undefined on input line 50.
+
+
+Overfull \hbox (5.18222pt too wide) in paragraph at lines 50--50
+[]\OT1/cmr/m/n/10 Linear| 
+ []
+
+
+LaTeX Warning: Citation `Guo' on page 1 undefined on input line 53.
+
+
+Overfull \hbox (2.6429pt too wide) in paragraph at lines 53--53
+[][]| 
+ []
+
+
+Overfull \hbox (5.18222pt too wide) in paragraph at lines 53--53
+[]\OT1/cmr/m/n/10 Linear| 
+ []
+
+
+Overfull \hbox (2.6429pt too wide) in paragraph at lines 55--55
+[][]| 
+ []
+
+
+Overfull \hbox (2.6429pt too wide) in paragraph at lines 55--55
+[][]| 
+ []
+
+
+Overfull \hbox (2.6429pt too wide) in paragraph at lines 57--57
+[][]| 
+ []
+
+
+Overfull \hbox (2.6429pt too wide) in paragraph at lines 59--59
+[][]| 
+ []
+
+
+Overfull \hbox (2.6429pt too wide) in paragraph at lines 61--61
+[][]| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 63--63
+[]\OT1/cmr/m/n/10 This
+ []
+
+
+Overfull \hbox (2.6429pt too wide) in paragraph at lines 63--63
+[][]| 
+ []
+
+
+Overfull \hbox (2.6429pt too wide) in paragraph at lines 63--63
+[][]| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 63--64
+[]\OT1/cmr/m/n/10 Non-
+ []
+
+
+Overfull \hbox (6.68222pt too wide) in paragraph at lines 63--64
+\OT1/cmr/m/n/10 convex| 
+ []
 
 [1
 
-{C:/Users/Aryan Ritwajeet Jha/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}]
-Overfull \hbox (5.71107pt too wide) in paragraph at lines 69--69
-[]\OT1/cmr/bx/n/12 ENApp based Dis-tributed Multi-Period OPF with Bat-
- []
-
-[2] (theory.aux)
+{C:/Users/Aryan Ritwajeet Jha/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}] [2] (intro.aux)
  ***********
 LaTeX2e <2023-06-01> patch level 1
 L3 programming layer <2023-08-29>
@@ -229,17 +313,17 @@ LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 5472 strings out of 475248
- 99147 string characters out of 5751168
- 1935785 words of memory out of 5000000
- 26958 multiletter control sequences out of 15000+600000
- 561286 words of font info for 49 fonts, out of 8000000 for 9000
+ 5480 strings out of 475248
+ 99303 string characters out of 5751168
+ 1938785 words of memory out of 5000000
+ 26965 multiletter control sequences out of 15000+600000
+ 561587 words of font info for 50 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 79i,14n,93p,881b,215s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<C:/Users/Aryan Ritwajeet Jha/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/Aryan Ritwajeet Jha/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/Aryan Ritwajeet Jha/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/Aryan Ritwajeet Jha/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/Aryan Ritwajeet Jha/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi5.pfb><C:/Users/Aryan Ritwajeet Jha/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Users/Aryan Ritwajeet Jha/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/Aryan Ritwajeet Jha/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/Aryan Ritwajeet Jha/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/Aryan Ritwajeet Jha/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb>
-Output written on theory.pdf (2 pages, 131120 bytes).
+ 79i,13n,93p,911b,334s stack positions out of 10000i,1000n,20000p,200000b,200000s
+<C:/Users/Aryan Ritwajeet Jha/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/Aryan Ritwajeet Jha/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/Aryan Ritwajeet Jha/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><C:/Users/Aryan Ritwajeet Jha/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/Aryan Ritwajeet Jha/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msam10.pfb>
+Output written on intro.pdf (2 pages, 70837 bytes).
 PDF statistics:
- 59 PDF objects out of 1000 (max. 8388607)
+ 34 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 

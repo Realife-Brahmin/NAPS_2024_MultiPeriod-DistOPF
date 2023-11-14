@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.10) (preloaded format=pdflatex 2023.10.10)  13 NOV 2023 18:16
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.10) (preloaded format=pdflatex 2023.10.10)  13 NOV 2023 18:44
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -399,47 +399,47 @@ Underfull \hbox (badness 1881) in paragraph at lines 48--50
  []
 
 (../sections/intro/intro.tex
-Overfull \hbox (0.97623pt too wide) in paragraph at lines 38--38
+Overfull \hbox (0.97623pt too wide) in paragraph at lines 53--53
 [][]| 
  []
 
 
-Overfull \hbox (0.97623pt too wide) in paragraph at lines 40--40
+Overfull \hbox (0.97623pt too wide) in paragraph at lines 55--55
 [][]| 
  []
 
 
-Overfull \hbox (0.97623pt too wide) in paragraph at lines 40--40
+Overfull \hbox (0.97623pt too wide) in paragraph at lines 55--55
 [][]| 
  []
 
 
-Overfull \hbox (0.97623pt too wide) in paragraph at lines 42--42
+Overfull \hbox (0.97623pt too wide) in paragraph at lines 57--57
 [][]| 
  []
 
 
-Overfull \hbox (0.97623pt too wide) in paragraph at lines 44--44
+Overfull \hbox (0.97623pt too wide) in paragraph at lines 59--59
 [][]| 
  []
 
 
-Overfull \hbox (0.97623pt too wide) in paragraph at lines 46--46
+Overfull \hbox (0.97623pt too wide) in paragraph at lines 61--61
 [][]| 
  []
 
 
-Overfull \hbox (0.97623pt too wide) in paragraph at lines 48--48
+Overfull \hbox (0.97623pt too wide) in paragraph at lines 63--63
 [][]| 
  []
 
 
-Overfull \hbox (0.97623pt too wide) in paragraph at lines 48--48
+Overfull \hbox (0.97623pt too wide) in paragraph at lines 63--63
 [][]| 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 48--49
+Underfull \hbox (badness 10000) in paragraph at lines 63--64
 []\OT1/ptm/m/n/8 Non-
  []
 
@@ -450,7 +450,7 @@ Underfull \vbox (badness 2856) has occurred while \output is active []
 
 
 ]
-Overfull \hbox (23.03165pt too wide) detected at line 67
+Overfull \hbox (11.33049pt too wide) detected at line 67
 []
  []
 
@@ -481,7 +481,7 @@ Here is how much of TeX's memory you used:
  1141 hyphenation exceptions out of 8191
  95i,14n,93p,933b,367s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/Aryan Ritwajeet Jha/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/Aryan Ritwajeet Jha/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/Aryan Ritwajeet Jha/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi5.pfb><C:/Users/Aryan Ritwajeet Jha/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Users/Aryan Ritwajeet Jha/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/Aryan Ritwajeet Jha/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/Aryan Ritwajeet Jha/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/Aryan Ritwajeet Jha/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Users/Aryan Ritwajeet Jha/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/Aryan Ritwajeet Jha/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msam10.pfb><C:/Users/Aryan Ritwajeet Jha/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Users/Aryan Ritwajeet Jha/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmbi8a.pfb><C:/Users/Aryan Ritwajeet Jha/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Users/Aryan Ritwajeet Jha/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
-Output written on main.pdf (2 pages, 182055 bytes).
+Output written on main.pdf (2 pages, 179338 bytes).
 PDF statistics:
  80 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
