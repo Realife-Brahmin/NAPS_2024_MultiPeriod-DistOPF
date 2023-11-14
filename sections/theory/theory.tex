@@ -45,14 +45,14 @@ On similar lines to the branch flow equations in \cite{bfm01}, the network is mo
 where $P^{t}_{ij}, Q^{t}_{ij}, l^{t}_{ij}$ denote the sending-end real power, reactive power and the square of the magnitude of the current flowing in the branch $(i, j)$ respectively. $v^{t}_{j}$ denotes the square of the magnitude of the voltage at node $j$. The superscript $t$ specifies the time-period for the corresponding variable. Node $i$ denotes the `parent' node of node $j$, which itself may be the parent of a set of $k$ `children' nodes (the set may contain one, many or even zero nodes, if $j$ is a leaf node). It may be noted that for a radial distribution system, each node $j$ can have only one `parent' node $i$, and thus the summation for the second term in equations \Cref{eq:Pij,eq:Qij,eq:vj,eq:lij} may be dropped.
 \subsubsection{DER Model}
 
-DERs are modeled as photovoltaic (PV) modules interfacing with the network via inverters operating in two quadrants. The DERs inject a time-varying, non-controllable real power $P^{t}_{D}$ into the network. Based on the maximum apparent power capacity of their corresponding inverter, $S_{D}$, they can output controllable reactive power $q_{D}$, whose limits are given by \cref{eq:qDj}.
+DERs are modeled as photovoltaic (PV) modules interfacing with the network via inverters operating in two quadrants. The DERs inject a time-varying, non-controllable real power $p^{t}_{D}$ into the network. Based on the maximum apparent power capacity of their corresponding inverter, $S_{D}$, they can output controllable reactive power $q_{D}$, whose limits are given by \cref{eq:qDj}.
 
 \begin{align}
     % x &= y
     % { q^{t}_{D_{j}} } & \in { [\sqrt{S_{D_{j}}^2 - P^{t}_{D_{j}}^2}]}
     { q^{t}_{D_{j}} } 
     &\in
-    { \left[-\sqrt{ {S_{D_{j}}}^2 - {P^{t}_{D_{j}}}^2}, \sqrt{ {S_{D_{j}}}^2 - {P^{t}_{D_{j}}}^2}\right] } \label{eq:qDj}
+    { \left[-\sqrt{ {S_{D_{j}}}^2 - {p^{t}_{D_{j}}}^2}, \sqrt{ {S_{D_{j}}}^2 - {p^{t}_{D_{j}}}^2}\right] } \label{eq:qDj}
     % & \in {\[-\ sqrt[]{{S_{D_{j}}}^2 - {P^{t}_{D_{j}}}^2 }}
 \end{align}
 
