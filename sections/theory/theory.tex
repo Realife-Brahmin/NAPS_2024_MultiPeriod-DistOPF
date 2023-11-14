@@ -32,8 +32,8 @@ On similar lines to the branch flow equations in \cite{bfm01}, the network is mo
 
 % \begin{gather}
 	\begin{align}
-		{p_j^t} & = {\sum_{(j, k) \in \mathcal{L}} P_{jk}^t - \sum_{(i, j) \in \mathcal{L}}\left\{P_{ij}^t - r_{ij}l_{ij}^t\right\} - P_{d_j}^t + P_{c_j}^t} && \label{eq_Pij} \\ 
-		{q_j^t} & = {\sum_{(j, k) \in \mathcal{L}} Q_{jk}^t - \sum_{(i, j) \in \mathcal{L}}\left\{Q_{ij}^t - x_{ij}l_{ij}^t\right\} - q_{D_j}^t - q_{B_j}^t} && \label{eq_Qij} \\ 
+		{p_j^t} & = {\sum_{(j, k) \in \mathcal{L}} P_{jk}^t - \sum_{(i, j) \in \mathcal{L}}\left\{P_{ij}^t - r_{ij}l_{ij}^t\right\} - P_{d_j}^t + P_{c_j}^t} && \label{eq:Pij} \\ 
+		{q_j^t} & = {\sum_{(j, k) \in \mathcal{L}} Q_{jk}^t - \sum_{(i, j) \in \mathcal{L}}\left\{Q_{ij}^t - x_{ij}l_{ij}^t\right\} - q_{D_j}^t - q_{B_j}^t} && \label{eq:Qij} \\ 
 		{v_j^t} & = {v_{i}^t +  \left\{r_{ij}^2 + x_{ij}^2\right\}l_{ij}^t - 2(r_{ij}P_{ij}^t + x_{ij}Q_{ij}^t)} && \\
 		{l_{ij}^t} & = {\frac{(P_{ij}^{t})^2 + (Q_{ij}^{t})^2}{v_i^t}}
 		% {\color{darkgreen}{ B_{j}^{t} }} &\color{darkgreen}{=} { \color{darkgreen}{ B_{j}^{t-1} + \Delta t  \eta_c P_{c_j}^t - \Delta t\frac{1}{\eta_d} P_{d_j}^t } } \\
@@ -47,7 +47,7 @@ On similar lines to the branch flow equations in \cite{bfm01}, the network is mo
 	\end{align}
 % \end{gather}
 
-where $P^{t}_{ij}, Q^{t}_{ij}, l^{t}_{ij}$ denote the sending-end real power, reactive power and the square of the magnitude of the current flowing in the branch $(i, j)$ respectively. $v^{t}_{j}$ denotes the square of the magnitude of the voltage at node $j$. The superscript $t$ specifies the time-period for the corresponding variable. It may be noted that for a radial distribution system, each node $j$ can have only one `parent' node $i$, and thus the summation for the second term in equations \Cref{eq_Pij, eq_Qij} may be dropped.
+where $P^{t}_{ij}, Q^{t}_{ij}, l^{t}_{ij}$ denote the sending-end real power, reactive power and the square of the magnitude of the current flowing in the branch $(i, j)$ respectively. $v^{t}_{j}$ denotes the square of the magnitude of the voltage at node $j$. The superscript $t$ specifies the time-period for the corresponding variable. Node $i$ denotes the `parent' node of node $j$, which itself may be the parent of a set of $k$ `children' nodes (the set may contain one, many or even zero nodes, if $j$ is a leaf node). It may be noted that for a radial distribution system, each node $j$ can have only one `parent' node $i$, and thus the summation for the second term in equations \Cref{eq:Pij,eq:Qij} may be dropped.
 
 \subsection*{(Integer Constraint Relaxed) Naive Brute Force Full Optimization Model - Full Horizon}
 
