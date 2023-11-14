@@ -28,6 +28,27 @@
 
 \subsection{Centralized Multi-Period OPF with Batteries}
 
+On similar lines to the branch flow equations in \cite{bfm01}, the network is modeled as a function of time, considering the interaction of batteries.
+
+% \begin{gather}
+	\begin{align}
+		{p_j^t} & = {\sum_{(j, k) \in \mathcal{L}} P_{jk}^t - \sum_{(i, j) \in \mathcal{L}}\left\{P_{ij}^t - r_{ij}l_{ij}^t\right\} - P_{d_j}^t + P_{c_j}^t} && \label{eq_Pij} \\ 
+		{q_j^t} & = {\sum_{(j, k) \in \mathcal{L}} Q_{jk}^t - \sum_{(i, j) \in \mathcal{L}}\left\{Q_{ij}^t - x_{ij}l_{ij}^t\right\} - q_{D_j}^t - q_{B_j}^t} && \label{eq_Qij} \\ 
+		{v_j^t} & = {v_{i}^t +  \left\{r_{ij}^2 + x_{ij}^2\right\}l_{ij}^t - 2(r_{ij}P_{ij}^t + x_{ij}Q_{ij}^t)} && \\
+		{l_{ij}^t} & = {\frac{(P_{ij}^{t})^2 + (Q_{ij}^{t})^2}{v_i^t}}
+		% {\color{darkgreen}{ B_{j}^{t} }} &\color{darkgreen}{=} { \color{darkgreen}{ B_{j}^{t-1} + \Delta t  \eta_c P_{c_j}^t - \Delta t\frac{1}{\eta_d} P_{d_j}^t } } \\
+		% { B_{j}^{0} } &= { 0.5(soc_{max}+soc_{min})E_{Rated} = 0.625E_{Rated}} \\
+		% % { B_{j}^{T} } &= { B_{j}^{0}} \\
+		% {where,} & {} \\
+		% {(i, j)} &: {\text{Branch connecting nodes $i$ and $j$}} \\
+		% {p_j^t} &= {p_D{_j}^t - p_L{_j}^t} \\
+		% {q_j^t} &= {-q_L{_j}^t} \\
+		% {t} &= {\{1, 2, \ldots T\}}
+	\end{align}
+% \end{gather}
+
+where $P^{t}_{ij}, Q^{t}_{ij}, l^{t}_{ij}$ denote the sending-end real power, reactive power and the square of the magnitude of the current flowing in the branch $(i, j)$ respectively. $v^{t}_{j}$ denotes the square of the magnitude of the voltage at node $j$. The superscript $t$ specifies the time-period for the corresponding variable. It may be noted that for a radial distribution system, each node $j$ can have only one `parent' node $i$, and thus the summation for the second term in equations \Cref{eq_Pij, eq_Qij} may be dropped.
+
 \subsection*{(Integer Constraint Relaxed) Naive Brute Force Full Optimization Model - Full Horizon}
 
 
