@@ -3,7 +3,7 @@
 \usepackage {cite} \usepackage {amsmath,amssymb,amsfonts} \usepackage {cleveref}\usepackage {algorithmic} \usepackage {graphicx} \usepackage {import}\usepackage {textcomp} \usepackage {xcolor} \usepackage {lipsum}\newcommand {\spheading }[2][10em]{\rotatebox {90}{\parbox {#1}{\raggedright #2}}}
 \endsubpreamble
 \subpreamble{../sections/theory/theory.tex}
-\usepackage {cite} \usepackage {amsmath,amssymb,amsfonts} \usepackage {cleveref}\usepackage {algorithmic} \usepackage {graphicx} \usepackage {import}\usepackage {textcomp} \usepackage {xcolor} \usepackage {lipsum}\definecolor {darkgreen}{rgb}{0.0,0.0,0.0}
+\usepackage {cite} \usepackage {amsmath,amssymb,amsfonts} \usepackage {cleveref}\crefformat {equation}{(#2#1#3)} \crefrangeformat {equation}{(#3#1#4) to (#5#2#6)} \usepackage {algorithmic} \usepackage {graphicx} \usepackage {import}\usepackage {textcomp} \usepackage {xcolor} \usepackage {lipsum}\definecolor {darkgreen}{rgb}{0.0,0.0,0.0}
 \endsubpreamble
 \subpreamble{../sections/simulation/simulation.tex}
 \usepackage {lipsum}
