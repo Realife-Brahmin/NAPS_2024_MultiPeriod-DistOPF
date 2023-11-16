@@ -1,18 +1,18 @@
 # Fdb version 4
-["bibtex main"] 1700119744 "main.aux" "main.bbl" "main" 1700120005 0
+["bibtex main"] 1700124663 "main.aux" "main.bbl" "main" 1700124665 0
   "./bibFile.bib" 1700098179 3754 963da649f67f33c81c35c40826ed9164 ""
   "C:/Users/aryan/AppData/Local/Programs/MiKTeX/bibtex/bst/ieeetran/IEEEtran.bst" 1440618969 57748 7c8250ecf02814ce6ddc0cdbb63df1dd ""
-  "main.aux" 1700120004 3409 42b2c5c2acc628f5e62981d62dace26b "pdflatex"
+  "main.aux" 1700124664 3493 e21d1a9dfebf4f46c65b07aaa88a8d3f "pdflatex"
   (generated)
   "main.bbl"
   "main.blg"
   (rewritten before read)
-["pdflatex"] 1700120003 "c:/Users/aryan/Documents/documents_general/documentsCreated/PESGM2024_MultiPeriod-DistOPF/outputs/main.tex" "main.pdf" "main" 1700120005 0
+["pdflatex"] 1700124663 "c:/Users/aryan/Documents/documents_general/documentsCreated/PESGM2024_MultiPeriod-DistOPF/outputs/main.tex" "main.pdf" "main" 1700124665 0
   "../sections/conclusion/conclusion.tex" 1699524102 172 62d91c3552fb0ef485a87f62fab8e97e ""
   "../sections/intro/intro.tex" 1700098179 3943 dd907d165bf0f7f44cf69102c679055a ""
   "../sections/results/results.tex" 1696996864 277 59c454facf5bebd4abb06756df0cac3f ""
   "../sections/simulation/simulation.tex" 1699524102 366 c9b067312efe42fefc739facef1f7076 ""
-  "../sections/theory/theory.tex" 1700119964 6161 93682cf2faf23d1a8b6724a1bcd48e51 ""
+  "../sections/theory/theory.tex" 1700124540 7217 280c98e5aa6e10950cb88697a9e8a4ea ""
   "C:/Users/aryan/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1696250226 230760 38a57079c0fd7fa3dc57d3c2d6aa9e21 ""
   "C:/Users/aryan/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1691058865 24118870 26cc7d157b3eb261579171f69854db7a ""
   "C:/Users/aryan/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc" 1458470287 4993 80dc9bab7f31fb78a000ccfed0e27cab ""
@@ -119,11 +119,11 @@
   "C:/Users/aryan/AppData/Local/Programs/MiKTeX/tex/latex/xcolor/xcolor.sty" 1656233290 56148 51a9a8571c07b9921892ae11063ae853 ""
   "C:/Users/aryan/AppData/Local/Programs/MiKTeX/tex/latex/xkeyval/xkeyval.sty" 1656233319 4937 4ce600ce9bd4ec84d0250eb6892fcf4f ""
   "IEEEtran.cls" 1695882884 288304 5b2e4fa15b0f7eabb840ebf67df4c0f7 ""
-  "c:/Users/aryan/Documents/documents_general/documentsCreated/PESGM2024_MultiPeriod-DistOPF/outputs/main.tex" 1700119887 2365 b520e6be8d6cf95d00c576bc4c18543d ""
-  "main.aux" 1700120004 3409 42b2c5c2acc628f5e62981d62dace26b "pdflatex"
-  "main.bbl" 1700119744 2820 8f085396e50bc95ac44cb37f8ddc5300 "bibtex main"
-  "main.sta" 1700120004 1133 bf48da351cc6b387cf43fce503c69c45 "pdflatex"
-  "main.tex" 1700119887 2365 b520e6be8d6cf95d00c576bc4c18543d ""
+  "c:/Users/aryan/Documents/documents_general/documentsCreated/PESGM2024_MultiPeriod-DistOPF/outputs/main.tex" 1700124661 2365 b520e6be8d6cf95d00c576bc4c18543d ""
+  "main.aux" 1700124664 3493 e21d1a9dfebf4f46c65b07aaa88a8d3f "pdflatex"
+  "main.bbl" 1700124663 2820 8f085396e50bc95ac44cb37f8ddc5300 "bibtex main"
+  "main.sta" 1700124664 1133 bf48da351cc6b387cf43fce503c69c45 "pdflatex"
+  "main.tex" 1700124661 2365 b520e6be8d6cf95d00c576bc4c18543d ""
   (generated)
   "main.aux"
   "main.log"
