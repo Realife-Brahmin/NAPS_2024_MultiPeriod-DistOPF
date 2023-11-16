@@ -5,8 +5,21 @@
 \usepackage{amsmath,amssymb,amsfonts} % default
 
 \usepackage{cleveref}
-\crefformat{equation}{(#2#1#3)} % to not put eqn. when I use \cref{<single reference>}
-\crefrangeformat{equation}{(#3#1#4) to (#5#2#6)} % to not put eqns. when I use \cref{<multiple references>}
+% The following formats are used so that when I call \cref{label_1} or \cref{label_1,label_2} or \crefrange{label_1}{label_4}: 
+    % 1. I never get eq. or eqs. before my bracketed numbers.
+    % 2. The numbers are bracketed.
+
+% For single equation references
+\crefformat{equation}{(#2#1#3)}
+\Crefformat{equation}{(#2#1#3)}
+% For multiple equation references
+\crefmultiformat{equation}
+{(#2#1#3)} % First reference
+{ and (#2#1#3)} % Middle references
+{ and (#2#1#3)} % Last reference
+{ and (#2#1#3)} % Last reference
+% For a range of equation references (e.g., (1)-(3))
+\crefrangeformat{equation}{(#3#1#4) to (#5#2#6)}
 
 \usepackage{algorithmic} % default
 \usepackage{graphicx} % default
