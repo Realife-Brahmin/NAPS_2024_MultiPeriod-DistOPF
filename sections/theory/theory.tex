@@ -54,10 +54,10 @@ Subject to the following constraints,
     {q_j^t} &= {q_C{_j} -q_L{_j}^t} \label{eq:qj}\\
     {v_j^t} & = {v_{i}^t +  \left\{r_{ij}^2 + x_{ij}^2\right\}l_{ij}^t - 2(r_{ij}P_{ij}^t + x_{ij}Q_{ij}^t)} \label{eq:vj} && \\
     {l_{ij}^t} & = {\frac{(P_{ij}^{t})^2 + (Q_{ij}^{t})^2}{v_i^t}} \label{eq:lij} && \\
-    { B_{j}^{t} } &= {  B_{j}^{t-1} + \Delta t  \eta_c P_{c_j}^t - \Delta t\frac{1}{\eta_d} P_{d_j}^t } && \\
     { v^{t}_{j} } &\in { \left[ V^{2}_{Min}, V^{2}_{Max} \right]} \label{eq:lim_vj} && \\
     { l^{t}_{ij} } &\in { \left[ 0, I^{2}_{R, ij}
     \right] } \label{eq:lim_lij} && \\
+    { B_{j}^{t} } &= {  B_{j}^{t-1} + \Delta t  \eta_c P_{c_j}^t - \Delta t\frac{1}{\eta_d} P_{d_j}^t } \label{eq:Bj} &&  \\
     { B^{t}_{j} } &\in { \left[ 0.30E_{R, j}, 0.95E_{R, j} \right] } \label{eq:lim_Bj} && \\
     { P^{t}_{c_{j}}, P^{t}_{d_{j}} }
     &\in
@@ -70,7 +70,7 @@ Subject to the following constraints,
     { \left[-\sqrt{ {S_{D_{R, j}}}^2 - {p^{t}_{D_{j}}}^2}, \sqrt{ {S_{D_{R, j}}}^2 - {p^{t}_{D_{j}}}^2}\right] } \label{eq:qDj} &&
 \end{align}
 
-The distribution network is represented with the help of the branch power flow equations \crefrange{eq:Pij}{eq:lij}. Constraints \cref{eq:Pij,eq:Qij} signify the active and reactive power balance equations. The net active and reactive power injections at any bus \(j\) are represented by \cref{eq:pj,eq:qj} respectively. The KVL equation is represented by \cref{eq:vj}, while the equation describing the relationship between current magnitude, voltage magnitude and apparent power magnitude is \cref{eq:lij}. \cref{eq:qDj,eq:qBj} describe the limits for two-quadrant operation of the controlled reactive power support of DERs and Batteries respectively. It may be noted that while both of these limits are non-controllable, only the limits for DERs are time-varying, due to $p^{t}_{D_j}$ component. For this simulation study, the limits for battery reactive support have been curtailed, i.e. the bounds of the limit have been artificially set smaller than what would be physically permissible. The reason for doing so was to avoid a non-linear inequality coupling decision variables. \textcolor{red}{Should I specify this justification?}
+The distribution network is represented with the help of the branch power flow equations \crefrange{eq:Pij}{eq:lij}. Constraints \cref{eq:Pij,eq:Qij} signify the active and reactive power balance equations. The net active and reactive power injections at any bus \(j\) are represented by \cref{eq:pj,eq:qj} respectively. The KVL equation is represented by \cref{eq:vj}, while the equation describing the relationship between current magnitude, voltage magnitude and apparent power magnitude is \cref{eq:lij}. The trajectory of the state of charge of batteries versus time is given by \cref{eq:Bj} and is the only class of constraints in this paper coupling the optimal power flow problem in time. \cref{eq:qDj,eq:qBj} describe the limits for two-quadrant operation of the controlled reactive power support of DERs and Batteries respectively. It may be noted that while both of these limits are non-controllable, only the limits for DERs are time-varying, due to $p^{t}_{D_j}$ component. For this simulation study, the limits for battery reactive support have been curtailed, i.e. the bounds of the limit have been artificially set smaller than what would be physically permissible. The reason for doing so was to avoid a non-linear inequality coupling decision variables. \textcolor{red}{Should I specify this justification?}
 
 Node $i$ denotes the `parent' node of node $j$, which itself may be the parent of a set of $k$ `children' nodes (the set may contain one, many or even zero nodes, if $j$ is a leaf node). It may be noted that for a radial distribution system, each node $j$ can have only one `parent' node $i$.
 
