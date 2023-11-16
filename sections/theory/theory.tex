@@ -46,13 +46,16 @@ Subject to the following constraints,
     &\in
     { \left[-\sqrt{ {S_{D_{j}}}^2 - {p^{t}_{D_{j}}}^2}, \sqrt{ {S_{D_{j}}}^2 - {p^{t}_{D_{j}}}^2}\right] } \label{eq:qDj} && \\
     {\color{darkgreen}{ B_{j}^{t} }} &\color{darkgreen}{=} { \color{darkgreen}{ B_{j}^{t-1} + \Delta t  \eta_c P_{c_j}^t - \Delta t\frac{1}{\eta_d} P_{d_j}^t } } && \\
-    { q^{t}_{B_{j}} } 
-    &\in 
-    { \left[-\sqrt{ {S_{B_{j}}}^2 - {P_{B_{Max_{j}}}}^2}, \sqrt{ {S_{B_{j}}}^2 - {P_{B_{Max_{j}}}}^2}\right] } \label{eq:qBj} && \\
     { v^{t}_{j} } &\in { \left[ V^{2}_{Min}, V^{2}_{Max} \right]} \label{eq:lim_vj} && \\
     { l^{t}_{ij} } &\in { \left[ 0, I^{2}_{rated}
     \right] } \label{eq:lim_lij} && \\
-    { B^{t}_{j} } &\in { \left[ 0.30E_{Max_{j}}, 0.95E_{Max_{j}} \right] } \label{eq:lim_Bj} &&
+    { B^{t}_{j} } &\in { \left[ 0.30E_{Max_{j}}, 0.95E_{Max_{j}} \right] } \label{eq:lim_Bj} && \\
+    { P^{t}_{c_{j}}, P^{t}_{d_{j}} }
+    &\in
+    { \left[ 0, P_{B_{Max_{j}}} \right]} \label{eq:lim_PcPdj} && \\
+    { q^{t}_{B_{j}} } 
+    &\in 
+    { \left[-\sqrt{ {S_{B_{j}}}^2 - {P_{B_{Max_{j}}}}^2}, \sqrt{ {S_{B_{j}}}^2 - {P_{B_{Max_{j}}}}^2}\right] } \label{eq:qBj} &&
 \end{align}
 
 The distribution network is represented with the help of the branch power flow equations \cref{eq:Pij,eq:Qij,eq:pj,eq:qj,eq:vj,eq:lij}. Constraints \cref{eq:Pij} and \cref{eq:Qij} signify the active and reactive power balance equations. The net active and reactive power injections at any bus \(j\) are represented by \cref{eq:pj} and \cref{eq:qj} respectively. The KVL equation is represented by \cref{eq:vj}, while the equation describing the relationship between current magnitude and apparent power magnitude is \cref{eq:lij}.  
