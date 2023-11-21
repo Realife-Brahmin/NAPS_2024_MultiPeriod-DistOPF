@@ -28,15 +28,34 @@
 \subsection{Background and Prior Arts}
 Presently, optimal power flow (OPF) tools are developed to run the MV/LV distribution grids in the most economical, reliable, and secure manner. The usefulness of OPF studies is gaining more interest due to penetration of distributed energy resources (DERs), especially solar photovoltaic panels. Power generation from these DERs are influenced majorly by the weather conditions, hence highly intermittent nature. Presently, deployment of battery units are becoming more pertinent to mitigate the uncertainty effect and maintain the power balance by controlling the charging and/or discharging operations \cite{tgangwar}. However, inclusion of batteries converts the conventional single period time decoupled OPF problem into a multi-period time coupled OPF analysis.
 
-Traditionally, centralized OPF methods were popular where required data are accumulated at a central controller location \cite{spaul}. The central controller is responsible to process all the accumulated data, solving the OPF algorithm and dispatch control signals to the controlling resources. Yuan et al. \cite{Yuan} proposed a linear OPF model for distribution network depending upon the locational marginal price (LMP). The LMP is calculated by including reactive power components and voltage constraints. 
+Traditionally, centralized OPF methods were popular where required data are accumulated at a central controller location \cite{spaul}. The central controller is responsible to process all the accumulated data, solving the OPF algorithm and dispatch control signals to the controlling resources. Yuan et al. \cite{Yuan} propose a linear OPF model for distribution network depending upon the locational marginal price (LMP). The LMP is calculated by including reactive power components and voltage constraints. Wei et al. \cite{Wei} develops a fixed point iteration algorithm for centralized OPF problem solution and LMP determination by leveraging the benefits of load elasticity. Second order cone programming (SOCP) relaxation is used to convert the non-convex branch flow model into a convex one. 
 
-Guo et al. \cite{Guo} developed a linear OPF model after linearizing the second-order cone constraints with polyhedral approximations. The OPF problem is formulated by considering the variable solar power generation as parameters and hence the overall problem takes form of a parametric distribution OPF. 
+Guo et al. \cite{Guo} develop a linear OPF model after linearizing the second-order cone constraints with polyhedral approximations. The OPF problem is formulated by considering the variable solar power generation as parameters and hence the overall problem takes form of a parametric distribution OPF. 
+
+
+
+Fazio et al. \cite{Fazio} used Auxiliary Problem Principle (APP) based distributed algorithm to minimize the voltage deviation by segregating the entire distribution network into multiple voltage control zones. The non-convex problem is relaxed and solved as quadratic convex programming.
+
+Zheng et al. \cite{Zheng} propose an alternating direction method of multipliers (ADMM) based fully distributed OPF model to determine the reactive power dispatch schedules. The original non-convex problem is solved by adopting SOCP relaxation.
+
+Another ADMM based fully distributed semidefinite programming (SDP) relaxed OPF portfolio is designed in  \cite{Wang} for an AC network having only wind generators. 
+
+Biswas et al. \cite{Biswas} also use SDP relaxation to develop distributed OPF algorithms using vanilla and accelerated ADMM methods. 
+
+Gabash and Li \cite{Gabash} propound a nonlinear centralized optimization framework to solve the multi-period active-reactive power dispatch from the battery storages and DERs in a distribution network. 
+
+Wu et al. \cite{Wu} frame a multi-period optimization problem for a virtual power plants (VPPs) collocated distribution network. The original centralized multi-parametric quadratic problem is decomposed into one master and multiple sub-problems for distribution network and VPPs, respectively by utilizing the concept of Benders Decomposition. 
+
+
+
+Previously in \cite{Sadnan}, authors' research group develop a 
+
 
 \begin{table}[t]
 \caption{\textsc{Taxonomy table for comparison}}
 \label{table1}
 \begin{center}
-\begin{tabular}{|p{1.2cm}||p{0.2cm}||p{0.2cm}||p{0.45cm}||p{0.45cm}||p{0.45cm}||p{0.45cm}||p{0.8cm}|}   %{l *{8}{r}}
+\begin{tabular}{|p{1.2cm}||p{0.2cm}||p{0.2cm}||p{0.45cm}||p{0.45cm}||p{0.45cm}||p{0.45cm}||p{1.2cm}|}   %{l *{8}{r}}
     \hline
     \spheading{References} & 
     \spheading{DERs} & 
@@ -48,17 +67,20 @@ Guo et al. \cite{Guo} developed a linear OPF model after linearizing the second-
     \spheading{Framework} \\
     \hline
     \cite{Yuan}     &      &            & \checkmark     &      & \checkmark     &    & Linear \\ \hline
-    
-    
-    \cite{Guo}     &  \checkmark    &            & \checkmark     &  \checkmark    &   &    & Linear \\ \hline
-    
-    \cite{}, \cite{}     & \checkmark     & \checkmark     &      &      &   & \checkmark  & \\ \hline
+
+    \cite{Wei}     &      &      &  \checkmark    &      &  \checkmark &   & Convex\\ \hline 
+
+    \cite{Guo}     &  \checkmark    &            & \checkmark     &      & \checkmark  &    & Linear \\ \hline
     
     \cite{}-\cite{}     & \checkmark     &           &      & \checkmark     &      &     & \checkmark \\ \hline
     
     \cite{}, \cite{}     &      & \checkmark          &      & \checkmark     &      &   & \checkmark\\ \hline
+
+    \cite{Fazio}     & \checkmark     &           & \checkmark      &      &       &  \checkmark   & Convex (APP)\\ \hline
     
-    \cite{}-\cite{}     & \checkmark     &           &      & \checkmark     &       &    & \checkmark\\ \hline
+    \cite{Zheng}- \cite{Biswas}     & \checkmark     &           & \checkmark      &      &       &  \checkmark   & Convex (ADMM)\\ \hline
+
+    \cite{Gabash}     & \checkmark     &  \checkmark         &       & \checkmark     & \checkmark      &    & Non-convex\\ \hline
     
     This paper &  \checkmark    & \checkmark  &      &   \checkmark   &    & \checkmark    &  Non-convex \\
     \hline
