@@ -57,16 +57,19 @@ Varanasi, India\\
 
 \maketitle
 
+% \begin{abstract}
 
-\begin{abstract}
+% \textcolor{red}{insert abstract here}
 
-\textcolor{red}{insert abstract here}
-
-\end{abstract}
+% \end{abstract}
 
 \begin{IEEEkeywords}
 Batteries, distribution network, distributed energy resources (DERs), equivalent network approximation (ENApp) 
 \end{IEEEkeywords}
+
+\section*{Abstract}
+There has been an increasing level of interest in developing innovative and scalable algorithms for solving the Multi-Period Optimal Power Flow (MPOPF) problem in Active Distribution Systems (ADS), i.e. Power Distribution Systems which can have a high penetration of Grid Edge Devices (GED) such as Solar Photovoltaics (PVs) and Battery Energy Storage Systems (BESS). The MPOPF problem can be stated as minimizing some cost of business operation (such as line losses) for a given time horizon (say, one day) subject to several constraints based on power flow physics, economics, etc. In general, MPOPF problems fall into the NP-Hard class \textcolor{red}{insert that citation} due to the inherent non-linearity of powerflow physics \textcolor{red}{cite SH Low BFM} and can be computationally very challenging to solve for even small or medium-sized distribution systems. Additionally, BESSs bring additional complexity into the problem by bringing in Integral constraints which arise from the fact that at a given time of participation, they can only either charge OR discharge, but never both simultaneously. The MPOPF problem thus becomes a Mixed Integer Non Linear Programming (MINLP) problem, which are almost always very hard to solve. As far as solving a single period Optimal Power Flow (OPF) problem is concerned, many authors propose various kinds of relaxations to some of the constraints, such as solving for a linear approximation or second order conic approximation of the powerflow \textcolor{red}{cite LinDistFlow, naizr's PSCC paper}, relaxing the integral constraint of BESSs via a soft constraint in the objective function \textcolor{red}{cite Nazir, Pileggi}, etc. Some authors have noted that for radial distribution systems, the OPF problem can be 'spatially-decomposed' such that in order to achieve the solution to the full problem, one only needs to solve for several smaller sub-problems with periodic exchange of , thereby easing computational needs, among other features \textcolor{red}{Cite Rabayet's TPWRS and HICCS papers}. MPOPF problems, which are bigger than an OPF problem, in terms of number of decision variables and constraints, by the number of time-periods in the horizon, require additional techniques which can 'temporally decompose' the problem in order to achieve a scalable solution. Some techniques which have been previously proposed include modelling the MPOPF problem as a Multi Period Control problem and solving it using Differential Dynamic Programming \textcolor{red}{cite Pileggi, that one DDP paper}, or solving for the entire horizon via scalable linearized algorithms and using the resulting values of temporally-coupled variables, such as the BESS State of Charge (SOC) as set-points for a more invovled, but temporall-decoupled OPF analysis for each time-step \textcolor{red}{cite Nazir's two papers}.
+In this poster, we present an extension of the ENApp algorithm as proposed in \textcolor{red}{Rabayet's paper} for the MPOPF problem with BESS-equipped ADSs. Preliminary results of this `Mulit-Period ENApp' algorithm, which have been validated against both a brute-forced benchmark optimization model for optimality gap, as well as against OpenDSS \textcolor{red}{cite OpenDSS} for feasibility and modelling consistency, have been promising. 
 
 
 \cite{bfm01,Nazir2018Jun,Nazir2019Jun,ddp_sugar_01,Qian2014Jul}
