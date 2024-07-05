@@ -2,12 +2,20 @@
 
 % Any packages or configurations specific to this section
 \usepackage{lipsum}
+\usepackage{graphicx}
 
 \begin{document}
 
 \section{Case Study Demonstration}
 The energy price data is taken from the ComEd hourly live prices data \cite{comedLivePrices} for 10 November 2023. 
 \subsection{Simulation Data: IEEE 123 Bus Test System}
+
+\begin{figure}[h!]
+    \centering
+    \includegraphics[width=\linewidth]{../figures/ieee123-FourAreas.png}
+    \caption{Area 4 Battery 9 Charging and Discharging \& SOC}
+    \label{fig:battery_charging_discharging}
+\end{figure}
 
 \subsection{Simulation Results}
 Case 1: centralized OPF with battery
