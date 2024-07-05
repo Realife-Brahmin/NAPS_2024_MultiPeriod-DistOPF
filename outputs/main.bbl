@@ -7,8 +7,7 @@
 \providecommand{\BIBentrySTDinterwordspacing}{\spaceskip=0pt\relax}
 \providecommand{\BIBentryALTinterwordstretchfactor}{4}
 \providecommand{\BIBentryALTinterwordspacing}{\spaceskip=\fontdimen2\font plus
-\BIBentryALTinterwordstretchfactor\fontdimen3\font minus
-  \fontdimen4\font\relax}
+\BIBentryALTinterwordstretchfactor\fontdimen3\font minus \fontdimen4\font\relax}
 \providecommand{\BIBforeignlanguage}[2]{{%
 \expandafter\ifx\csname l@#1\endcsname\relax
 \typeout{** WARNING: IEEEtran.bst: No hyphenation pattern has been}%
@@ -22,55 +21,59 @@
 \BIBdecl
 
 \bibitem{tgangwar}
-T.~Gangwar, N.~P. Padhy, and P.~Jena, ``Storage allocation in active
-  distribution networks considering life cycle and uncertainty,'' \emph{IEEE
-  Trans. Ind. Inform.}, vol.~19, no.~1, pp. 339--350, Jan. 2023.
+T.~Gangwar, N.~P. Padhy, and P.~Jena, ``Storage allocation in active distribution networks considering life cycle and uncertainty,'' \emph{IEEE Trans. Ind. Inform.}, vol.~19, no.~1, pp. 339--350, Jan. 2023.
 
 \bibitem{spaul}
-S.~Paul and N.~P. Padhy, ``Real-time advanced energy-efficient management of an
-  active radial distribution network,'' \emph{IEEE Syst. J.}, vol.~16, no.~3,
-  pp. 3602--3612, Sept. 2022.
+S.~Paul and N.~P. Padhy, ``Real-time advanced energy-efficient management of an active radial distribution network,'' \emph{IEEE Syst. J.}, vol.~16, no.~3, pp. 3602--3612, Sept. 2022.
 
 \bibitem{Yuan}
-H.~Yuan, F.~Li, Y.~Wei, and J.~Zhu, ``Novel linearized power flow and
-  linearized opf models for active distribution networks with application in
-  distribution lmp,'' \emph{IEEE Trans. Smart Grid}, vol.~9, no.~1, pp.
-  438--448, Jan. 2018.
+H.~Yuan, F.~Li, Y.~Wei, and J.~Zhu, ``Novel linearized power flow and linearized opf models for active distribution networks with application in distribution lmp,'' \emph{IEEE Trans. Smart Grid}, vol.~9, no.~1, pp. 438--448, Jan. 2018.
+
+\bibitem{Wei}
+W.~Wei, J.~Wang, and L.~Wu, ``Distribution optimal power flow with real-time price elasticity,'' \emph{IEEE Trans. Power Syst.}, vol.~33, no.~1, pp. 1097--1098, Jan. 2018.
 
 \bibitem{Guo}
-Z.~Guo, W.~Wei, L.~Chen, Z.~Dong, and S.~Mei, ``Parametric distribution optimal
-  power flow with variable renewable generation,'' \emph{IEEE Trans. Power
-  Syst.}, vol.~37, no.~3, pp. 1831--1841, May 2022.
+Z.~Guo, W.~Wei, L.~Chen, Z.~Dong, and S.~Mei, ``Parametric distribution optimal power flow with variable renewable generation,'' \emph{IEEE Trans. Power Syst.}, vol.~37, no.~3, pp. 1831--1841, May 2022.
+
+\bibitem{Fazio}
+A.~R. Di~Fazio, C.~Risi, M.~Russo, and M.~De~Santis, ``Decentralized voltage optimization based on the auxiliary problem principle in distribution networks with ders,'' \emph{Appl. Sci.}, vol.~11, no. 4509, pp. 1--24, 2021.
+
+\bibitem{Zheng}
+W.~Zheng, W.~Wu, B.~Zhang, H.~Sun, and Y.~Liu, ``A fully distributed reactive power optimization and control method for active distribution networks,'' \emph{IEEE Trans. Smart Grid}, vol.~7, no.~2, pp. 1021--1033, Mar. 2016.
+
+\bibitem{Wang}
+P.~Wang, Q.~Wu, S.~Huang, C.~Li, and B.~Zhou, ``Admm-based distributed active and reactive power control for regional ac power grid with wind farms,'' \emph{J. Modern Power Syst. Clean Energy}, vol.~10, no.~3, pp. 588--596, May 2022.
+
+\bibitem{Biswas}
+B.~D. Biswas, M.~S. Hasan, and S.~Kamalasadan, ``Decentralized distributed convex optimal power flow model for power distribution system based on alternating direction method of multipliers,'' \emph{IEEE Trans. Ind. Appl.}, vol.~59, no.~1, pp. 627--640, Jan.-Feb. 2023.
+
+\bibitem{Gabash}
+A.~Gabash and P.~Li, ``Active-reactive optimal power flow in distribution networks with embedded generation and battery storage,'' \emph{IEEE Trans. Power Syst.}, vol.~27, no.~4, pp. 2026--2035, Nov. 2012.
+
+\bibitem{Wu}
+C.~Wu, W.~Gu, S.~Zhou, and X.~Chen, ``Coordinated optimal power flow for integrated active distribution network and virtual power plants using decentralized algorithm,'' \emph{IEEE Trans. Power Syst.}, vol.~36, no.~4, pp. 3541--3551, Jul. 2021.
+
+\bibitem{Sadnan}
+R.~Sadnan and A.~Dubey, ``Distributed optimization using reduced network equivalents for radial power distribution systems,'' \emph{IEEE Trans. Power Syst.}, vol.~36, no.~4, pp. 3645--3656, Jul. 2021.
 
 \bibitem{comedLivePrices}
 \BIBentryALTinterwordspacing
-``{Live Prices - ComEd{'}s Hourly Pricing},'' Jun. 2023, [Online; accessed 16.
-  Nov. 2023]. [Online]. Available:
-  \url{https://hourlypricing.comed.com/live-prices/?date=20231110}
+``{Live Prices - ComEd{'}s Hourly Pricing},'' Jun. 2023, [Online; accessed 16. Nov. 2023]. [Online]. Available: \url{https://hourlypricing.comed.com/live-prices/?date=20231110}
 \BIBentrySTDinterwordspacing
 
 \bibitem{bfm01}
-M.~Farivar and S.~H. Low, ``{Branch flow model: Relaxations and
-  convexification},'' \emph{2012 IEEE 51st IEEE Conference on Decision and
-  Control (CDC)}, pp. 3672--3679, Dec. 2012.
+M.~Farivar and S.~H. Low, ``{Branch flow model: Relaxations and convexification},'' \emph{2012 IEEE 51st IEEE Conference on Decision and Control (CDC)}, pp. 3672--3679, Dec. 2012.
 
 \bibitem{Nazir2018Jun}
-N.~Nazir and M.~Almassalkhi, ``{Receding-Horizon Optimization of Unbalanced
-  Distribution Systems with Time-Scale Separation for Discrete and Continuous
-  Control Devices},'' pp. 1--7, Jun. 2018.
+N.~Nazir and M.~Almassalkhi, ``{Receding-Horizon Optimization of Unbalanced Distribution Systems with Time-Scale Separation for Discrete and Continuous Control Devices},'' pp. 1--7, Jun. 2018.
 
 \bibitem{Nazir2019Jun}
-N.~Nazir, P.~Racherla, and M.~Almassalkhi, ``{Optimal multi-period dispatch of
-  distributed energy resources in unbalanced distribution feeders},'' Jun.
-  2019.
+N.~Nazir, P.~Racherla, and M.~Almassalkhi, ``{Optimal multi-period dispatch of distributed energy resources in unbalanced distribution feeders},'' Jun. 2019.
 
 \bibitem{ddp_sugar_01}
-A.~Agarwal and L.~Pileggi, ``{Large Scale Multi-Period Optimal Power Flow With
-  Energy Storage Systems Using Differential Dynamic Programming},'' pp.
-  1750--1759, Sep. 2021.
+A.~Agarwal and L.~Pileggi, ``{Large Scale Multi-Period Optimal Power Flow With Energy Storage Systems Using Differential Dynamic Programming},'' pp. 1750--1759, Sep. 2021.
 
 \bibitem{Qian2014Jul}
-X.~Qian and Y.~Zhu, ``{Differential Dynamic Programming for Multistage
-  Uncertain Optimal Control},'' pp. 88--92, Jul. 2014.
+X.~Qian and Y.~Zhu, ``{Differential Dynamic Programming for Multistage Uncertain Optimal Control},'' pp. 88--92, Jul. 2014.
 
 \end{thebibliography}
