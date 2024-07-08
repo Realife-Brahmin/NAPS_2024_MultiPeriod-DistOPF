@@ -286,6 +286,11 @@ INPUT ../figures/T5-pv10-batt15-vBoundary/BoundaryVoltage_vs_t_vs_macroItr_5Area
 INPUT ../figures/T5-pv10-batt15-vBoundary/BoundaryVoltage_vs_t_vs_macroItr_5Areas_2_4_genCost_pv_10_batt_15_.png
 INPUT ../figures/T5-pv10-batt15-vBoundary/BoundaryVoltage_vs_t_vs_macroItr_5Areas_2_4_genCost_pv_10_batt_15_.png
 INPUT ../figures/T5-pv10-batt15-vBoundary/BoundaryVoltage_vs_t_vs_macroItr_5Areas_2_4_genCost_pv_10_batt_15_.png
+INPUT ../figures/T10-inputCurves/InputCurves_Horizon_10_pv_20_batt_30.png
+INPUT ../figures/T10-inputCurves/InputCurves_Horizon_10_pv_20_batt_30.png
+INPUT ../figures/T10-inputCurves/InputCurves_Horizon_10_pv_20_batt_30.png
+INPUT ../figures/T10-inputCurves/InputCurves_Horizon_10_pv_20_batt_30.png
+INPUT ../figures/T10-inputCurves/InputCurves_Horizon_10_pv_20_batt_30.png
 INPUT ../figures/T10-pv20-batt30-genCost/copf/BatteryPlots/macroItr_1_genCost_Battery_1_alpha_0.001.png
 INPUT ../figures/T10-pv20-batt30-genCost/copf/BatteryPlots/macroItr_1_genCost_Battery_1_alpha_0.001.png
 INPUT ../figures/T10-pv20-batt30-genCost/copf/BatteryPlots/macroItr_1_genCost_Battery_1_alpha_0.001.png

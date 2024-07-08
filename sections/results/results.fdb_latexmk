@@ -1,5 +1,6 @@
 # Fdb version 4
-["pdflatex"] 1720477208.64518 "c:/Users/aryan/Documents/documents_general/UnknownPaper_MultiPeriod-DistOPF/sections/results/results.tex" "c:/Users/aryan/Documents/documents_general/UnknownPaper_MultiPeriod-DistOPF/sections/results/results.pdf" "results" 1720477211.4345 0
+["pdflatex"] 1720480909.46751 "c:/Users/aryan/Documents/documents_general/UnknownPaper_MultiPeriod-DistOPF/sections/results/results.tex" "c:/Users/aryan/Documents/documents_general/UnknownPaper_MultiPeriod-DistOPF/sections/results/results.pdf" "results" 1720480914.18893 0
+  "../figures/T10-inputCurves/InputCurves_Horizon_10_pv_20_batt_30.png" 1720475118 52043 4a1b98a5ad60c9925cc26cdbf5753a32 ""
   "../figures/T10-pv20-batt30-genCost/copf/BatteryPlots/macroItr_1_genCost_Battery_1_alpha_0.001.png" 1720474524 41015 66bfbe4000a170331cc059bb8372e56f ""
   "../figures/T5-pv10-batt15-PBoundary/BoundaryRealPower_vs_t_vs_macroItr_5Areas_1_2_genCost_pv_10_batt_15_.png" 1714624981 148409 d31208885e78dbca2c221fc07d31c0d8 ""
   "../figures/T5-pv10-batt15-PBoundary/BoundaryRealPower_vs_t_vs_macroItr_5Areas_1_3_genCost_pv_10_batt_15_.png" 1714624981 108668 708dec68feca5b827062d914d1cd5daf ""
@@ -8,10 +9,10 @@
   "../figures/T5-pv10-batt15-vBoundary/BoundaryVoltage_vs_t_vs_macroItr_5Areas_1_3_genCost_pv_10_batt_15_.png" 1714624981 145817 13dc7b0978e2d6b16c75a0dc88407f6b ""
   "../figures/T5-pv10-batt15-vBoundary/BoundaryVoltage_vs_t_vs_macroItr_5Areas_2_4_genCost_pv_10_batt_15_.png" 1714624981 172611 0bcca1a58ad5fa69913693788d1b50b3 ""
   "IEEEtran.cls" 1720196288 288304 5b2e4fa15b0f7eabb840ebf67df4c0f7 ""
-  "c:/Users/aryan/Documents/documents_general/UnknownPaper_MultiPeriod-DistOPF/sections/results/../../outputs/main.tex" 1720477118 2821 616359bea1378c51da1d2629a8dd8124 ""
-  "c:/Users/aryan/Documents/documents_general/UnknownPaper_MultiPeriod-DistOPF/sections/results/results.aux" 1720477211 3268 e610149ff80e84761f38d283d99a4a00 "pdflatex"
-  "c:/Users/aryan/Documents/documents_general/UnknownPaper_MultiPeriod-DistOPF/sections/results/results.sta" 1720477210 45 5977ee01d6365feae7164ffda30d2c8b "pdflatex"
-  "c:/Users/aryan/Documents/documents_general/UnknownPaper_MultiPeriod-DistOPF/sections/results/results.tex" 1720477202 5528 6826cbca54f503f3baef66fba0afda19 ""
+  "c:/Users/aryan/Documents/documents_general/UnknownPaper_MultiPeriod-DistOPF/sections/results/../../outputs/main.tex" 1720480907 2821 616359bea1378c51da1d2629a8dd8124 ""
+  "c:/Users/aryan/Documents/documents_general/UnknownPaper_MultiPeriod-DistOPF/sections/results/results.aux" 1720480913 3594 bbb14b9823359ad59fac36a36f1ee760 "pdflatex"
+  "c:/Users/aryan/Documents/documents_general/UnknownPaper_MultiPeriod-DistOPF/sections/results/results.sta" 1720480913 45 5977ee01d6365feae7164ffda30d2c8b "pdflatex"
+  "c:/Users/aryan/Documents/documents_general/UnknownPaper_MultiPeriod-DistOPF/sections/results/results.tex" 1720480903 5853 bf4aa0114ab4d9d72aae31a2c11ab858 ""
   "c:/texlive/2023/texmf-dist/fonts/enc/dvips/base/8r.enc" 1706170314 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "c:/texlive/2023/texmf-dist/fonts/map/fontname/texfonts.map" 1706171058 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "c:/texlive/2023/texmf-dist/fonts/tfm/adobe/times/ptmb7t.tfm" 1706176242 2172 fd0c924230362ff848a33632ed45dc23 ""
