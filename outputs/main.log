@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2024.1.25)  5 JUL 2024 11:30
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2024.1.25)  8 JUL 2024 15:18
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -289,7 +289,22 @@ Package: varwidth 2009/03/30 ver 0.92;  Variable-width minipages
 Package: filemod-expmin 2011/09/19 v1.2 Get and compare file modification times (expandable; minimal)
 )) (c:/texlive/2023/texmf-dist/tex/latex/import/import.sty
 Package: import 2020/04/01  v 6.2
-) (c:/texlive/2023/texmf-dist/tex/latex/caption/subcaption.sty
+) (c:/texlive/2023/texmf-dist/tex/latex/subfiles/subfiles.sty
+Package: subfiles 2020/11/14 v2.2 Multi-file projects (package)
+ (c:/texlive/2023/texmf-dist/tex/latex/xpatch/xpatch.sty (c:/texlive/2023/texmf-dist/tex/latex/l3kernel/expl3.sty
+Package: expl3 2024-01-22 L3 programming layer (loader) 
+ (c:/texlive/2023/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
+File: l3backend-pdftex.def 2024-01-04 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count288
+\l__pdf_internal_box=\box58
+))
+Package: xpatch 2020/03/25 v0.3a Extending etoolbox patching commands
+ (c:/texlive/2023/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
+Package: xparse 2023-10-10 L3 Experimental document command parser
+) (c:/texlive/2023/texmf-dist/tex/latex/etoolbox/etoolbox.sty
+Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count289
+))) (c:/texlive/2023/texmf-dist/tex/latex/caption/subcaption.sty
 Package: subcaption 2023/07/28 v1.6b Sub-captions (AR)
  (c:/texlive/2023/texmf-dist/tex/latex/caption/caption.sty
 Package: caption 2023/08/05 v3.6o Customizing captions (AR)
@@ -312,13 +327,13 @@ Package caption Warning: Unknown document class (or package),
 (caption)                standard defaults will be used.
 See the caption package documentation for explanation.
 
-\c@caption@flags=\count288
-\c@continuedfloat=\count289
+\c@caption@flags=\count290
+\c@continuedfloat=\count291
 )
 Package caption Info: New subtype `subfigure' on input line 238.
-\c@subfigure=\count290
+\c@subfigure=\count292
 Package caption Info: New subtype `subtable' on input line 238.
-\c@subtable=\count291
+\c@subtable=\count293
 ) (c:/texlive/2023/texmf-dist/tex/latex/base/textcomp.sty
 Package: textcomp 2020/02/02 v2.0n Standard LaTeX package
 ) (c:/texlive/2023/texmf-dist/tex/latex/xcolor/xcolor.sty
@@ -337,103 +352,103 @@ Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1370.
 Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1371.
 Package xcolor Info: Model `Gray' substituted by `gray' on input line 1372.
 Package xcolor Info: Model `wave' substituted by `hsb' on input line 1373.
-) (c:/texlive/2023/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
-File: l3backend-pdftex.def 2024-01-04 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count292
-\l__pdf_internal_box=\box58
 ) (./main.aux
 
-LaTeX Warning: Label `fig:battery_charging_discharging' multiply defined.
+LaTeX Warning: Label `table:combined_results_slim' multiply defined.
 
 
-LaTeX Warning: Label `fig:battery_charging_discharging@cref' multiply defined.
+LaTeX Warning: Label `table:combined_results_slim@cref' multiply defined.
+
+
+LaTeX Warning: Label `table:combined_results_slim' multiply defined.
+
+
+LaTeX Warning: Label `table:combined_results_slim@cref' multiply defined.
 
 )
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 58.
-LaTeX Font Info:    ... okay on input line 58.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 58.
-LaTeX Font Info:    ... okay on input line 58.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 58.
-LaTeX Font Info:    ... okay on input line 58.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 58.
-LaTeX Font Info:    ... okay on input line 58.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 58.
-LaTeX Font Info:    ... okay on input line 58.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 58.
-LaTeX Font Info:    ... okay on input line 58.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 58.
-LaTeX Font Info:    ... okay on input line 58.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 61.
+LaTeX Font Info:    ... okay on input line 61.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 61.
+LaTeX Font Info:    ... okay on input line 61.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 61.
+LaTeX Font Info:    ... okay on input line 61.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 61.
+LaTeX Font Info:    ... okay on input line 61.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 61.
+LaTeX Font Info:    ... okay on input line 61.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 61.
+LaTeX Font Info:    ... okay on input line 61.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 61.
+LaTeX Font Info:    ... okay on input line 61.
 
 -- Lines per column: 56 (exact).
 (c:/texlive/2023/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count293
+\scratchcounter=\count294
 \scratchdimen=\dimen197
 \scratchbox=\box59
-\nofMPsegments=\count294
-\nofMParguments=\count295
+\nofMPsegments=\count295
+\nofMParguments=\count296
 \everyMPshowfont=\toks26
-\MPscratchCnt=\count296
+\MPscratchCnt=\count297
 \MPscratchDim=\dimen198
-\MPnumerator=\count297
-\makeMPintoPDFobject=\count298
+\MPnumerator=\count298
+\makeMPintoPDFobject=\count299
 \everyMPtoPDFconversion=\toks27
 ) (c:/texlive/2023/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
  (c:/texlive/2023/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
-)) (./main.sta (c:/texlive/2023/texmf-dist/tex/latex/lipsum/lipsum.sty (c:/texlive/2023/texmf-dist/tex/latex/l3packages/l3keys2e/l3keys2e.sty (c:/texlive/2023/texmf-dist/tex/latex/l3kernel/expl3.sty
-Package: expl3 2024-01-22 L3 programming layer (loader) 
-)
+)) (./main.sta (c:/texlive/2023/texmf-dist/tex/latex/lipsum/lipsum.sty (c:/texlive/2023/texmf-dist/tex/latex/l3packages/l3keys2e/l3keys2e.sty
 Package: l3keys2e 2023-10-10 LaTeX2e option processing using LaTeX3 keys
 )
 Package: lipsum 2021-09-20 v2.7 150 paragraphs of Lorem Ipsum dummy text
-\g__lipsum_par_int=\count299
-\l__lipsum_a_int=\count300
-\l__lipsum_b_int=\count301
+\g__lipsum_par_int=\count300
+\l__lipsum_a_int=\count301
+\l__lipsum_b_int=\count302
  (c:/texlive/2023/texmf-dist/tex/latex/lipsum/lipsum.ltd.tex)))
 \openout3 = `main.sta'.
 
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
-LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 60.
+LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 63.
  (c:/texlive/2023/texmf-dist/tex/latex/psnfss/ts1ptm.fd
 File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
 )
-LaTeX Font Info:    Trying to load font information for U+msa on input line 60.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 63.
  (c:/texlive/2023/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 60.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 63.
  (c:/texlive/2023/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Trying to load font information for OMS+ptm on input line 60.
+LaTeX Font Info:    Trying to load font information for OMS+ptm on input line 63.
  (c:/texlive/2023/texmf-dist/tex/latex/psnfss/omsptm.fd
 File: omsptm.fd 
 )
 LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <10> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 60.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 63.
 
-Overfull \hbox (25.04326pt too wide) in paragraph at lines 60--60
+Overfull \hbox (25.04326pt too wide) in paragraph at lines 63--63
  [] 
  []
 
 
-Overfull \hbox (25.04326pt too wide) in paragraph at lines 60--60
+Overfull \hbox (25.04326pt too wide) in paragraph at lines 63--63
  [] 
  []
 
 
-Overfull \hbox (25.04326pt too wide) in paragraph at lines 60--60
+Overfull \hbox (25.04326pt too wide) in paragraph at lines 63--63
  [] 
  []
 
 
-Underfull \hbox (badness 1881) in paragraph at lines 69--71
+Underfull \hbox (badness 1881) in paragraph at lines 72--74
 []\OT1/ptm/b/it/9 Index Terms\OT1/ptm/b/n/9 ---Batteries, dis-tri-bu-tion net-work, dis-tributed
  []
 
@@ -502,6 +517,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 85--86
 []\OT1/ptm/m/n/8 Non-
  []
 
+
+Underfull \hbox (badness 10000) in paragraph at lines 85--86
+\OT1/ptm/m/n/8 convex
+ []
+
 ) (../sections/theory/theory.tex [1{c:/texlive/2023/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{c:/texlive/2023/texmf-dist/fonts/enc/dvips/base/8r.enc}
 
 
@@ -514,50 +534,65 @@ File: ../figures/ieee123-FourAreas.png Graphic file (type png)
 <use ../figures/ieee123-FourAreas.png>
 Package pdftex.def Info: ../figures/ieee123-FourAreas.png  used on input line 15.
 (pdftex.def)             Requested size: 252.0pt x 148.45282pt.
+File: ../figures/ieee123-FourAreas.png Graphic file (type png)
+<use ../figures/ieee123-FourAreas.png>
+Package pdftex.def Info: ../figures/ieee123-FourAreas.png  used on input line 23.
+(pdftex.def)             Requested size: 252.0pt x 148.45282pt.
 ) (../sections/results/results.tex
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
 <../figures/T5-pv10-batt15-PBoundary/BoundaryRealPower_vs_t_vs_macroItr_5Areas_1_2_genCost_pv_10_batt_15_.png, id=24, 366.4089pt x 307.1475pt>
 File: ../figures/T5-pv10-batt15-PBoundary/BoundaryRealPower_vs_t_vs_macroItr_5Areas_1_2_genCost_pv_10_batt_15_.png Graphic file (type png)
 <use ../figures/T5-pv10-batt15-PBoundary/BoundaryRealPower_vs_t_vs_macroItr_5Areas_1_2_genCost_pv_10_batt_15_.png>
-Package pdftex.def Info: ../figures/T5-pv10-batt15-PBoundary/BoundaryRealPower_vs_t_vs_macroItr_5Areas_1_2_genCost_pv_10_batt_15_.png  used on input line 19.
+Package pdftex.def Info: ../figures/T5-pv10-batt15-PBoundary/BoundaryRealPower_vs_t_vs_macroItr_5Areas_1_2_genCost_pv_10_batt_15_.png  used on input line 57.
 (pdftex.def)             Requested size: 154.80157pt x 129.765pt.
 <../figures/T5-pv10-batt15-PBoundary/BoundaryRealPower_vs_t_vs_macroItr_5Areas_1_3_genCost_pv_10_batt_15_.png, id=25, 366.4089pt x 307.1475pt>
 File: ../figures/T5-pv10-batt15-PBoundary/BoundaryRealPower_vs_t_vs_macroItr_5Areas_1_3_genCost_pv_10_batt_15_.png Graphic file (type png)
 <use ../figures/T5-pv10-batt15-PBoundary/BoundaryRealPower_vs_t_vs_macroItr_5Areas_1_3_genCost_pv_10_batt_15_.png>
-Package pdftex.def Info: ../figures/T5-pv10-batt15-PBoundary/BoundaryRealPower_vs_t_vs_macroItr_5Areas_1_3_genCost_pv_10_batt_15_.png  used on input line 26.
+Package pdftex.def Info: ../figures/T5-pv10-batt15-PBoundary/BoundaryRealPower_vs_t_vs_macroItr_5Areas_1_3_genCost_pv_10_batt_15_.png  used on input line 64.
 (pdftex.def)             Requested size: 154.80157pt x 129.765pt.
 <../figures/T5-pv10-batt15-PBoundary/BoundaryRealPower_vs_t_vs_macroItr_5Areas_2_4_genCost_pv_10_batt_15_.png, id=26, 366.4089pt x 307.1475pt>
 File: ../figures/T5-pv10-batt15-PBoundary/BoundaryRealPower_vs_t_vs_macroItr_5Areas_2_4_genCost_pv_10_batt_15_.png Graphic file (type png)
 <use ../figures/T5-pv10-batt15-PBoundary/BoundaryRealPower_vs_t_vs_macroItr_5Areas_2_4_genCost_pv_10_batt_15_.png>
-Package pdftex.def Info: ../figures/T5-pv10-batt15-PBoundary/BoundaryRealPower_vs_t_vs_macroItr_5Areas_2_4_genCost_pv_10_batt_15_.png  used on input line 33.
+Package pdftex.def Info: ../figures/T5-pv10-batt15-PBoundary/BoundaryRealPower_vs_t_vs_macroItr_5Areas_2_4_genCost_pv_10_batt_15_.png  used on input line 71.
 (pdftex.def)             Requested size: 154.80157pt x 129.765pt.
 <../figures/T5-pv10-batt15-vBoundary/BoundaryVoltage_vs_t_vs_macroItr_5Areas_1_2_genCost_pv_10_batt_15_.png, id=27, 374.1177pt x 307.1475pt>
 File: ../figures/T5-pv10-batt15-vBoundary/BoundaryVoltage_vs_t_vs_macroItr_5Areas_1_2_genCost_pv_10_batt_15_.png Graphic file (type png)
 <use ../figures/T5-pv10-batt15-vBoundary/BoundaryVoltage_vs_t_vs_macroItr_5Areas_1_2_genCost_pv_10_batt_15_.png>
-Package pdftex.def Info: ../figures/T5-pv10-batt15-vBoundary/BoundaryVoltage_vs_t_vs_macroItr_5Areas_1_2_genCost_pv_10_batt_15_.png  used on input line 41.
+Package pdftex.def Info: ../figures/T5-pv10-batt15-vBoundary/BoundaryVoltage_vs_t_vs_macroItr_5Areas_1_2_genCost_pv_10_batt_15_.png  used on input line 79.
 (pdftex.def)             Requested size: 154.80157pt x 127.0889pt.
 <../figures/T5-pv10-batt15-vBoundary/BoundaryVoltage_vs_t_vs_macroItr_5Areas_1_3_genCost_pv_10_batt_15_.png, id=28, 374.1177pt x 307.1475pt>
 File: ../figures/T5-pv10-batt15-vBoundary/BoundaryVoltage_vs_t_vs_macroItr_5Areas_1_3_genCost_pv_10_batt_15_.png Graphic file (type png)
 <use ../figures/T5-pv10-batt15-vBoundary/BoundaryVoltage_vs_t_vs_macroItr_5Areas_1_3_genCost_pv_10_batt_15_.png>
-Package pdftex.def Info: ../figures/T5-pv10-batt15-vBoundary/BoundaryVoltage_vs_t_vs_macroItr_5Areas_1_3_genCost_pv_10_batt_15_.png  used on input line 48.
+Package pdftex.def Info: ../figures/T5-pv10-batt15-vBoundary/BoundaryVoltage_vs_t_vs_macroItr_5Areas_1_3_genCost_pv_10_batt_15_.png  used on input line 86.
 (pdftex.def)             Requested size: 154.80157pt x 127.0889pt.
 <../figures/T5-pv10-batt15-vBoundary/BoundaryVoltage_vs_t_vs_macroItr_5Areas_2_4_genCost_pv_10_batt_15_.png, id=29, 374.1177pt x 307.1475pt>
 File: ../figures/T5-pv10-batt15-vBoundary/BoundaryVoltage_vs_t_vs_macroItr_5Areas_2_4_genCost_pv_10_batt_15_.png Graphic file (type png)
 <use ../figures/T5-pv10-batt15-vBoundary/BoundaryVoltage_vs_t_vs_macroItr_5Areas_2_4_genCost_pv_10_batt_15_.png>
-Package pdftex.def Info: ../figures/T5-pv10-batt15-vBoundary/BoundaryVoltage_vs_t_vs_macroItr_5Areas_2_4_genCost_pv_10_batt_15_.png  used on input line 55.
+Package pdftex.def Info: ../figures/T5-pv10-batt15-vBoundary/BoundaryVoltage_vs_t_vs_macroItr_5Areas_2_4_genCost_pv_10_batt_15_.png  used on input line 93.
 (pdftex.def)             Requested size: 154.80157pt x 127.0889pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<../figures/T12-pv10-batt15-genCost-peakShave/macroItr_5_genCost_peakShave_Battery_9_alpha_0.001.png, id=30, 421.575pt x 316.0608pt>
-File: ../figures/T12-pv10-batt15-genCost-peakShave/macroItr_5_genCost_peakShave_Battery_9_alpha_0.001.png Graphic file (type png)
-<use ../figures/T12-pv10-batt15-genCost-peakShave/macroItr_5_genCost_peakShave_Battery_9_alpha_0.001.png>
-Package pdftex.def Info: ../figures/T12-pv10-batt15-genCost-peakShave/macroItr_5_genCost_peakShave_Battery_9_alpha_0.001.png  used on input line 89.
+<../figures/T10-pv20-batt30-genCost/copf/BatteryPlots/macroItr_1_genCost_Battery_1_alpha_0.001.png, id=30, 421.575pt x 316.0608pt>
+File: ../figures/T10-pv20-batt30-genCost/copf/BatteryPlots/macroItr_1_genCost_Battery_1_alpha_0.001.png Graphic file (type png)
+<use ../figures/T10-pv20-batt30-genCost/copf/BatteryPlots/macroItr_1_genCost_Battery_1_alpha_0.001.png>
+Package pdftex.def Info: ../figures/T10-pv20-batt30-genCost/copf/BatteryPlots/macroItr_1_genCost_Battery_1_alpha_0.001.png  used on input line 138.
 (pdftex.def)             Requested size: 252.0pt x 188.929pt.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-) (../sections/conclusion/conclusion.tex) (./main.bbl [3 <../figures/ieee123-FourAreas.png>])
+) (../sections/conclusion/conclusion.tex) (./main.bbl [3 <../figures/ieee123-FourAreas.png>]
+Underfull \vbox (badness 1742) has occurred while \output is active []
+
+ [4 <../figures/T5-pv10-batt15-PBoundary/BoundaryRealPower_vs_t_vs_macroItr_5Areas_1_2_genCost_pv_10_batt_15_.png (PNG copy)> <../figures/T5-pv10-batt15-PBoundary/BoundaryRealPower_vs_t_vs_macroItr_5Areas_1_3_genCost_pv_10_batt_15_.png (PNG copy)> <../figures/T5-pv10-batt15-PBoundary/BoundaryRealPower_vs_t_vs_macroItr_5Areas_2_4_genCost_pv_10_batt_15_.png (PNG copy)> <../figures/T5-pv10-batt15-vBoundary/BoundaryVoltage_vs_t_vs_macroItr_5Areas_1_2_genCost_pv_10_batt_15_.png (PNG copy)> <../figures/T5-pv10-batt15-vBoundary/BoundaryVoltage_vs_t_vs_macroItr_5Areas_1_3_genCost_pv_10_batt_15_.png (PNG copy)> <../figures/T5-pv10-batt15-vBoundary/BoundaryVoltage_vs_t_vs_macroItr_5Areas_2_4_genCost_pv_10_batt_15_.png (PNG copy)> <../figures/T10-pv20-batt30-genCost/copf/BatteryPlots/macroItr_1_genCost_Battery_1_alpha_0.001.png (PNG copy)>])
 
 ** Conference Paper **
 Before submitting the final camera ready copy, remember to:
@@ -569,12 +604,12 @@ Before submitting the final camera ready copy, remember to:
  uses only Type 1 fonts and that every step in the generation
  process uses the appropriate paper size.
 
-[4
+[5
 
- <../figures/T5-pv10-batt15-PBoundary/BoundaryRealPower_vs_t_vs_macroItr_5Areas_1_2_genCost_pv_10_batt_15_.png (PNG copy)> <../figures/T5-pv10-batt15-PBoundary/BoundaryRealPower_vs_t_vs_macroItr_5Areas_1_3_genCost_pv_10_batt_15_.png (PNG copy)> <../figures/T5-pv10-batt15-PBoundary/BoundaryRealPower_vs_t_vs_macroItr_5Areas_2_4_genCost_pv_10_batt_15_.png (PNG copy)> <../figures/T5-pv10-batt15-vBoundary/BoundaryVoltage_vs_t_vs_macroItr_5Areas_1_2_genCost_pv_10_batt_15_.png (PNG copy)> <../figures/T5-pv10-batt15-vBoundary/BoundaryVoltage_vs_t_vs_macroItr_5Areas_1_3_genCost_pv_10_batt_15_.png (PNG copy)> <../figures/T5-pv10-batt15-vBoundary/BoundaryVoltage_vs_t_vs_macroItr_5Areas_2_4_genCost_pv_10_batt_15_.png (PNG copy)> <../figures/T12-pv10-batt15-genCost-peakShave/macroItr_5_genCost_peakShave_Battery_9_alpha_0.001.png (PNG copy)>] (./main.aux)
+] (./main.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
-L3 programming layer <2024-01-22>
+L3 programming layer <2020/03/25>
  ***********
 
 
@@ -582,18 +617,18 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 10156 strings out of 474222
- 191772 string characters out of 5750209
- 1976978 words of memory out of 5000000
- 32204 multiletter control sequences out of 15000+600000
+ 10730 strings out of 474222
+ 201243 string characters out of 5750209
+ 1977978 words of memory out of 5000000
+ 32762 multiletter control sequences out of 15000+600000
  597320 words of font info for 110 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 95i,14n,131p,2166b,610s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 95i,14n,131p,2166b,640s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/urw/times/utmb8a.pfb><c:/texlive/2023/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb><c:/texlive/2023/texmf-dist/fonts/type1/urw/times/utmr8a.pfb><c:/texlive/2023/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on main.pdf (4 pages, 1668846 bytes).
+Output written on main.pdf (5 pages, 1670934 bytes).
 PDF statistics:
- 97 PDF objects out of 1000 (max. 8388607)
- 53 compressed objects within 1 object stream
+ 100 PDF objects out of 1000 (max. 8388607)
+ 55 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  41 words of extra memory for PDF output out of 10000 (max. 10000000)
 

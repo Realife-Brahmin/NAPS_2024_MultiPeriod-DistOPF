@@ -26,6 +26,8 @@
 
 \usepackage[subpreambles=true]{standalone}
 \usepackage{import}
+\usepackage{subfiles} % for invoking figures from within a section vs by running the main file
+
 \usepackage{subcaption} % for caption of figures with multiple plots
 
 % \usepackage{lipsum} 
@@ -77,8 +79,8 @@ Batteries, distribution network, distributed energy resources (DERs), equivalent
 
 \import{../sections/simulation/}{simulation.tex}
 
-\import{../sections/results/}{results.tex}
-
+% \import{../sections/results/}{results.tex}
+\subfile{../sections/results/results.tex}
 \import{../sections/conclusion/}{conclusion.tex}
 
 \cite{bfm01,Nazir2018Jun,Nazir2019Jun,ddp_sugar_01,Qian2014Jul}

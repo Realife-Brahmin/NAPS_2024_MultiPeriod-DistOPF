@@ -8,9 +8,6 @@
 \subpreamble{../sections/simulation/simulation.tex}
 \usepackage {lipsum}\usepackage {graphicx}
 \endsubpreamble
-\subpreamble{../sections/results/results.tex}
-\usepackage {lipsum}\usepackage {graphicx}
-\endsubpreamble
 \subpreamble{../sections/conclusion/conclusion.tex}
 \usepackage {lipsum}
 \endsubpreamble
