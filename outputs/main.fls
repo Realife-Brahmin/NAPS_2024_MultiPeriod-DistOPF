@@ -311,11 +311,11 @@ INPUT ../figures/T10-inputCurves/InputCurves_Horizon_10_pv_20_batt_30.png
 INPUT ../figures/T10-inputCurves/InputCurves_Horizon_10_pv_20_batt_30.png
 INPUT ../figures/T10-inputCurves/InputCurves_Horizon_10_pv_20_batt_30.png
 INPUT ../figures/T10-inputCurves/InputCurves_Horizon_10_pv_20_batt_30.png
-INPUT ../figures/T10-pv20-batt30-genCost/copf/BatteryPlots/macroItr_1_genCost_Battery_1_alpha_0.001.png
-INPUT ../figures/T10-pv20-batt30-genCost/copf/BatteryPlots/macroItr_1_genCost_Battery_1_alpha_0.001.png
-INPUT ../figures/T10-pv20-batt30-genCost/copf/BatteryPlots/macroItr_1_genCost_Battery_1_alpha_0.001.png
-INPUT ../figures/T10-pv20-batt30-genCost/copf/BatteryPlots/macroItr_1_genCost_Battery_1_alpha_0.001.png
-INPUT ../figures/T10-pv20-batt30-genCost/copf/BatteryPlots/macroItr_1_genCost_Battery_1_alpha_0.001.png
+INPUT ../figures/T10-pv20-batt30-genCost/dopf/BatteryPlots/macroItr_5_genCost_Battery_1_alpha_0.001.png
+INPUT ../figures/T10-pv20-batt30-genCost/dopf/BatteryPlots/macroItr_5_genCost_Battery_1_alpha_0.001.png
+INPUT ../figures/T10-pv20-batt30-genCost/dopf/BatteryPlots/macroItr_5_genCost_Battery_1_alpha_0.001.png
+INPUT ../figures/T10-pv20-batt30-genCost/dopf/BatteryPlots/macroItr_5_genCost_Battery_1_alpha_0.001.png
+INPUT ../figures/T10-pv20-batt30-genCost/dopf/BatteryPlots/macroItr_5_genCost_Battery_1_alpha_0.001.png
 INPUT c:/texlive/2023/texmf-dist/fonts/vf/adobe/times/ptmb7t.vf
 INPUT c:/texlive/2023/texmf-dist/fonts/tfm/adobe/times/ptmb8r.tfm
 INPUT c:/texlive/2023/texmf-dist/fonts/vf/adobe/times/ptmr8c.vf
