@@ -1,11 +1,12 @@
 # Fdb version 4
-["pdflatex"] 1720522993.16688 "c:/Users/aryan/Documents/documents_general/UnknownPaper_MultiPeriod-DistOPF/sections/simulation/simulation.tex" "c:/Users/aryan/Documents/documents_general/UnknownPaper_MultiPeriod-DistOPF/sections/simulation/simulation.pdf" "simulation" 1720522994.89403 0
+["pdflatex"] 1720530430.22421 "c:/Users/aryan/Documents/documents_general/UnknownPaper_MultiPeriod-DistOPF/sections/simulation/simulation.tex" "c:/Users/aryan/Documents/documents_general/UnknownPaper_MultiPeriod-DistOPF/sections/simulation/simulation.pdf" "simulation" 1720530431.95649 0
+  "../figures/T5-inputCurves/InputCurves_Horizon_5.png" 1720529564 48755 02f03496f8a681e6d93ddbd08d0b7da4 ""
   "../figures/ieee123-FourAreas.png" 1720196288 753643 5639336c75de6f95c862db9f654110d9 ""
   "IEEEtran.cls" 1720196288 288304 5b2e4fa15b0f7eabb840ebf67df4c0f7 ""
-  "c:/Users/aryan/Documents/documents_general/UnknownPaper_MultiPeriod-DistOPF/sections/simulation/../../outputs/main.tex" 1720522720 2874 fab9fff380ef0398fd2262b3fc0b2244 ""
-  "c:/Users/aryan/Documents/documents_general/UnknownPaper_MultiPeriod-DistOPF/sections/simulation/simulation.aux" 1720522994 1018 76e41d19c06412c25089dc415dbd1d9e "pdflatex"
-  "c:/Users/aryan/Documents/documents_general/UnknownPaper_MultiPeriod-DistOPF/sections/simulation/simulation.sta" 1720522994 45 5977ee01d6365feae7164ffda30d2c8b "pdflatex"
-  "c:/Users/aryan/Documents/documents_general/UnknownPaper_MultiPeriod-DistOPF/sections/simulation/simulation.tex" 1720522519 1048 ad69fe85f92652a8aed0c70c8e9e86b3 ""
+  "c:/Users/aryan/Documents/documents_general/UnknownPaper_MultiPeriod-DistOPF/sections/simulation/../../outputs/main.tex" 1720529345 2874 fab9fff380ef0398fd2262b3fc0b2244 ""
+  "c:/Users/aryan/Documents/documents_general/UnknownPaper_MultiPeriod-DistOPF/sections/simulation/simulation.aux" 1720530431 1106 154390cbd5c0852be3c27bd4c90a4d89 "pdflatex"
+  "c:/Users/aryan/Documents/documents_general/UnknownPaper_MultiPeriod-DistOPF/sections/simulation/simulation.sta" 1720530431 45 5977ee01d6365feae7164ffda30d2c8b "pdflatex"
+  "c:/Users/aryan/Documents/documents_general/UnknownPaper_MultiPeriod-DistOPF/sections/simulation/simulation.tex" 1720530429 1369 4497be34b8814cdfa39dba508bfd8781 ""
   "c:/texlive/2023/texmf-dist/fonts/enc/dvips/base/8r.enc" 1706170314 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "c:/texlive/2023/texmf-dist/fonts/map/fontname/texfonts.map" 1706171058 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "c:/texlive/2023/texmf-dist/fonts/tfm/adobe/times/ptmb7t.tfm" 1706176242 2172 fd0c924230362ff848a33632ed45dc23 ""

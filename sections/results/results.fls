@@ -291,11 +291,11 @@ INPUT c:/texlive/2023/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam10.tfm
 INPUT c:/texlive/2023/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam7.tfm
 INPUT c:/texlive/2023/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm10.tfm
 INPUT c:/texlive/2023/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm7.tfm
-INPUT ../figures/T10-inputCurves/InputCurves_Horizon_10_pv_20_batt_30.png
-INPUT ../figures/T10-inputCurves/InputCurves_Horizon_10_pv_20_batt_30.png
-INPUT ../figures/T10-inputCurves/InputCurves_Horizon_10_pv_20_batt_30.png
-INPUT ../figures/T10-inputCurves/InputCurves_Horizon_10_pv_20_batt_30.png
-INPUT ../figures/T10-inputCurves/InputCurves_Horizon_10_pv_20_batt_30.png
+INPUT ../figures/T10-inputCurves/InputCurves_Horizon_10.png
+INPUT ../figures/T10-inputCurves/InputCurves_Horizon_10.png
+INPUT ../figures/T10-inputCurves/InputCurves_Horizon_10.png
+INPUT ../figures/T10-inputCurves/InputCurves_Horizon_10.png
+INPUT ../figures/T10-inputCurves/InputCurves_Horizon_10.png
 INPUT ../figures/T10-pv20-batt30-genCost/dopf/BatteryPlots/macroItr_5_genCost_Battery_1_alpha_0.001.png
 INPUT ../figures/T10-pv20-batt30-genCost/dopf/BatteryPlots/macroItr_5_genCost_Battery_1_alpha_0.001.png
 INPUT ../figures/T10-pv20-batt30-genCost/dopf/BatteryPlots/macroItr_5_genCost_Battery_1_alpha_0.001.png

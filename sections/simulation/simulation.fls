@@ -234,10 +234,11 @@ INPUT ../figures/ieee123-FourAreas.png
 INPUT ../figures/ieee123-FourAreas.png
 OUTPUT c:/Users/aryan/Documents/documents_general/UnknownPaper_MultiPeriod-DistOPF/sections/simulation/simulation.pdf
 INPUT ../figures/ieee123-FourAreas.png
-INPUT ../figures/ieee123-FourAreas.png
-INPUT ../figures/ieee123-FourAreas.png
-INPUT ../figures/ieee123-FourAreas.png
-INPUT ../figures/ieee123-FourAreas.png
+INPUT ../figures/T5-inputCurves/InputCurves_Horizon_5.png
+INPUT ../figures/T5-inputCurves/InputCurves_Horizon_5.png
+INPUT ../figures/T5-inputCurves/InputCurves_Horizon_5.png
+INPUT ../figures/T5-inputCurves/InputCurves_Horizon_5.png
+INPUT ../figures/T5-inputCurves/InputCurves_Horizon_5.png
 INPUT c:/texlive/2023/texmf-dist/fonts/vf/adobe/times/ptmrc7t.vf
 INPUT c:/texlive/2023/texmf-dist/fonts/tfm/adobe/times/ptmr8r.tfm
 INPUT c:/texlive/2023/texmf-dist/fonts/tfm/adobe/times/ptmr8r.tfm
