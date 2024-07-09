@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2024.1.25)  8 JUL 2024 16:29
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2024.1.25)  8 JUL 2024 20:49
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -352,14 +352,7 @@ Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1370.
 Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1371.
 Package xcolor Info: Model `Gray' substituted by `gray' on input line 1372.
 Package xcolor Info: Model `wave' substituted by `hsb' on input line 1373.
-) (./main.aux
-
-LaTeX Warning: Label `table:combined_results_slim' multiply defined.
-
-
-LaTeX Warning: Label `table:combined_results_slim@cref' multiply defined.
-
-)
+) (./main.aux)
 \openout1 = `main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 61.
@@ -572,13 +565,10 @@ Package pdftex.def Info: ../figures/T5-pv10-batt15-vBoundary/BoundaryVoltage_vs_
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
 <../figures/T10-inputCurves/InputCurves_Horizon_10_pv_20_batt_30.png, id=30, 422.0568pt x 316.5426pt>
 File: ../figures/T10-inputCurves/InputCurves_Horizon_10_pv_20_batt_30.png Graphic file (type png)
 <use ../figures/T10-inputCurves/InputCurves_Horizon_10_pv_20_batt_30.png>
-Package pdftex.def Info: ../figures/T10-inputCurves/InputCurves_Horizon_10_pv_20_batt_30.png  used on input line 138.
+Package pdftex.def Info: ../figures/T10-inputCurves/InputCurves_Horizon_10_pv_20_batt_30.png  used on input line 197.
 (pdftex.def)             Requested size: 252.0pt x 188.99965pt.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
@@ -586,13 +576,13 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 <../figures/T10-pv20-batt30-genCost/copf/BatteryPlots/macroItr_1_genCost_Battery_1_alpha_0.001.png, id=31, 421.575pt x 316.0608pt>
 File: ../figures/T10-pv20-batt30-genCost/copf/BatteryPlots/macroItr_1_genCost_Battery_1_alpha_0.001.png Graphic file (type png)
 <use ../figures/T10-pv20-batt30-genCost/copf/BatteryPlots/macroItr_1_genCost_Battery_1_alpha_0.001.png>
-Package pdftex.def Info: ../figures/T10-pv20-batt30-genCost/copf/BatteryPlots/macroItr_1_genCost_Battery_1_alpha_0.001.png  used on input line 145.
+Package pdftex.def Info: ../figures/T10-pv20-batt30-genCost/copf/BatteryPlots/macroItr_1_genCost_Battery_1_alpha_0.001.png  used on input line 204.
 (pdftex.def)             Requested size: 252.0pt x 188.929pt.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-) (../sections/conclusion/conclusion.tex) (./main.bbl [3 <../figures/ieee123-FourAreas.png>]
-Underfull \vbox (badness 1152) has occurred while \output is active []
+[3 <../figures/ieee123-FourAreas.png>]) (../sections/conclusion/conclusion.tex) (./main.bbl
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [4 <../figures/T5-pv10-batt15-PBoundary/BoundaryRealPower_vs_t_vs_macroItr_5Areas_1_2_genCost_pv_10_batt_15_.png (PNG copy)> <../figures/T5-pv10-batt15-PBoundary/BoundaryRealPower_vs_t_vs_macroItr_5Areas_1_3_genCost_pv_10_batt_15_.png (PNG copy)> <../figures/T5-pv10-batt15-PBoundary/BoundaryRealPower_vs_t_vs_macroItr_5Areas_2_4_genCost_pv_10_batt_15_.png (PNG copy)> <../figures/T5-pv10-batt15-vBoundary/BoundaryVoltage_vs_t_vs_macroItr_5Areas_1_2_genCost_pv_10_batt_15_.png (PNG copy)> <../figures/T5-pv10-batt15-vBoundary/BoundaryVoltage_vs_t_vs_macroItr_5Areas_1_3_genCost_pv_10_batt_15_.png (PNG copy)> <../figures/T5-pv10-batt15-vBoundary/BoundaryVoltage_vs_t_vs_macroItr_5Areas_2_4_genCost_pv_10_batt_15_.png (PNG copy)> <../figures/T10-inputCurves/InputCurves_Horizon_10_pv_20_batt_30.png (PNG copy)> <../figures/T10-pv20-batt30-genCost/copf/BatteryPlots/macroItr_1_genCost_Battery_1_alpha_0.001.png (PNG copy)>])
 
@@ -613,21 +603,17 @@ Before submitting the final camera ready copy, remember to:
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2020/03/25>
  ***********
-
-
-LaTeX Warning: There were multiply-defined labels.
-
  ) 
 Here is how much of TeX's memory you used:
- 10744 strings out of 474222
- 201972 string characters out of 5750209
+ 10748 strings out of 474222
+ 202050 string characters out of 5750209
  1977978 words of memory out of 5000000
- 32773 multiletter control sequences out of 15000+600000
+ 32777 multiletter control sequences out of 15000+600000
  597320 words of font info for 110 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  95i,14n,131p,2166b,640s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/urw/times/utmb8a.pfb><c:/texlive/2023/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb><c:/texlive/2023/texmf-dist/fonts/type1/urw/times/utmr8a.pfb><c:/texlive/2023/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on main.pdf (5 pages, 1724031 bytes).
+Output written on main.pdf (5 pages, 1724052 bytes).
 PDF statistics:
  101 PDF objects out of 1000 (max. 8388607)
  55 compressed objects within 1 object stream
