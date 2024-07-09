@@ -56,11 +56,6 @@ C.~Wu, W.~Gu, S.~Zhou, and X.~Chen, ``Coordinated optimal power flow for integra
 \bibitem{Sadnan}
 R.~Sadnan and A.~Dubey, ``Distributed optimization using reduced network equivalents for radial power distribution systems,'' \emph{IEEE Trans. Power Syst.}, vol.~36, no.~4, pp. 3645--3656, Jul. 2021.
 
-\bibitem{comedLivePrices}
-\BIBentryALTinterwordspacing
-``{Live Prices - ComEd{'}s Hourly Pricing},'' Jun. 2023, [Online; accessed 16. Nov. 2023]. [Online]. Available: \url{https://hourlypricing.comed.com/live-prices/?date=20231110}
-\BIBentrySTDinterwordspacing
-
 \bibitem{bfm01}
 M.~Farivar and S.~H. Low, ``{Branch flow model: Relaxations and convexification},'' \emph{2012 IEEE 51st IEEE Conference on Decision and Control (CDC)}, pp. 3672--3679, Dec. 2012.
 
