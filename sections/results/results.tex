@@ -172,21 +172,46 @@ In this section, comparative analyses are carried out between MPCOPF and MPDOPF 
 
 Further, here the 
 
+% \begin{table}[h!]
+%     \centering
+%     \caption{ACOPF feasibility analyses}
+%     \begin{tabular}{|l|c|c|c|}
+%     \hline
+%     \textbf{Metric} & \textbf{MPDOPF} & \textbf{OpenDSS} \\ \hline
+%     Line loss (kW) &   &  \\ \hline
+%     Substation real power (kW) &    &   \\ \hline
+%     Substation reactive power (kVAR) &    &   \\ \hline
+%     Max. voltage discrepancy (pu) &    &    \\ \hline
+%     Max. line loss discrepancy (pu) &    &   \\ \hline
+%     Max. substation power discrepancy (pu) &     &   \\ \hline
+%     \end{tabular}
+%     \label{table:feas-copf-10-20-30}
+% \end{table}
+
 \begin{table}[h!]
     \centering
     \caption{ACOPF feasibility analyses}
-    \begin{tabular}{|l|c|c|c|}
+    \begin{tabular}{|l|c|c|}
     \hline
     \textbf{Metric} & \textbf{MPDOPF} & \textbf{OpenDSS} \\ \hline
-    Line loss (kW) &   &  \\ \hline
-    Substation real power (kW) &    &   \\ \hline
-    Substation reactive power (kVAR) &    &   \\ \hline
-    Max. voltage discrepancy (pu) &    &    \\ \hline
-    Max. line loss discrepancy (pu) &    &   \\ \hline
-    Max. substation power discrepancy (pu) &     &   \\ \hline
+    Full horizon  & \multicolumn{2}{c|}{} \\ \hline
+    \quad Line loss (kW) & 148.94 & 148.87 \\ \hline
+    \quad Substation real power (kW) & 8544.04 & 8544.40 \\ \hline
+    \quad Substation reactive power (kVAR) & 1252.03 & 1243.36 \\ \hline
+    Max. all-time discrepancy & \multicolumn{2}{c|}{} \\ \hline
+    \quad Voltage (pu) & \multicolumn{2}{c|}{0.0002} \\ \hline
+    \quad Line loss (kW) & \multicolumn{2}{c|}{0.0132} \\ \hline
+    \quad Substation power (kW) & \multicolumn{2}{c|}{0.4002} \\ \hline
     \end{tabular}
     \label{table:feas-copf-10-20-30}
 \end{table}
+
+
+
+
+
+
+
 
 % \begin{table}[h!]
 %     \centering
