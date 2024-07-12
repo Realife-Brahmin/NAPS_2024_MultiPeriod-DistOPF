@@ -223,6 +223,15 @@ Further, here the
 \subsubsection{Comparison between MPCOPF and MPDOPF}
 In this section, comparative analyses are carried out between MPCOPF and MPDOPF considering 10-hour time steps with $20\%$ PV penetration and $30\%$ battery penetration.
 
+\textcolor{red}{Provide a separate graph for PV, Load forecasts for T = 5 and 10}
+
+\begin{figure}[h!]
+    \centering
+    \includegraphics[height=0.25\textheight]{../figures/T10-inputCurves/InputCurves_Horizon_10.png}
+    \caption{Forecasts for Demand Power, Irradiance and Cost of Substation Power over a 10 Hour Horizon}
+    \label{fig:inputCurve-10}
+\end{figure}
+
 \textcolor{red}{Do you want PV Real Power in the table too? (Not controllable, so nothing to compare)}
 
 \begin{table}[h!]
@@ -265,16 +274,12 @@ Further, here the
     \label{table:feas-copf-10-20-30}
 \end{table}
 
-\textcolor{red}{Provide a separate graph for PV, Load forecasts for T = 5 and 10}
-
 \begin{figure}[h!]
     \centering
-    \includegraphics[height=0.25\textheight]{../figures/T10-inputCurves/InputCurves_Horizon_10.png}
-    \caption{Forecasts for Demand Power, Irradiance and Cost of Substation Power over a 10 Hour Horizon}
-    \label{fig:inputCurve-10}
+    \includegraphics[width=\linewidth]{../figures/T10-pv20-batt30-genCost/dopf/BatteryPlots/macroItr_5_genCost_Battery_1_alpha_0.001.png}
+    \caption{Charging-Discharging and SOC graphs for Battery at Bus 3 located in Area 1 obtained via MultiPeriodENApp}
+    \label{fig:batt-plot-dopf-5-20-30-genCost}
 \end{figure}
-
-
 
 \begin{figure}[h!]
     \centering
