@@ -169,6 +169,9 @@ INPUT c:/texlive/2023/texmf-dist/tex/latex/graphics-cfg/color.cfg
 INPUT c:/texlive/2023/texmf-dist/tex/latex/graphics/mathcolor.ltx
 INPUT c:/texlive/2023/texmf-dist/tex/latex/graphics/mathcolor.ltx
 INPUT c:/texlive/2023/texmf-dist/tex/latex/graphics/mathcolor.ltx
+INPUT c:/texlive/2023/texmf-dist/tex/generic/ulem/ulem.sty
+INPUT c:/texlive/2023/texmf-dist/tex/generic/ulem/ulem.sty
+INPUT c:/texlive/2023/texmf-dist/fonts/tfm/public/latex-fonts/lasy6.tfm
 INPUT ./main.aux
 INPUT ./main.aux
 INPUT main.aux
@@ -337,8 +340,6 @@ INPUT c:/texlive/2023/texmf-dist/fonts/vf/adobe/times/ptmr7t.vf
 INPUT c:/texlive/2023/texmf-dist/fonts/tfm/adobe/times/ptmr8r.tfm
 INPUT c:/texlive/2023/texmf-dist/fonts/vf/adobe/times/ptmr7t.vf
 INPUT c:/texlive/2023/texmf-dist/fonts/tfm/adobe/times/ptmr8r.tfm
-INPUT c:/texlive/2023/texmf-dist/fonts/vf/adobe/times/ptmri7t.vf
-INPUT c:/texlive/2023/texmf-dist/fonts/tfm/adobe/times/ptmri8r.tfm
 INPUT main.aux
 INPUT c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb
 INPUT c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb

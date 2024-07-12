@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1720821420.36516 "c:/Users/aryan/Documents/documents_general/UnknownPaper_MultiPeriod-DistOPF/sections/results/results.tex" "c:/Users/aryan/Documents/documents_general/UnknownPaper_MultiPeriod-DistOPF/sections/results/results.pdf" "results" 1720821424.04009 0
+["pdflatex"] 1720822290.02522 "c:/Users/aryan/Documents/documents_general/UnknownPaper_MultiPeriod-DistOPF/sections/results/results.tex" "c:/Users/aryan/Documents/documents_general/UnknownPaper_MultiPeriod-DistOPF/sections/results/results.pdf" "results" 1720822292.16123 0
   "../figures/T10-inputCurves/InputCurves_Horizon_10.png" 1720475118 52043 4a1b98a5ad60c9925cc26cdbf5753a32 ""
   "../figures/T10-pv20-batt30-genCost/dopf/BatteryPlots/macroItr_5_genCost_Battery_1_alpha_0.001.png" 1720520348 41217 41c4f05c9921bc4a12b97a35b6b914d4 ""
   "../figures/T5-pv20-batt30-genCost/dopf/BatteryPlots/macroItr_5_genCost_Battery_1_alpha_0.001.png" 1720589472 35431 6bb4f3c84bbe1180e78d874a70c75e81 ""
@@ -10,10 +10,10 @@
   "../figures/T5-pv20-batt30-genCost/dopf/convergenceCurves/BoundaryVoltage_vs_t_vs_macroItr_T_5_Areas_1_3_genCost_pv_20_batt_30_.png" 1720589472 153535 1801d8b4445e64bfb7b70b6aa3d6f46d ""
   "../figures/T5-pv20-batt30-genCost/dopf/convergenceCurves/BoundaryVoltage_vs_t_vs_macroItr_T_5_Areas_2_4_genCost_pv_20_batt_30_.png" 1720589472 164258 bf6a7f02c01e5fbf701aa84e482ffc91 ""
   "IEEEtran.cls" 1720196288 288304 5b2e4fa15b0f7eabb840ebf67df4c0f7 ""
-  "c:/Users/aryan/Documents/documents_general/UnknownPaper_MultiPeriod-DistOPF/sections/results/../../outputs/main.tex" 1720821146 2874 fab9fff380ef0398fd2262b3fc0b2244 ""
-  "c:/Users/aryan/Documents/documents_general/UnknownPaper_MultiPeriod-DistOPF/sections/results/results.aux" 1720821423 4438 0cc666026941b8c98b57bfae7e40f370 "pdflatex"
-  "c:/Users/aryan/Documents/documents_general/UnknownPaper_MultiPeriod-DistOPF/sections/results/results.sta" 1720821423 45 5977ee01d6365feae7164ffda30d2c8b "pdflatex"
-  "c:/Users/aryan/Documents/documents_general/UnknownPaper_MultiPeriod-DistOPF/sections/results/results.tex" 1720821419 8917 c31f9a0dd11dce6be02a7124eb0ecf71 ""
+  "c:/Users/aryan/Documents/documents_general/UnknownPaper_MultiPeriod-DistOPF/sections/results/../../outputs/main.tex" 1720822234 2924 a1c233f4c0f0807157828a9bb21fad44 ""
+  "c:/Users/aryan/Documents/documents_general/UnknownPaper_MultiPeriod-DistOPF/sections/results/results.aux" 1720822292 4438 0cc666026941b8c98b57bfae7e40f370 "pdflatex"
+  "c:/Users/aryan/Documents/documents_general/UnknownPaper_MultiPeriod-DistOPF/sections/results/results.sta" 1720822291 45 5977ee01d6365feae7164ffda30d2c8b "pdflatex"
+  "c:/Users/aryan/Documents/documents_general/UnknownPaper_MultiPeriod-DistOPF/sections/results/results.tex" 1720822288 9011 9e925fb810e807fc4dc7f7b6a78d2e41 ""
   "c:/texlive/2023/texmf-dist/fonts/enc/dvips/base/8r.enc" 1706170314 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "c:/texlive/2023/texmf-dist/fonts/map/fontname/texfonts.map" 1706171058 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "c:/texlive/2023/texmf-dist/fonts/tfm/adobe/times/ptmb7t.tfm" 1706176242 2172 fd0c924230362ff848a33632ed45dc23 ""
@@ -38,6 +38,7 @@
   "c:/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmr8.tfm" 1706169392 1292 21c1c5bfeaebccffdb478fd231a0997d ""
   "c:/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmsy6.tfm" 1706169392 1116 933a60c408fc0a863a92debe84b2d294 ""
   "c:/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmsy8.tfm" 1706169392 1120 8b7d695260f3cff42e636090a8002094 ""
+  "c:/texlive/2023/texmf-dist/fonts/tfm/public/latex-fonts/lasy6.tfm" 1706172377 520 4889cce2180234b97cad636b6039c722 ""
   "c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb" 1706168037 35752 024fb6c41858982481f6968b5fc26508 ""
   "c:/texlive/2023/texmf-dist/fonts/type1/urw/times/utmb8a.pfb" 1706176242 44729 fea0975e20ec51c992338362f05f1146 ""
   "c:/texlive/2023/texmf-dist/fonts/type1/urw/times/utmr8a.pfb" 1706176242 46026 687528a208fbfc1f00832bb96cccebbb ""
@@ -50,6 +51,7 @@
   "c:/texlive/2023/texmf-dist/tex/generic/iftex/ifluatex.sty" 1706171848 492 1994775aa15b0d1289725a0b1bbc2d4c ""
   "c:/texlive/2023/texmf-dist/tex/generic/iftex/iftex.sty" 1706171848 7237 bdd120a32c8fdb4b433cf9ca2e7cd98a ""
   "c:/texlive/2023/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty" 1706172822 17865 1a9bd36b4f98178fa551aca822290953 ""
+  "c:/texlive/2023/texmf-dist/tex/generic/ulem/ulem.sty" 1706176577 15682 94f55b803e160cf7fb6e4d77d07cfe1d ""
   "c:/texlive/2023/texmf-dist/tex/generic/xkeyval/xkeyval.tex" 1706177045 19231 27205ee17aaa2902aea3e0c07a3cfc65 ""
   "c:/texlive/2023/texmf-dist/tex/generic/xkeyval/xkvutils.tex" 1706177045 7677 9cb1a74d945bc9331f2181c0a59ff34a ""
   "c:/texlive/2023/texmf-dist/tex/latex/adjustbox/adjcalc.sty" 1706167921 5598 c49b91713cbe5e50a1fabefb733eda0d ""
