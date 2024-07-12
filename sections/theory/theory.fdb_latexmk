@@ -1,7 +1,10 @@
 # Fdb version 4
-["pdflatex"] 1720823245.93784 "c:/Users/aryan/Documents/documents_general/UnknownPaper_MultiPeriod-DistOPF/sections/theory/theory.tex" "theory.pdf" "theory" 1720823247.17984 0
-  "../../outputs/main.tex" 1720823198 2967 703a4b6ef34fced379110bc631a68e1a ""
-  "c:/Users/aryan/Documents/documents_general/UnknownPaper_MultiPeriod-DistOPF/sections/theory/theory.tex" 1720823245 8078 053145df87ac539a2ebe115e9a6c302b ""
+["pdflatex"] 1720823498.66243 "c:/Users/aryan/Documents/documents_general/UnknownPaper_MultiPeriod-DistOPF/sections/theory/theory.tex" "c:/Users/aryan/Documents/documents_general/UnknownPaper_MultiPeriod-DistOPF/sections/theory/theory.pdf" "theory" 1720823499.84892 0
+  "IEEEtran.cls" 1720196288 288304 5b2e4fa15b0f7eabb840ebf67df4c0f7 ""
+  "c:/Users/aryan/Documents/documents_general/UnknownPaper_MultiPeriod-DistOPF/sections/theory/../../outputs/main.tex" 1720823250 2967 703a4b6ef34fced379110bc631a68e1a ""
+  "c:/Users/aryan/Documents/documents_general/UnknownPaper_MultiPeriod-DistOPF/sections/theory/theory.aux" 1720823499 2151 9e685f367a35f62e3d07e3ec46b464e1 "pdflatex"
+  "c:/Users/aryan/Documents/documents_general/UnknownPaper_MultiPeriod-DistOPF/sections/theory/theory.sta" 1720823499 45 5977ee01d6365feae7164ffda30d2c8b "pdflatex"
+  "c:/Users/aryan/Documents/documents_general/UnknownPaper_MultiPeriod-DistOPF/sections/theory/theory.tex" 1720823497 8071 60ae883797db4e0f893cce25066597dc ""
   "c:/texlive/2023/texmf-dist/fonts/enc/dvips/base/8r.enc" 1706170314 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "c:/texlive/2023/texmf-dist/fonts/map/fontname/texfonts.map" 1706171058 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "c:/texlive/2023/texmf-dist/fonts/tfm/adobe/times/ptmb7t.tfm" 1706176242 2172 fd0c924230362ff848a33632ed45dc23 ""
@@ -34,7 +37,6 @@
   "c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb" 1706168037 36281 c355509802a035cadc5f15869451dcee ""
   "c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb" 1706168037 35469 dcf3a5f2fc1862f5952e3ee5eb1d98c4 ""
   "c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb" 1706168037 35752 024fb6c41858982481f6968b5fc26508 ""
-  "c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb" 1706168037 32734 69e00a6b65cedb993666e42eedb3d48f ""
   "c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb" 1706168037 32762 7fee39e011c23b3589931effd97b9702 ""
   "c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb" 1706168037 32726 39f0f9e62e84beb801509898a605dbd5 ""
   "c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb" 1706168037 32569 5e5ddc8df908dea60932f3c484a54c0d ""
@@ -91,7 +93,6 @@
   "c:/texlive/2023/texmf-dist/tex/latex/graphics/keyval.sty" 1706171418 2671 7e67d78d9b88c845599a85b2d41f2e39 ""
   "c:/texlive/2023/texmf-dist/tex/latex/graphics/mathcolor.ltx" 1706171418 2885 9c645d672ae17285bba324998918efd8 ""
   "c:/texlive/2023/texmf-dist/tex/latex/graphics/trig.sty" 1706171418 4023 293ea1c16429fc0c4cf605f4da1791a9 ""
-  "c:/texlive/2023/texmf-dist/tex/latex/ieeetran/IEEEtran.cls" 1706171823 281957 5b2e4fa15b0f7eabb840ebf67df4c0f7 ""
   "c:/texlive/2023/texmf-dist/tex/latex/ifoddpage/ifoddpage.sty" 1706171841 2142 eae42205b97b7a3ad0e58db5fe99e3e6 ""
   "c:/texlive/2023/texmf-dist/tex/latex/import/import.sty" 1706171875 6201 0ad8b5da8e12f60a88d546b2198a56f2 ""
   "c:/texlive/2023/texmf-dist/tex/latex/kvoptions/kvoptions.sty" 1706172263 22555 6d8e155cfef6d82c3d5c742fea7c992e ""
@@ -117,12 +118,9 @@
   "c:/texlive/2023/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1706177224 5035139 e8cdab388a5f122f6094769190400852 ""
   "c:/texlive/2023/texmf-var/web2c/pdftex/pdflatex.fmt" 1706177337 8211032 0375d62fdda5ac93a6b0452c591efeb3 ""
   "c:/texlive/2023/texmf.cnf" 1706177202 713 e69b156964470283e0530f5060668171 ""
-  "theory.aux" 1720823247 2151 9e685f367a35f62e3d07e3ec46b464e1 "pdflatex"
-  "theory.sta" 1720823247 45 5977ee01d6365feae7164ffda30d2c8b "pdflatex"
-  "theory.tex" 1720823245 8078 053145df87ac539a2ebe115e9a6c302b ""
   (generated)
-  "theory.aux"
-  "theory.log"
-  "theory.pdf"
-  "theory.sta"
+  "c:/Users/aryan/Documents/documents_general/UnknownPaper_MultiPeriod-DistOPF/sections/theory/theory.aux"
+  "c:/Users/aryan/Documents/documents_general/UnknownPaper_MultiPeriod-DistOPF/sections/theory/theory.log"
+  "c:/Users/aryan/Documents/documents_general/UnknownPaper_MultiPeriod-DistOPF/sections/theory/theory.pdf"
+  "c:/Users/aryan/Documents/documents_general/UnknownPaper_MultiPeriod-DistOPF/sections/theory/theory.sta"
   (rewritten before read)

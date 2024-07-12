@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2024.1.25)  12 JUL 2024 15:27
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2024.1.25)  12 JUL 2024 15:31
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -12,7 +12,7 @@ Document Class: subfiles 2020/11/14 v2.2 Multi-file projects (class)
 Preamble taken from file `../../outputs/main.tex'
 (c:/texlive/2023/texmf-dist/tex/latex/import/import.sty
 Package: import 2020/04/01  v 6.2
-) (../../outputs/main.tex (c:/texlive/2023/texmf-dist/tex/latex/ieeetran/IEEEtran.cls
+) (c:/Users/aryan/Documents/documents_general/UnknownPaper_MultiPeriod-DistOPF/sections/theory/../../outputs/main.tex (./IEEEtran.cls
 Document Class: IEEEtran 2015/08/26 V1.8b by Michael Shell
 -- See the "IEEEtran_HOWTO" manual for usage information.
 -- http://www.michaelshell.org/tex/ieeetran/
@@ -249,7 +249,7 @@ Package: filehook-2020 2022/10/25 v0.8b Hooks for input files
 \c@currfiledepth=\count285
 )
 \sa@out=\write3
- (./theory.sta) (c:/texlive/2023/texmf-dist/tex/latex/gincltex/gincltex.sty (c:/texlive/2023/texmf-dist/tex/latex/svn-prov/svn-prov.sty
+ (c:/Users/aryan/Documents/documents_general/UnknownPaper_MultiPeriod-DistOPF/sections/theory/theory.sta) (c:/texlive/2023/texmf-dist/tex/latex/gincltex/gincltex.sty (c:/texlive/2023/texmf-dist/tex/latex/svn-prov/svn-prov.sty
 Package: svn-prov 2010/04/24 v3.1862 Package Date/Version from SVN Keywords
 )
 Package: gincltex 2011/09/04 v0.3 Include external LaTeX files like graphics
@@ -373,7 +373,7 @@ Package: lipsum 2021-09-20 v2.7 150 paragraphs of Lorem Ipsum dummy text
 \g__lipsum_par_int=\count295
 \l__lipsum_a_int=\count296
 \l__lipsum_b_int=\count297
- (c:/texlive/2023/texmf-dist/tex/latex/lipsum/lipsum.ltd.tex)) (./theory.aux)
+ (c:/texlive/2023/texmf-dist/tex/latex/lipsum/lipsum.ltd.tex)) (c:/Users/aryan/Documents/documents_general/UnknownPaper_MultiPeriod-DistOPF/sections/theory/theory.aux)
 \openout1 = `theory.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 37.
@@ -410,7 +410,7 @@ Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
  (c:/texlive/2023/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
-)) (./theory.sta)
+)) (c:/Users/aryan/Documents/documents_general/UnknownPaper_MultiPeriod-DistOPF/sections/theory/theory.sta)
 \openout3 = `theory.sta'.
 
 Package caption Info: Begin \AtBeginDocument code.
@@ -441,25 +441,25 @@ Before submitting the final camera ready copy, remember to:
 
 [2
 
-] (./theory.aux)
+] (c:/Users/aryan/Documents/documents_general/UnknownPaper_MultiPeriod-DistOPF/sections/theory/theory.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2020/03/25>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 10568 strings out of 474222
- 191948 string characters out of 5750209
- 1958978 words of memory out of 5000000
- 32647 multiletter control sequences out of 15000+600000
- 589596 words of font info for 103 fonts, out of 8000000 for 9000
+ 10566 strings out of 474222
+ 192983 string characters out of 5750209
+ 1957978 words of memory out of 5000000
+ 32645 multiletter control sequences out of 15000+600000
+ 589089 words of font info for 102 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 115i,14n,148p,2135b,340s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb><c:/texlive/2023/texmf-dist/fonts/type1/urw/times/utmb8a.pfb><c:/texlive/2023/texmf-dist/fonts/type1/urw/times/utmr8a.pfb><c:/texlive/2023/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on theory.pdf (2 pages, 175740 bytes).
+ 115i,13n,148p,2135b,340s stack positions out of 10000i,1000n,20000p,200000b,200000s
+<c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb><c:/texlive/2023/texmf-dist/fonts/type1/urw/times/utmb8a.pfb><c:/texlive/2023/texmf-dist/fonts/type1/urw/times/utmr8a.pfb><c:/texlive/2023/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
+Output written on c:/Users/aryan/Documents/documents_general/UnknownPaper_MultiPeriod-DistOPF/sections/theory/theory.pdf (2 pages, 168680 bytes).
 PDF statistics:
- 92 PDF objects out of 1000 (max. 8388607)
- 55 compressed objects within 1 object stream
+ 87 PDF objects out of 1000 (max. 8388607)
+ 52 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 

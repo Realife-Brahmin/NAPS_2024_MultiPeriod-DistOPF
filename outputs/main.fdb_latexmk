@@ -1,13 +1,13 @@
 # Fdb version 4
-["bibtex main"] 1720823256.41853 "main.aux" "main.bbl" "main" 1720823261.83309 0
+["bibtex main"] 1720823256.41853 "main.aux" "main.bbl" "main" 1720823538.46786 0
   "./bibFIle.bib" 1720196288 9003 614a7bc065884c1a73ffe5d7575bc940 ""
   "c:/texlive/2023/texmf-dist/bibtex/bst/ieeetran/IEEEtran.bst" 1706171823 57748 7c8250ecf02814ce6ddc0cdbb63df1dd ""
-  "main.aux" 1720823260 9021 ede235e7424bafa0d033316256f4965c "pdflatex"
+  "main.aux" 1720823536 9021 ede235e7424bafa0d033316256f4965c "pdflatex"
   (generated)
   "main.bbl"
   "main.blg"
   (rewritten before read)
-["pdflatex"] 1720823257.27945 "c:/Users/aryan/Documents/documents_general/UnknownPaper_MultiPeriod-DistOPF/outputs/main.tex" "main.pdf" "main" 1720823261.83388 0
+["pdflatex"] 1720823532.95132 "c:/Users/aryan/Documents/documents_general/UnknownPaper_MultiPeriod-DistOPF/outputs/main.tex" "main.pdf" "main" 1720823538.46866 0
   "../figures/T10-inputCurves/InputCurves_Horizon_10.png" 1720475118 52043 4a1b98a5ad60c9925cc26cdbf5753a32 ""
   "../figures/T10-pv20-batt30-genCost/dopf/BatteryPlots/macroItr_5_genCost_Battery_1_alpha_0.001.png" 1720520348 41217 41c4f05c9921bc4a12b97a35b6b914d4 ""
   "../figures/T5-inputCurves/InputCurves_Horizon_5.png" 1720529564 48755 02f03496f8a681e6d93ddbd08d0b7da4 ""
@@ -23,9 +23,9 @@
   "../sections/intro/intro.tex" 1720472609 5981 5588e7acf0669de6641588e7a1d63db1 ""
   "../sections/results/results.tex" 1720822288 9011 9e925fb810e807fc4dc7f7b6a78d2e41 ""
   "../sections/simulation/simulation.tex" 1720816853 1342 4a42a53223b2c04c612245c7f403b7dd ""
-  "../sections/theory/theory.tex" 1720823245 8078 053145df87ac539a2ebe115e9a6c302b ""
+  "../sections/theory/theory.tex" 1720823497 8071 60ae883797db4e0f893cce25066597dc ""
   "IEEEtran.cls" 1720196288 288304 5b2e4fa15b0f7eabb840ebf67df4c0f7 ""
-  "c:/Users/aryan/Documents/documents_general/UnknownPaper_MultiPeriod-DistOPF/outputs/main.tex" 1720823250 2967 703a4b6ef34fced379110bc631a68e1a ""
+  "c:/Users/aryan/Documents/documents_general/UnknownPaper_MultiPeriod-DistOPF/outputs/main.tex" 1720823531 2967 703a4b6ef34fced379110bc631a68e1a ""
   "c:/texlive/2023/texmf-dist/fonts/enc/dvips/base/8r.enc" 1706170314 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "c:/texlive/2023/texmf-dist/fonts/map/fontname/texfonts.map" 1706171058 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "c:/texlive/2023/texmf-dist/fonts/tfm/adobe/times/ptmb7t.tfm" 1706176242 2172 fd0c924230362ff848a33632ed45dc23 ""
@@ -60,7 +60,6 @@
   "c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb" 1706168037 36281 c355509802a035cadc5f15869451dcee ""
   "c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb" 1706168037 35469 dcf3a5f2fc1862f5952e3ee5eb1d98c4 ""
   "c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb" 1706168037 35752 024fb6c41858982481f6968b5fc26508 ""
-  "c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb" 1706168037 32734 69e00a6b65cedb993666e42eedb3d48f ""
   "c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb" 1706168037 32762 7fee39e011c23b3589931effd97b9702 ""
   "c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb" 1706168037 32726 39f0f9e62e84beb801509898a605dbd5 ""
   "c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb" 1706168037 32569 5e5ddc8df908dea60932f3c484a54c0d ""
@@ -147,10 +146,10 @@
   "c:/texlive/2023/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1706177224 5035139 e8cdab388a5f122f6094769190400852 ""
   "c:/texlive/2023/texmf-var/web2c/pdftex/pdflatex.fmt" 1706177337 8211032 0375d62fdda5ac93a6b0452c591efeb3 ""
   "c:/texlive/2023/texmf.cnf" 1706177202 713 e69b156964470283e0530f5060668171 ""
-  "main.aux" 1720823260 9021 ede235e7424bafa0d033316256f4965c "pdflatex"
+  "main.aux" 1720823536 9021 ede235e7424bafa0d033316256f4965c "pdflatex"
   "main.bbl" 1720823257 4624 a6a41b18124df965f99dfed8c22732cb "bibtex main"
-  "main.sta" 1720823260 510 483e70781e4bbb980f1e4406fab19da8 "pdflatex"
-  "main.tex" 1720823250 2967 703a4b6ef34fced379110bc631a68e1a ""
+  "main.sta" 1720823536 510 483e70781e4bbb980f1e4406fab19da8 "pdflatex"
+  "main.tex" 1720823531 2967 703a4b6ef34fced379110bc631a68e1a ""
   (generated)
   "main.aux"
   "main.log"
