@@ -53,7 +53,13 @@ The OPF problem aims to minimize the total network loss for the entire time peri
     \end{split}
     \label{eq:genCost_withSCD}
 \end{equation}
-
+% \begin{equation}
+%     \begin{split}
+%         \min \sum_{t = 1}^{T} \left[ C^t P^t_{Subs} \right. \\
+%         &\left. + \alpha \sum_{j \in \mathcal{B}} \left\{ (1-\eta_C)P^t_{C_j} + \left( \frac{1}{\eta_D} - 1 \right) P^t_{D_j} \right\} \right]
+%     \end{split}
+%     \label{eq:genCost_withSCD}
+% \end{equation}
 
 Subject to the constraints \crefrange{eq:Pij}{eq:qDj} given below:
 \begin{align}
