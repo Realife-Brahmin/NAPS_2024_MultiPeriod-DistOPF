@@ -43,9 +43,18 @@ In this study, the distribution network is accounted as a tree (connected graph)
 
 \subsection{Centralized Multi-Period OPF with Batteries}
 The OPF problem aims to minimize the total network loss for the entire time period, as specified in \cref{eq:genCost_withSCD}:
+% \begin{equation}
+%     \min {\sum_{t = 1}^{T} \left[ C^t P^t_{Subs} + \alpha \sum_{j \in \mathcal{B}} \left\{ (1-\eta_C)P^t_{C_j} + \left( \frac{1}{\eta_D} - 1 \right) P^t_{D_j}\right\} \right] } \label{eq:genCost_withSCD}
+% \end{equation}
 \begin{equation}
-    \min {\sum_{t = 1}^{T} \left[ C^t P^t_{Subs} + \alpha \sum_{j \in \mathcal{B}} \left\{ (1-\eta_C)P^t_{C_j} + \left( \frac{1}{\eta_D} - 1 \right) P^t_{D_j}\right\} \right] } \label{eq:genCost_withSCD}
+    \begin{split}
+        \min \sum_{t = 1}^{T} \left[ C^t P^t_{Subs} + \alpha \sum_{j \in \mathcal{B}} \left\{ (1-\eta_C)P^t_{C_j} \right. \right. \\
+        \left. \left. + \left( \frac{1}{\eta_D} - 1 \right) P^t_{D_j} \right\} \right]
+    \end{split}
+    \label{eq:genCost_withSCD}
 \end{equation}
+
+
 Subject to the constraints \crefrange{eq:Pij}{eq:qDj} given below:
 \begin{align}
     {p_j^t} & = {\sum_{(j, k) \in \mathcal{L}} P_{jk}^t - \left\{P_{ij}^t - r_{ij}l_{ij}^t\right\} - P_{d_j}^t + P_{c_j}^t} && \label{eq:Pij} \\ 
