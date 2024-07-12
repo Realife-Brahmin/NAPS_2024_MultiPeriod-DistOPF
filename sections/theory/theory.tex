@@ -1,5 +1,5 @@
-\documentclass{article}
-
+% \documentclass{article}
+\documentclass[../../outputs/main.tex]{subfiles}
 
 \usepackage{cite} % default
 
@@ -69,6 +69,26 @@ Subject to the constraints \crefrange{eq:Pij}{eq:qDj} given below:
     &\in
     { \left[-\sqrt{ {S_{D_{R, j}}}^2 - {p^{t}_{D_{j}}}^2}, \sqrt{ {S_{D_{R, j}}}^2 - {p^{t}_{D_{j}}}^2}\right] } \label{eq:qDj} &&
 \end{align}
+
+\begin{table}[h!]
+    \centering
+    \caption{Parameter Values}
+    \begin{tabular}{|l|c|}
+    \hline
+    \textbf{Parameter} & \textbf{Value} \\ \hline
+    $V_{min}, V_{max}$ & 0.95, 1.05 \\ \hline
+    $P_{DER\_Rated_j}$ & $\frac{1}{3} P_{L\_Rated_j}$ \\ \hline
+    $S_{DER\_Rated_j}$ & $1.2 P_{DER\_Rated_j}$ \\ \hline
+    $P_{B\_Rated_j}$ & $\frac{1}{3} P_{L\_Rated_j}$ \\ \hline
+    $B_{Rated_j}$ & $T_{fullCharge} \times P_{B\_Rated_j}$ \\ \hline
+    $T_{fullCharge}$ & 4 h \\ \hline
+    $\Delta t$ & 1 h \\ \hline
+    $\eta_C, \eta_D$ & 0.95, 0.95 \\ \hline
+    $soc_{min}, soc_{max}$ & 0.30, 0.95 \\ \hline
+    $\alpha$ & 0.001 \\ \hline
+    \end{tabular}
+    \label{table:parameter-values}
+\end{table}
 
 The distribution network is represented with the help of the branch power flow equations \crefrange{eq:Pij}{eq:lij}. Constraints \cref{eq:Pij,eq:Qij} signify the active and reactive power balance equations. The net active and reactive power injections at any bus \(j\) are represented by \cref{eq:pj,eq:qj} respectively. The KVL equation is represented by \cref{eq:vj}, while the equation describing the relationship between current magnitude, voltage magnitude and apparent power magnitude is \cref{eq:lij}. The limits of node voltage and branch current are enforced via \cref{eq:lim_vj,eq:lim_lij}. The trajectory of the state of charge of batteries versus time is given by \cref{eq:Bj} and is the only class of constraints in this paper coupling the optimal power flow problem in time. Battery charging and discharging efficiency values used in this paper are $\eta_c = 95\%$ and $\eta_d = 95\%$ \textcolor{red}{literature?}. For a safe and sustainable operation of the batteries \textcolor{red}{based on what literature?}, the state of charge $B^{t}_{j}$ is constrained to be within some percentage limits of the rated battery soc capacity, as given in \cref{eq:lim_Bj}. In this paper, we're using $soc_{min} = 30\%$ and $soc_{max} = 95\%$. Similarly, battery charging and discharging powers should not exceed its rated power capacity, as given by \cref{eq:lim_PcPdj}.  \cref{eq:qDj,eq:qBj} describe the limits for two-quadrant operation of the controlled reactive power support of DERs and Batteries respectively. It may be noted that while both of these limits are non-controllable, only the limits for DERs are time-varying, due to $p^{t}_{D_j}$ component. For this simulation study, the limits for battery reactive support have been curtailed, i.e. the bounds of the limit have been artificially set smaller than what would be physically permissible. The reason for doing so was to avoid a non-linear inequality coupling decision variables. \textcolor{red}{Should I specify this justification?}
 
