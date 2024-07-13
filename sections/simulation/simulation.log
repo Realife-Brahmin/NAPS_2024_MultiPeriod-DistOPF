@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2024.1.25)  12 JUL 2024 18:12
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2024.1.25)  13 JUL 2024 09:47
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -418,12 +418,12 @@ Package caption Info: End \AtBeginDocument code.
 <../figures/ieee123-FourAreas.png, id=1, 1332.29745pt x 784.8522pt>
 File: ../figures/ieee123-FourAreas.png Graphic file (type png)
 <use ../figures/ieee123-FourAreas.png>
-Package pdftex.def Info: ../figures/ieee123-FourAreas.png  used on input line 18.
+Package pdftex.def Info: ../figures/ieee123-FourAreas.png  used on input line 17.
 (pdftex.def)             Requested size: 252.0pt x 148.45282pt.
 <../figures/T5-inputCurves/InputCurves_Horizon_5.png, id=2, 421.575pt x 316.0608pt>
 File: ../figures/T5-inputCurves/InputCurves_Horizon_5.png Graphic file (type png)
 <use ../figures/T5-inputCurves/InputCurves_Horizon_5.png>
-Package pdftex.def Info: ../figures/T5-inputCurves/InputCurves_Horizon_5.png  used on input line 25.
+Package pdftex.def Info: ../figures/T5-inputCurves/InputCurves_Horizon_5.png  used on input line 26.
 (pdftex.def)             Requested size: 224.08981pt x 168.0pt.
 
 
@@ -456,7 +456,7 @@ Here is how much of TeX's memory you used:
  1141 hyphenation exceptions out of 8191
  115i,6n,148p,555b,338s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <c:/texlive/2023/texmf-dist/fonts/type1/urw/times/utmr8a.pfb><c:/texlive/2023/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on c:/Users/aryan/Documents/documents_general/UnknownPaper_MultiPeriod-DistOPF/sections/simulation/simulation.pdf (1 page, 684532 bytes).
+Output written on c:/Users/aryan/Documents/documents_general/UnknownPaper_MultiPeriod-DistOPF/sections/simulation/simulation.pdf (1 page, 684930 bytes).
 PDF statistics:
  22 PDF objects out of 1000 (max. 8388607)
  11 compressed objects within 1 object stream
