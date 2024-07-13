@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2024.1.25)  13 JUL 2024 10:09
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2024.1.25)  13 JUL 2024 10:39
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -526,7 +526,15 @@ Underfull \hbox (badness 10000) in paragraph at lines 85--86
 ]
 Underfull \vbox (badness 5231) has occurred while \output is active []
 
- [2]) (../sections/simulation/simulation.tex
+
+Overfull \hbox (49.56802pt too wide) detected at line 85
+[]
+ []
+
+
+LaTeX Warning: Reference `eq:lij' on page 2 undefined on input line 107.
+
+[2]) (../sections/simulation/simulation.tex
 <../figures/ieee123-FourAreas.png, id=26, 1332.29745pt x 784.8522pt>
 File: ../figures/ieee123-FourAreas.png Graphic file (type png)
 <use ../figures/ieee123-FourAreas.png>
@@ -639,17 +647,21 @@ Before submitting the final camera ready copy, remember to:
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2020/03/25>
  ***********
+
+
+LaTeX Warning: There were undefined references.
+
  ) 
 Here is how much of TeX's memory you used:
- 10867 strings out of 474222
- 206184 string characters out of 5750209
- 1983978 words of memory out of 5000000
- 32885 multiletter control sequences out of 15000+600000
- 597368 words of font info for 111 fonts, out of 8000000 for 9000
+ 10865 strings out of 474222
+ 206309 string characters out of 5750209
+ 1981978 words of memory out of 5000000
+ 32882 multiletter control sequences out of 15000+600000
+ 598475 words of font info for 112 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 95i,18n,131p,2165b,663s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 95i,18n,131p,1890b,663s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/urw/times/utmb8a.pfb><c:/texlive/2023/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb><c:/texlive/2023/texmf-dist/fonts/type1/urw/times/utmr8a.pfb><c:/texlive/2023/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on main.pdf (6 pages, 1898893 bytes).
+Output written on main.pdf (6 pages, 1899477 bytes).
 PDF statistics:
  122 PDF objects out of 1000 (max. 8388607)
  66 compressed objects within 1 object stream
