@@ -56,14 +56,17 @@ C.~Wu, W.~Gu, S.~Zhou, and X.~Chen, ``Coordinated optimal power flow for integra
 \bibitem{Sadnan}
 R.~Sadnan and A.~Dubey, ``Distributed optimization using reduced network equivalents for radial power distribution systems,'' \emph{IEEE Trans. Power Syst.}, vol.~36, no.~4, pp. 3645--3656, Jul. 2021.
 
-\bibitem{bfm01}
-M.~Farivar and S.~H. Low, ``{Branch flow model: Relaxations and convexification},'' \emph{2012 IEEE 51st IEEE Conference on Decision and Control (CDC)}, pp. 3672--3679, Dec. 2012.
-
 \bibitem{Nazir2018Jun}
 N.~Nazir and M.~Almassalkhi, ``{Receding-Horizon Optimization of Unbalanced Distribution Systems with Time-Scale Separation for Discrete and Continuous Control Devices},'' pp. 1--7, Jun. 2018.
 
 \bibitem{Nazir2019Jun}
 N.~Nazir, P.~Racherla, and M.~Almassalkhi, ``{Optimal multi-period dispatch of distributed energy resources in unbalanced distribution feeders},'' Jun. 2019.
+
+\bibitem{Nazir2021Sep}
+N.~Nazir and M.~Almassalkhi, ``{Guaranteeing a Physically Realizable Battery Dispatch Without Charge-Discharge Complementarity Constraints},'' \emph{IEEE Trans. Smart Grid}, vol.~14, no.~3, pp. 2473--2476, Sep. 2021.
+
+\bibitem{bfm01}
+M.~Farivar and S.~H. Low, ``{Branch flow model: Relaxations and convexification},'' \emph{2012 IEEE 51st IEEE Conference on Decision and Control (CDC)}, pp. 3672--3679, Dec. 2012.
 
 \bibitem{ddp_sugar_01}
 A.~Agarwal and L.~Pileggi, ``{Large Scale Multi-Period Optimal Power Flow With Energy Storage Systems Using Differential Dynamic Programming},'' pp. 1750--1759, Sep. 2021.
