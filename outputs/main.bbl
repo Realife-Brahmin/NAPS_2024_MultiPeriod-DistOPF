@@ -26,14 +26,17 @@ T.~Gangwar, N.~P. Padhy, and P.~Jena, ``Storage allocation in active distributio
 \bibitem{spaul}
 S.~Paul and N.~P. Padhy, ``Real-time advanced energy-efficient management of an active radial distribution network,'' \emph{IEEE Syst. J.}, vol.~16, no.~3, pp. 3602--3612, Sept. 2022.
 
-\bibitem{Yuan}
-H.~Yuan, F.~Li, Y.~Wei, and J.~Zhu, ``Novel linearized power flow and linearized opf models for active distribution networks with application in distribution lmp,'' \emph{IEEE Trans. Smart Grid}, vol.~9, no.~1, pp. 438--448, Jan. 2018.
-
 \bibitem{Wei}
 W.~Wei, J.~Wang, and L.~Wu, ``Distribution optimal power flow with real-time price elasticity,'' \emph{IEEE Trans. Power Syst.}, vol.~33, no.~1, pp. 1097--1098, Jan. 2018.
 
+\bibitem{Chowdhury}
+M.~M.-U.-T. Chowdhury, B.~D. Biswas, and S.~Kamalasadan, ``Second-order cone programming (socp) model for three phase optimal power flow (opf) in active distribution networks,'' \emph{IEEE Transactions on Smart Grid}, vol.~14, no.~5, pp. 3732--3743, 2023.
+
 \bibitem{Guo}
 Z.~Guo, W.~Wei, L.~Chen, Z.~Dong, and S.~Mei, ``Parametric distribution optimal power flow with variable renewable generation,'' \emph{IEEE Trans. Power Syst.}, vol.~37, no.~3, pp. 1831--1841, May 2022.
+
+\bibitem{Yuan}
+H.~Yuan, F.~Li, Y.~Wei, and J.~Zhu, ``Novel linearized power flow and linearized opf models for active distribution networks with application in distribution lmp,'' \emph{IEEE Trans. Smart Grid}, vol.~9, no.~1, pp. 438--448, Jan. 2018.
 
 \bibitem{Fazio}
 A.~R. Di~Fazio, C.~Risi, M.~Russo, and M.~De~Santis, ``Decentralized voltage optimization based on the auxiliary problem principle in distribution networks with ders,'' \emph{Appl. Sci.}, vol.~11, no. 4509, pp. 1--24, 2021.
