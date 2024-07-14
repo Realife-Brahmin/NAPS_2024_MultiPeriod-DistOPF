@@ -1,16 +1,16 @@
 # Fdb version 4
-["bibtex main"] 1720932537.83025 "main.aux" "main.bbl" "main" 1720933958.53606 0
+["bibtex main"] 1720932537.83025 "main.aux" "main.bbl" "main" 1720937107.6755 0
   "./bibFIle.bib" 1720196288 9003 614a7bc065884c1a73ffe5d7575bc940 ""
   "c:/texlive/2023/texmf-dist/bibtex/bst/ieeetran/IEEEtran.bst" 1706171823 57748 7c8250ecf02814ce6ddc0cdbb63df1dd ""
-  "main.aux" 1720933957 9523 38b57535a8dbb08a49637780a08a6d3c "pdflatex"
+  "main.aux" 1720937106 9523 38b57535a8dbb08a49637780a08a6d3c "pdflatex"
   (generated)
   "main.bbl"
   "main.blg"
   (rewritten before read)
-["pdflatex"] 1720933955.55364 "c:/Users/aryan/Documents/documents_general/UnknownPaper_MultiPeriod-DistOPF/outputs/main.tex" "main.pdf" "main" 1720933958.53665 0
-  "../figures/T10-inputCurves/InputCurves_Horizon_10.png" 1720475118 52043 4a1b98a5ad60c9925cc26cdbf5753a32 ""
+["pdflatex"] 1720937104.56156 "c:/Users/aryan/Documents/documents_general/UnknownPaper_MultiPeriod-DistOPF/outputs/main.tex" "main.pdf" "main" 1720937107.67593 0
+  "../figures/T10-inputCurves/InputCurves_Horizon_10.png" 1720936996 60122 69585073d9ba51c2f0ba0f00ef49914a ""
   "../figures/T10-pv20-batt30-genCost/dopf/BatteryPlots/macroItr_5_genCost_Battery_1_alpha_0.001.png" 1720520348 41217 41c4f05c9921bc4a12b97a35b6b914d4 ""
-  "../figures/T5-inputCurves/InputCurves_Horizon_5.png" 1720529564 48755 02f03496f8a681e6d93ddbd08d0b7da4 ""
+  "../figures/T5-inputCurves/InputCurves_Horizon_5.png" 1720936057 60352 9ec9586e9c5515f77e92d6171a029a7d ""
   "../figures/T5-pv20-batt30-genCost/dopf/BatteryPlots/macroItr_5_genCost_Battery_1_alpha_0.001.png" 1720589472 35431 6bb4f3c84bbe1180e78d874a70c75e81 ""
   "../figures/T5-pv20-batt30-genCost/dopf/convergenceCurves/BoundaryRealPower_vs_t_vs_macroItr_T_5_Areas_1_2_genCost_pv_20_batt_30_.png" 1720589472 145764 39c5687aaed45633ffac97a4a97198e6 ""
   "../figures/T5-pv20-batt30-genCost/dopf/convergenceCurves/BoundaryRealPower_vs_t_vs_macroItr_T_5_Areas_1_3_genCost_pv_20_batt_30_.png" 1720589472 115553 1c36775980036dd2a3f6690013591057 ""
@@ -22,11 +22,11 @@
   "../figures/ieee123-FourAreas.png" 1720196288 753643 5639336c75de6f95c862db9f654110d9 ""
   "../sections/conclusion/conclusion.tex" 1720196288 172 62d91c3552fb0ef485a87f62fab8e97e ""
   "../sections/intro/intro.tex" 1720472609 5981 5588e7acf0669de6641588e7a1d63db1 ""
-  "../sections/results/results.tex" 1720933943 9154 a66f8222731cd943bf105d7420cfd640 ""
+  "../sections/results/results.tex" 1720937082 9154 a66f8222731cd943bf105d7420cfd640 ""
   "../sections/simulation/simulation.tex" 1720889229 1146 6a10f92f90e0d1715d51f1b187e82185 ""
   "../sections/theory/theory.tex" 1720932574 9843 6fd9aae2bd57ae14db66909e7bb59e26 ""
   "IEEEtran.cls" 1720196288 288304 5b2e4fa15b0f7eabb840ebf67df4c0f7 ""
-  "c:/Users/aryan/Documents/documents_general/UnknownPaper_MultiPeriod-DistOPF/outputs/main.tex" 1720933954 5507 540c5ca8ddec1e6d29dff26dfe8b8968 ""
+  "c:/Users/aryan/Documents/documents_general/UnknownPaper_MultiPeriod-DistOPF/outputs/main.tex" 1720937103 5507 540c5ca8ddec1e6d29dff26dfe8b8968 ""
   "c:/texlive/2023/texmf-dist/fonts/enc/dvips/base/8r.enc" 1706170314 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "c:/texlive/2023/texmf-dist/fonts/map/fontname/texfonts.map" 1706171058 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "c:/texlive/2023/texmf-dist/fonts/tfm/adobe/times/ptmb7t.tfm" 1706176242 2172 fd0c924230362ff848a33632ed45dc23 ""
@@ -147,10 +147,10 @@
   "c:/texlive/2023/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1706177224 5035139 e8cdab388a5f122f6094769190400852 ""
   "c:/texlive/2023/texmf-var/web2c/pdftex/pdflatex.fmt" 1706177337 8211032 0375d62fdda5ac93a6b0452c591efeb3 ""
   "c:/texlive/2023/texmf.cnf" 1706177202 713 e69b156964470283e0530f5060668171 ""
-  "main.aux" 1720933957 9523 38b57535a8dbb08a49637780a08a6d3c "pdflatex"
+  "main.aux" 1720937106 9523 38b57535a8dbb08a49637780a08a6d3c "pdflatex"
   "main.bbl" 1720932538 4865 de688ca79d0b71e23d07f42d820ff78a "bibtex main"
-  "main.sta" 1720933957 510 483e70781e4bbb980f1e4406fab19da8 "pdflatex"
-  "main.tex" 1720933954 5507 540c5ca8ddec1e6d29dff26dfe8b8968 ""
+  "main.sta" 1720937106 510 483e70781e4bbb980f1e4406fab19da8 "pdflatex"
+  "main.tex" 1720937103 5507 540c5ca8ddec1e6d29dff26dfe8b8968 ""
   (generated)
   "main.aux"
   "main.log"
