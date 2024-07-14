@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2024.1.25)  14 JUL 2024 10:10
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2024.1.25)  14 JUL 2024 10:40
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -366,20 +366,20 @@ Package: ulem 2019/11/18
 ) (./main.aux)
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 84.
-LaTeX Font Info:    ... okay on input line 84.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 84.
-LaTeX Font Info:    ... okay on input line 84.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 84.
-LaTeX Font Info:    ... okay on input line 84.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 84.
-LaTeX Font Info:    ... okay on input line 84.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 84.
-LaTeX Font Info:    ... okay on input line 84.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 84.
-LaTeX Font Info:    ... okay on input line 84.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 84.
-LaTeX Font Info:    ... okay on input line 84.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 83.
+LaTeX Font Info:    ... okay on input line 83.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 83.
+LaTeX Font Info:    ... okay on input line 83.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 83.
+LaTeX Font Info:    ... okay on input line 83.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 83.
+LaTeX Font Info:    ... okay on input line 83.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 83.
+LaTeX Font Info:    ... okay on input line 83.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 83.
+LaTeX Font Info:    ... okay on input line 83.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 83.
+LaTeX Font Info:    ... okay on input line 83.
 
 -- Lines per column: 56 (exact).
 (c:/texlive/2023/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
@@ -412,28 +412,28 @@ Package: lipsum 2021-09-20 v2.7 150 paragraphs of Lorem Ipsum dummy text
 
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
-LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 86.
+LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 85.
  (c:/texlive/2023/texmf-dist/tex/latex/psnfss/ts1ptm.fd
 File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
 )
-LaTeX Font Info:    Trying to load font information for U+msa on input line 86.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 85.
  (c:/texlive/2023/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 86.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 85.
  (c:/texlive/2023/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Trying to load font information for OMS+ptm on input line 86.
+LaTeX Font Info:    Trying to load font information for OMS+ptm on input line 85.
  (c:/texlive/2023/texmf-dist/tex/latex/psnfss/omsptm.fd
 File: omsptm.fd 
 )
 LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <10> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 86.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 85.
 
-** WARNING: \thanks is locked out when in conference mode (line 86).
+** WARNING: \thanks is locked out when in conference mode (line 85).
 
-Underfull \hbox (badness 1881) in paragraph at lines 97--99
+Underfull \hbox (badness 1881) in paragraph at lines 96--98
 []\OT1/ptm/b/it/9 Index Terms\OT1/ptm/b/n/9 ---Batteries, dis-tri-bu-tion net-work, dis-tributed
  []
 
@@ -527,19 +527,21 @@ Package pdftex.def Info: ../figures/ieee123-FourAreas.png  used on input line 19
 <../figures/T5-inputCurves/InputCurves_Horizon_5.png, id=24, 421.575pt x 316.0608pt>
 File: ../figures/T5-inputCurves/InputCurves_Horizon_5.png Graphic file (type png)
 <use ../figures/T5-inputCurves/InputCurves_Horizon_5.png>
-Package pdftex.def Info: ../figures/T5-inputCurves/InputCurves_Horizon_5.png  used on input line 28.
+Package pdftex.def Info: ../figures/T5-inputCurves/InputCurves_Horizon_5.png  used on input line 30.
 (pdftex.def)             Requested size: 224.08981pt x 168.0pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 ) (../sections/results/results.tex
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
 <../figures/T5-pv20-batt30-genCost/dopf/BatteryPlots/macroItr_5_genCost_Battery_1_alpha_0.001.png, id=25, 421.575pt x 316.0608pt>
 File: ../figures/T5-pv20-batt30-genCost/dopf/BatteryPlots/macroItr_5_genCost_Battery_1_alpha_0.001.png Graphic file (type png)
 <use ../figures/T5-pv20-batt30-genCost/dopf/BatteryPlots/macroItr_5_genCost_Battery_1_alpha_0.001.png>
 Package pdftex.def Info: ../figures/T5-pv20-batt30-genCost/dopf/BatteryPlots/macroItr_5_genCost_Battery_1_alpha_0.001.png  used on input line 93.
 (pdftex.def)             Requested size: 252.0pt x 188.929pt.
-
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
@@ -587,26 +589,22 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 <../figures/T10-inputCurves/InputCurves_Horizon_10.png, id=33, 422.0568pt x 316.5426pt>
 File: ../figures/T10-inputCurves/InputCurves_Horizon_10.png Graphic file (type png)
 <use ../figures/T10-inputCurves/InputCurves_Horizon_10.png>
-Package pdftex.def Info: ../figures/T10-inputCurves/InputCurves_Horizon_10.png  used on input line 164.
+Package pdftex.def Info: ../figures/T10-inputCurves/InputCurves_Horizon_10.png  used on input line 166.
 (pdftex.def)             Requested size: 224.0046pt x 168.0pt.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-<../figures/T10-pv20-batt30-genCost/dopf/BatteryPlots/macroItr_5_genCost_Battery_1_alpha_0.001.png, id=34, 421.575pt x 316.0608pt>
+[3 <../figures/ieee123-FourAreas.png> <../figures/T5-inputCurves/InputCurves_Horizon_5.png (PNG copy)>]
+<../figures/T10-pv20-batt30-genCost/dopf/BatteryPlots/macroItr_5_genCost_Battery_1_alpha_0.001.png, id=41, 421.575pt x 316.0608pt>
 File: ../figures/T10-pv20-batt30-genCost/dopf/BatteryPlots/macroItr_5_genCost_Battery_1_alpha_0.001.png Graphic file (type png)
 <use ../figures/T10-pv20-batt30-genCost/dopf/BatteryPlots/macroItr_5_genCost_Battery_1_alpha_0.001.png>
-Package pdftex.def Info: ../figures/T10-pv20-batt30-genCost/dopf/BatteryPlots/macroItr_5_genCost_Battery_1_alpha_0.001.png  used on input line 213.
+Package pdftex.def Info: ../figures/T10-pv20-batt30-genCost/dopf/BatteryPlots/macroItr_5_genCost_Battery_1_alpha_0.001.png  used on input line 215.
 (pdftex.def)             Requested size: 252.0pt x 188.929pt.
+
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[3 <../figures/ieee123-FourAreas.png> <../figures/T5-inputCurves/InputCurves_Horizon_5.png (PNG copy)>]) (../sections/conclusion/conclusion.tex) (./main.bbl)
+) (../sections/conclusion/conclusion.tex) (./main.bbl)
 
 ** Conference Paper **
 Before submitting the final camera ready copy, remember to:
@@ -635,7 +633,7 @@ Here is how much of TeX's memory you used:
  1141 hyphenation exceptions out of 8191
  95i,18n,131p,1925b,677s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/urw/times/utmb8a.pfb><c:/texlive/2023/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb><c:/texlive/2023/texmf-dist/fonts/type1/urw/times/utmr8a.pfb><c:/texlive/2023/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on main.pdf (6 pages, 1794302 bytes).
+Output written on main.pdf (6 pages, 1794661 bytes).
 PDF statistics:
  122 PDF objects out of 1000 (max. 8388607)
  66 compressed objects within 1 object stream
