@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2024.1.25)  14 JUL 2024 02:57
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2024.1.25)  14 JUL 2024 03:10
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -425,11 +425,11 @@ File: ../figures/T5-inputCurves/InputCurves_Horizon_5.png Graphic file (type png
 <use ../figures/T5-inputCurves/InputCurves_Horizon_5.png>
 Package pdftex.def Info: ../figures/T5-inputCurves/InputCurves_Horizon_5.png  used on input line 26.
 (pdftex.def)             Requested size: 224.08981pt x 168.0pt.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 35.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 76.
  (c:/texlive/2023/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 35.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 76.
  (c:/texlive/2023/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
@@ -455,15 +455,15 @@ L3 programming layer <2020/03/25>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 10551 strings out of 474222
- 193485 string characters out of 5750209
- 1930978 words of memory out of 5000000
- 32630 multiletter control sequences out of 15000+600000
+ 10552 strings out of 474222
+ 193487 string characters out of 5750209
+ 1931978 words of memory out of 5000000
+ 32631 multiletter control sequences out of 15000+600000
  588035 words of font info for 97 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  115i,11n,148p,662b,340s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb><c:/texlive/2023/texmf-dist/fonts/type1/urw/times/utmb8a.pfb><c:/texlive/2023/texmf-dist/fonts/type1/urw/times/utmr8a.pfb><c:/texlive/2023/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on c:/Users/aryan/Documents/documents_general/UnknownPaper_MultiPeriod-DistOPF/sections/simulation/simulation.pdf (1 page, 754799 bytes).
+Output written on c:/Users/aryan/Documents/documents_general/UnknownPaper_MultiPeriod-DistOPF/sections/simulation/simulation.pdf (1 page, 753647 bytes).
 PDF statistics:
  52 PDF objects out of 1000 (max. 8388607)
  29 compressed objects within 1 object stream
