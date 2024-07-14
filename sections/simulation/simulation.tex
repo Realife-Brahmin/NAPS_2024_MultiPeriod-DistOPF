@@ -28,9 +28,25 @@
     \label{fig:inputCurve-5}
 \end{figure}
 
-\subsection{Simulation Results}
-Case 1: centralized OPF with battery
-Case 2: ENApp based distributed OPF with battery
 
+\begin{table}[h!]
+    \centering
+    \caption{Parameter Values}
+    \begin{tabular}{|l|c|}
+    \hline
+    \textbf{Parameter} & \textbf{Value} \\ \hline
+    $V_{min}, V_{max}$ & 0.95, 1.05 \\ \hline
+    $P_{DER_{Rated_j}}$ & $0.33 P_{L_{Rated_j}}$ \\ \hline
+    $S_{DER_{Rated_j}}$ & $1.2 P_{DER_{Rated_j}}$ \\ \hline
+    $P_{B_{Rated_j}}$ & $0.33 P_{L_{Rated_j}}$ \\ \hline
+    $B_{Rated_j}$ & $T_{fullCharge} \times P_{B_{Rated_j}}$ \\ \hline
+    $T_{fullCharge}$ & 4 h \\ \hline
+    $\Delta t$ & 1 h \\ \hline
+    $\eta_C, \eta_D$ & 0.95, 0.95 \\ \hline
+    $soc_{min}, soc_{max}$ & 0.30, 0.95 \\ \hline
+    $\alpha$ & 0.001 \\ \hline
+    \end{tabular}
+    \label{table:parameter-values}
+\end{table}
 
 \end{document}
