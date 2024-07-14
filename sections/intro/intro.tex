@@ -25,33 +25,30 @@
 
 \section{Introduction}
 
-\subsection{Background and Prior Arts}
+% \subsection{Background and Prior Arts}
 Presently, optimal power flow (OPF) tools are developed to run the MV/LV distribution grids in the most economical, reliable, and secure manner. The usefulness of OPF studies is gaining more interest due to the penetration of distributed energy resources (DERs), especially solar photovoltaic panels. Power generation from these DERs is influenced by the weather conditions, hence highly intermittent. Presently, deployment of battery units is becoming more pertinent to mitigate the uncertainty effect and maintain the power balance by controlling the charging and/or discharging operations \cite{tgangwar}. However, the inclusion of batteries converts the conventional single-period time-decoupled OPF problem into a multi-period time-coupled OPF analysis.
 
 Traditionally, centralized OPF (COPF) methods were popular where grid-edge data are accumulated at a central controller location \cite{spaul}. The central controller is responsible for processing the accumulated data, solving the OPF algorithm, and dispatching control signals to the controlling resources. The centralized OPF algorithms are generally developed as a mixed integer non-convex programming (MINCP) problem and then simplified either as a convex problem by adopting second-order cone programming (SOCP) relaxations \cite{Wei} \cite{Chowdhury}, or as a linear problem by adopting Taylor series expansion \cite{spaul}, polyhedral approximations \cite{Guo} or linear power flow models \cite{Yuan}.
 
 % Yuan et al. \cite{Yuan} propose a linear OPF model for distribution networks depending upon the locational marginal price (LMP). The LMP is calculated by including reactive power components and voltage constraints. Wei et al. \cite{Wei} develop a fixed point iteration algorithm for centralized OPF problem solution and LMP determination by leveraging the benefits of load elasticity. Second-order cone programming (SOCP) relaxation is used to convert the non-convex branch flow model into a convex one. Guo et al. \cite{Guo} develop a linear OPF model after linearizing the second-order cone constraints with polyhedral approximations. The OPF problem is formulated by considering the variable solar power generation as parameters and hence the overall problem takes the form of a parametric distribution OPF. 
 
-To overcome the scalability issues related to the COPF methods, distributed OPF (DOPF) algorithms are often proposed by decomposing the original COPF problem into multiple sub-problems, solved in parallel by permitting neighborhood communication. In this regard, the Auxiliary Problem Principle (APP) and the Alternating direction method of multipliers (ADMM) are two popular algorithms that are used to solve OPF problems as quadratic convex \cite{Fazio}, SOCP relaxed convex \cite{Zheng}, semidefinite programming (SDP) relaxed convex \cite{Wang, Biswas}, and linear programming problems \cite{Paul2}.
+To overcome the scalability issues related to the COPF methods, distributed OPF (DOPF) algorithms are often proposed by decomposing the original COPF problem into multiple sub-problems, solved in parallel by permitting neighborhood communication. In this regard, the Auxiliary Problem Principle (APP) and the Alternating direction method of multipliers (ADMM) are two popular algorithms that are used to solve OPF problems as quadratic convex \cite{Fazio}, SOCP relaxed convex \cite{Zheng}, semidefinite programming (SDP) relaxed convex \cite{Wang, Biswas}, and linear programming problems \cite{Paul2}. Previously in \cite{Sadnan}, the authors' research group developed a DOPF framework based on the Equivalent Network Approximation method (ENApp) for solving DOPF problems with lesser macro iterations compared to ADMM.
 
 
 % Fazio et al. \cite{Fazio} used the Auxiliary Problem Principle (APP) based DOPF to minimize the voltage deviation by segregating the entire distribution network into multiple voltage control zones. The non-convex problem is relaxed and solved as quadratic convex programming. Alternating direction method of multipliers (ADMM) based DOPF is proposed in \cite{Zheng} for determining the reactive power dispatch schedules for capacitor banks and static VAR compensators. The original non-convex problem is solved by adopting SOCP relaxation. Another ADMM based semidefinite programming (SDP) relaxed DOPF portfolio is designed in  \cite{Wang} for an AC network having only wind generators. Biswas et al. \cite{Biswas} also used SDP relaxation to develop DOPF algorithms using vanilla and accelerated ADMM methods. 
 
-The 
-Gabash and Li \cite{Gabash} propound a nonlinear centralized optimization framework to solve the multi-period active-reactive power dispatch from the battery storages and DERs in a distribution network. 
-
-Wu et al. \cite{Wu} frame a multi-period optimization problem for a virtual power plants (VPPs) collocated distribution network. The original centralized multi-parametric quadratic problem is decomposed into one master and multiple sub-problems for distribution network and VPPs, respectively by utilizing the concept of Benders Decomposition. 
+The above references \cite{Wei}-\cite{Paul2} mainly focused on developing single-time step OPF problems by neglecting the grid-edge devices having time-coupled operation, like batteries. The inclusion of battery models transforms a single-time step OPF into a multi-period OPF (MPOPF). Reference \cite{Gabash} propound a nonlinear multi-period centralized OPF (MPCOPF) framework to solve the active-reactive power dispatch from the batteries and DERs in a distribution network. Wu et al. \cite{Wu} framed an MPCOPF problem for a virtual power plant (VPP) collocated distribution network. The original centralized multi-parametric quadratic problem is decomposed into one master and multiple sub-problems for distribution network and VPPs, respectively by utilizing the concept of Benders Decomposition (BD). However, BD suffers from slow convergence.  
 
 
 
-Previously in \cite{Sadnan}, authors' research group develop a 
+ 
 
 
 \begin{table}[t]
 \caption{\textsc{Taxonomy table for comparison}}
 \label{table1}
 \begin{center}
-\begin{tabular}{|p{1.2cm}||p{0.2cm}||p{0.2cm}||p{0.45cm}||p{0.45cm}||p{0.45cm}||p{0.45cm}||p{1.2cm}|}   %{l *{8}{r}}
+\begin{tabular}{|p{1.2cm}||p{0.2cm}||p{0.2cm}||p{0.2cm}||p{0.2cm}||p{0.2cm}||p{0.2cm}||p{2.5cm}|}   %{l *{8}{r}}
     \hline
     \spheading{References} & 
     \spheading{DERs} & 
