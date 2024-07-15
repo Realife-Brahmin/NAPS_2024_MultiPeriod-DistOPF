@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2024.1.25)  15 JUL 2024 11:07
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2024.1.25)  15 JUL 2024 11:16
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -737,12 +737,12 @@ Overfull \hbox (0.97623pt too wide) in paragraph at lines 84--84
  []
 
 ) (../sections/theory/theory.tex [2]) (../sections/simulation/simulation.tex
-<../figures/ieee123-FourAreas-pv20-batt30.png, id=178, 1437.87187pt x 764.8575pt>
+<../figures/ieee123-FourAreas-pv20-batt30.png, id=179, 1437.87187pt x 764.8575pt>
 File: ../figures/ieee123-FourAreas-pv20-batt30.png Graphic file (type png)
 <use ../figures/ieee123-FourAreas-pv20-batt30.png>
 Package pdftex.def Info: ../figures/ieee123-FourAreas-pv20-batt30.png  used on input line 21.
 (pdftex.def)             Requested size: 252.0pt x 134.03879pt.
-<../figures/T5-inputCurves/InputCurves_Horizon_5.png, id=180, 421.575pt x 316.0608pt>
+<../figures/T5-inputCurves/InputCurves_Horizon_5.png, id=181, 421.575pt x 316.0608pt>
 File: ../figures/T5-inputCurves/InputCurves_Horizon_5.png Graphic file (type png)
 <use ../figures/T5-inputCurves/InputCurves_Horizon_5.png>
 Package pdftex.def Info: ../figures/T5-inputCurves/InputCurves_Horizon_5.png  used on input line 30.
@@ -755,7 +755,7 @@ LaTeX Font Info:    Trying to load font information for OT1+pcr on input line 59
 (c:/texlive/2023/texmf-dist/tex/latex/psnfss/ot1pcr.fd
 File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
 ) [3 <../figures/ieee123-FourAreas-pv20-batt30.png> <../figures/T5-inputCurves/InputCurves_Horizon_5.png (PNG copy)>]) (../sections/results/results.tex
-<../figures/T5-pv20-batt30-genCost/dopf/BatteryPlots/macroItr_5_genCost_Battery_1_alpha_0.001.png, id=206, 421.575pt x 316.0608pt>
+<../figures/T5-pv20-batt30-genCost/dopf/BatteryPlots/macroItr_5_genCost_Battery_1_alpha_0.001.png, id=207, 421.575pt x 316.0608pt>
 File: ../figures/T5-pv20-batt30-genCost/dopf/BatteryPlots/macroItr_5_genCost_Battery_1_alpha_0.001.png Graphic file (type png)
 <use ../figures/T5-pv20-batt30-genCost/dopf/BatteryPlots/macroItr_5_genCost_Battery_1_alpha_0.001.png>
 Package pdftex.def Info: ../figures/T5-pv20-batt30-genCost/dopf/BatteryPlots/macroItr_5_genCost_Battery_1_alpha_0.001.png  used on input line 72.
@@ -764,51 +764,51 @@ Package pdftex.def Info: ../figures/T5-pv20-batt30-genCost/dopf/BatteryPlots/mac
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<../figures/T5-pv20-batt30-genCost/dopf/convergenceCurves/BoundaryRealPower_vs_t_vs_macroItr_T_5_Areas_1_2_genCost_pv_20_batt_30_crop.png, id=208, 366.4089pt x 283.7802pt>
+<../figures/T5-pv20-batt30-genCost/dopf/convergenceCurves/BoundaryRealPower_vs_t_vs_macroItr_T_5_Areas_1_2_genCost_pv_20_batt_30_crop.png, id=209, 366.4089pt x 283.7802pt>
 File: ../figures/T5-pv20-batt30-genCost/dopf/convergenceCurves/BoundaryRealPower_vs_t_vs_macroItr_T_5_Areas_1_2_genCost_pv_20_batt_30_crop.png Graphic file (type png)
 <use ../figures/T5-pv20-batt30-genCost/dopf/convergenceCurves/BoundaryRealPower_vs_t_vs_macroItr_T_5_Areas_1_2_genCost_pv_20_batt_30_crop.png>
-Package pdftex.def Info: ../figures/T5-pv20-batt30-genCost/dopf/convergenceCurves/BoundaryRealPower_vs_t_vs_macroItr_T_5_Areas_1_2_genCost_pv_20_batt_30_crop.png  used on input line 86.
-(pdftex.def)             Requested size: 154.80157pt x 119.89267pt.
-<../figures/T5-pv20-batt30-genCost/dopf/convergenceCurves/BoundaryRealPower_vs_t_vs_macroItr_T_5_Areas_1_3_genCost_pv_20_batt_30_crop.png, id=209, 366.4089pt x 283.0575pt>
+Package pdftex.def Info: ../figures/T5-pv20-batt30-genCost/dopf/convergenceCurves/BoundaryRealPower_vs_t_vs_macroItr_T_5_Areas_1_2_genCost_pv_20_batt_30_crop.png  used on input line 136.
+(pdftex.def)             Requested size: 109.92351pt x 85.1347pt.
+<../figures/T5-pv20-batt30-genCost/dopf/convergenceCurves/BoundaryRealPower_vs_t_vs_macroItr_T_5_Areas_1_3_genCost_pv_20_batt_30_crop.png, id=210, 366.4089pt x 283.0575pt>
 File: ../figures/T5-pv20-batt30-genCost/dopf/convergenceCurves/BoundaryRealPower_vs_t_vs_macroItr_T_5_Areas_1_3_genCost_pv_20_batt_30_crop.png Graphic file (type png)
 <use ../figures/T5-pv20-batt30-genCost/dopf/convergenceCurves/BoundaryRealPower_vs_t_vs_macroItr_T_5_Areas_1_3_genCost_pv_20_batt_30_crop.png>
-Package pdftex.def Info: ../figures/T5-pv20-batt30-genCost/dopf/convergenceCurves/BoundaryRealPower_vs_t_vs_macroItr_T_5_Areas_1_3_genCost_pv_20_batt_30_crop.png  used on input line 93.
-(pdftex.def)             Requested size: 154.80157pt x 119.58734pt.
-<../figures/T5-pv20-batt30-genCost/dopf/convergenceCurves/BoundaryRealPower_vs_t_vs_macroItr_T_5_Areas_2_4_genCost_pv_20_batt_30_crop.png, id=210, 366.4089pt x 283.7802pt>
+Package pdftex.def Info: ../figures/T5-pv20-batt30-genCost/dopf/convergenceCurves/BoundaryRealPower_vs_t_vs_macroItr_T_5_Areas_1_3_genCost_pv_20_batt_30_crop.png  used on input line 143.
+(pdftex.def)             Requested size: 109.92351pt x 84.9179pt.
+<../figures/T5-pv20-batt30-genCost/dopf/convergenceCurves/BoundaryRealPower_vs_t_vs_macroItr_T_5_Areas_2_4_genCost_pv_20_batt_30_crop.png, id=211, 366.4089pt x 283.7802pt>
 File: ../figures/T5-pv20-batt30-genCost/dopf/convergenceCurves/BoundaryRealPower_vs_t_vs_macroItr_T_5_Areas_2_4_genCost_pv_20_batt_30_crop.png Graphic file (type png)
 <use ../figures/T5-pv20-batt30-genCost/dopf/convergenceCurves/BoundaryRealPower_vs_t_vs_macroItr_T_5_Areas_2_4_genCost_pv_20_batt_30_crop.png>
-Package pdftex.def Info: ../figures/T5-pv20-batt30-genCost/dopf/convergenceCurves/BoundaryRealPower_vs_t_vs_macroItr_T_5_Areas_2_4_genCost_pv_20_batt_30_crop.png  used on input line 100.
-(pdftex.def)             Requested size: 154.80157pt x 119.89267pt.
-<../figures/T5-pv20-batt30-genCost/dopf/convergenceCurves/BoundaryVoltage_vs_t_vs_macroItr_T_5_Areas_1_2_genCost_pv_20_batt_30_crop.png, id=211, 374.1177pt x 283.2984pt>
+Package pdftex.def Info: ../figures/T5-pv20-batt30-genCost/dopf/convergenceCurves/BoundaryRealPower_vs_t_vs_macroItr_T_5_Areas_2_4_genCost_pv_20_batt_30_crop.png  used on input line 150.
+(pdftex.def)             Requested size: 109.92351pt x 85.1347pt.
+<../figures/T5-pv20-batt30-genCost/dopf/convergenceCurves/BoundaryVoltage_vs_t_vs_macroItr_T_5_Areas_1_2_genCost_pv_20_batt_30_crop.png, id=212, 374.1177pt x 283.2984pt>
 File: ../figures/T5-pv20-batt30-genCost/dopf/convergenceCurves/BoundaryVoltage_vs_t_vs_macroItr_T_5_Areas_1_2_genCost_pv_20_batt_30_crop.png Graphic file (type png)
 <use ../figures/T5-pv20-batt30-genCost/dopf/convergenceCurves/BoundaryVoltage_vs_t_vs_macroItr_T_5_Areas_1_2_genCost_pv_20_batt_30_crop.png>
-Package pdftex.def Info: ../figures/T5-pv20-batt30-genCost/dopf/convergenceCurves/BoundaryVoltage_vs_t_vs_macroItr_T_5_Areas_1_2_genCost_pv_20_batt_30_crop.png  used on input line 108.
-(pdftex.def)             Requested size: 154.80157pt x 117.22081pt.
-<../figures/T5-pv20-batt30-genCost/dopf/convergenceCurves/BoundaryVoltage_vs_t_vs_macroItr_T_5_Areas_1_3_genCost_pv_20_batt_30_crop.png, id=212, 374.1177pt x 283.5393pt>
+Package pdftex.def Info: ../figures/T5-pv20-batt30-genCost/dopf/convergenceCurves/BoundaryVoltage_vs_t_vs_macroItr_T_5_Areas_1_2_genCost_pv_20_batt_30_crop.png  used on input line 158.
+(pdftex.def)             Requested size: 112.23618pt x 84.99017pt.
+<../figures/T5-pv20-batt30-genCost/dopf/convergenceCurves/BoundaryVoltage_vs_t_vs_macroItr_T_5_Areas_1_3_genCost_pv_20_batt_30_crop.png, id=213, 374.1177pt x 283.5393pt>
 File: ../figures/T5-pv20-batt30-genCost/dopf/convergenceCurves/BoundaryVoltage_vs_t_vs_macroItr_T_5_Areas_1_3_genCost_pv_20_batt_30_crop.png Graphic file (type png)
 <use ../figures/T5-pv20-batt30-genCost/dopf/convergenceCurves/BoundaryVoltage_vs_t_vs_macroItr_T_5_Areas_1_3_genCost_pv_20_batt_30_crop.png>
-Package pdftex.def Info: ../figures/T5-pv20-batt30-genCost/dopf/convergenceCurves/BoundaryVoltage_vs_t_vs_macroItr_T_5_Areas_1_3_genCost_pv_20_batt_30_crop.png  used on input line 115.
-(pdftex.def)             Requested size: 154.80157pt x 117.3205pt.
-<../figures/T5-pv20-batt30-genCost/dopf/convergenceCurves/BoundaryVoltage_vs_t_vs_macroItr_T_5_Areas_2_4_genCost_pv_20_batt_30_crop.png, id=213, 374.1177pt x 283.5393pt>
+Package pdftex.def Info: ../figures/T5-pv20-batt30-genCost/dopf/convergenceCurves/BoundaryVoltage_vs_t_vs_macroItr_T_5_Areas_1_3_genCost_pv_20_batt_30_crop.png  used on input line 165.
+(pdftex.def)             Requested size: 112.23618pt x 85.06244pt.
+<../figures/T5-pv20-batt30-genCost/dopf/convergenceCurves/BoundaryVoltage_vs_t_vs_macroItr_T_5_Areas_2_4_genCost_pv_20_batt_30_crop.png, id=214, 374.1177pt x 283.5393pt>
 File: ../figures/T5-pv20-batt30-genCost/dopf/convergenceCurves/BoundaryVoltage_vs_t_vs_macroItr_T_5_Areas_2_4_genCost_pv_20_batt_30_crop.png Graphic file (type png)
 <use ../figures/T5-pv20-batt30-genCost/dopf/convergenceCurves/BoundaryVoltage_vs_t_vs_macroItr_T_5_Areas_2_4_genCost_pv_20_batt_30_crop.png>
-Package pdftex.def Info: ../figures/T5-pv20-batt30-genCost/dopf/convergenceCurves/BoundaryVoltage_vs_t_vs_macroItr_T_5_Areas_2_4_genCost_pv_20_batt_30_crop.png  used on input line 122.
-(pdftex.def)             Requested size: 154.80157pt x 117.3205pt.
+Package pdftex.def Info: ../figures/T5-pv20-batt30-genCost/dopf/convergenceCurves/BoundaryVoltage_vs_t_vs_macroItr_T_5_Areas_2_4_genCost_pv_20_batt_30_crop.png  used on input line 172.
+(pdftex.def)             Requested size: 112.23618pt x 85.06244pt.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<../figures/T5-pv20-batt30-genCost/dopf/outputCurves/ObjectiveConvergenceCurves_Horizon_5.png, id=215, 421.575pt x 316.0608pt>
+<../figures/T5-pv20-batt30-genCost/dopf/outputCurves/ObjectiveConvergenceCurves_Horizon_5.png, id=216, 421.575pt x 316.0608pt>
 File: ../figures/T5-pv20-batt30-genCost/dopf/outputCurves/ObjectiveConvergenceCurves_Horizon_5.png Graphic file (type png)
 <use ../figures/T5-pv20-batt30-genCost/dopf/outputCurves/ObjectiveConvergenceCurves_Horizon_5.png>
-Package pdftex.def Info: ../figures/T5-pv20-batt30-genCost/dopf/outputCurves/ObjectiveConvergenceCurves_Horizon_5.png  used on input line 135.
+Package pdftex.def Info: ../figures/T5-pv20-batt30-genCost/dopf/outputCurves/ObjectiveConvergenceCurves_Horizon_5.png  used on input line 185.
 (pdftex.def)             Requested size: 224.08981pt x 168.0pt.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<../figures/T10-inputCurves/InputCurves_Horizon_10.png, id=217, 422.0568pt x 316.5426pt>
+<../figures/T10-inputCurves/InputCurves_Horizon_10.png, id=218, 422.0568pt x 316.5426pt>
 File: ../figures/T10-inputCurves/InputCurves_Horizon_10.png Graphic file (type png)
 <use ../figures/T10-inputCurves/InputCurves_Horizon_10.png>
-Package pdftex.def Info: ../figures/T10-inputCurves/InputCurves_Horizon_10.png  used on input line 146.
+Package pdftex.def Info: ../figures/T10-inputCurves/InputCurves_Horizon_10.png  used on input line 196.
 (pdftex.def)             Requested size: 224.0046pt x 168.0pt.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
@@ -842,10 +842,10 @@ Here is how much of TeX's memory you used:
  1141 hyphenation exceptions out of 8191
  95i,18n,131p,1626b,732s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb><c:/texlive/2023/texmf-dist/fonts/type1/urw/times/utmb8a.pfb><c:/texlive/2023/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb><c:/texlive/2023/texmf-dist/fonts/type1/urw/times/utmr8a.pfb><c:/texlive/2023/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on main.pdf (6 pages, 1586049 bytes).
+Output written on main.pdf (6 pages, 1586086 bytes).
 PDF statistics:
- 352 PDF objects out of 1000 (max. 8388607)
- 289 compressed objects within 3 object streams
+ 353 PDF objects out of 1000 (max. 8388607)
+ 290 compressed objects within 3 object streams
  74 named destinations out of 1000 (max. 500000)
  168 words of extra memory for PDF output out of 10000 (max. 10000000)
 

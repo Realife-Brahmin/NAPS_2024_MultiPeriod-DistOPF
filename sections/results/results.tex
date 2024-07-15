@@ -78,26 +78,76 @@ To ensure that the complementarity of charging and discharging of batteries are 
 
 The workflow of the MPDOPF algorithm, which involves exchange of boundary variables between parent-child area pairs, can be seen in the convergence plots in \Cref{fig:convergenceCurves-5-20-30}.
 
+% \begin{figure*}[h!] % convergence curves
+%     \centering
+%     % Row 1
+%     \begin{subfigure}[b]{0.3\textwidth}
+%         \centering
+%         \includegraphics[width=\textwidth]{../figures/T5-pv20-batt30-genCost/dopf/convergenceCurves/BoundaryRealPower_vs_t_vs_macroItr_T_5_Areas_1_2_genCost_pv_20_batt_30_crop.png}
+%         \caption{\scriptsize Real Power flowing from Area $1$ into Area $2$}
+%         \label{fig:real_power_1_2}
+%     \end{subfigure}
+%     \hfill
+%     \begin{subfigure}[b]{0.3\textwidth}
+%         \centering
+%         \includegraphics[width=\textwidth]{../figures/T5-pv20-batt30-genCost/dopf/convergenceCurves/BoundaryRealPower_vs_t_vs_macroItr_T_5_Areas_1_3_genCost_pv_20_batt_30_crop.png}
+%         \caption{\scriptsize Real Power flowing from Area $1$ into Area $3$}
+%         \label{fig:real_power_1_3}
+%     \end{subfigure}
+%     \hfill
+%     \begin{subfigure}[b]{0.3\textwidth}
+%         \centering
+%         \includegraphics[width=\textwidth]{../figures/T5-pv20-batt30-genCost/dopf/convergenceCurves/BoundaryRealPower_vs_t_vs_macroItr_T_5_Areas_2_4_genCost_pv_20_batt_30_crop.png}
+%         \caption{\scriptsize Real Power flowing from Area $2$ into Area $4$}
+%         \label{fig:real_power_2_4}
+%     \end{subfigure}
+    
+%     % Row 2
+%     \begin{subfigure}[b]{0.3\textwidth}
+%         \centering
+%         \includegraphics[width=\textwidth]{../figures/T5-pv20-batt30-genCost/dopf/convergenceCurves/BoundaryVoltage_vs_t_vs_macroItr_T_5_Areas_1_2_genCost_pv_20_batt_30_crop.png}
+%         \caption{\scriptsize Voltage at the PoI of Area $1$ and Area $2$}
+%         \label{fig:voltage_1_2}
+%     \end{subfigure}
+%     \hfill
+%     \begin{subfigure}[b]{0.3\textwidth}
+%         \centering
+%         \includegraphics[width=\textwidth]{../figures/T5-pv20-batt30-genCost/dopf/convergenceCurves/BoundaryVoltage_vs_t_vs_macroItr_T_5_Areas_1_3_genCost_pv_20_batt_30_crop.png}
+%         \caption{\scriptsize Voltage at the PoI of Area $1$ and Area $3$}
+%         \label{fig:voltage_1_3}
+%     \end{subfigure}
+%     \hfill
+%     \begin{subfigure}[b]{0.3\textwidth}
+%         \centering
+%         \includegraphics[width=\textwidth]{../figures/T5-pv20-batt30-genCost/dopf/convergenceCurves/BoundaryVoltage_vs_t_vs_macroItr_T_5_Areas_2_4_genCost_pv_20_batt_30_crop.png}
+%         \caption{\scriptsize Voltage at the PoI of Area $2$ and Area $4$}
+%         \label{fig:voltage_2_4}
+%     \end{subfigure}
+
+%     \caption{Convergence of Boundary variables with every iteration. Each plot represents a particular variable exchanged between a pair of connected areas. Each line graph within a plot represents a particular time period.}
+%     \label{fig:convergenceCurves-5-20-30}
+% \end{figure*}
+
 \begin{figure*}[h!] % convergence curves
     \centering
     % Row 1
     \begin{subfigure}[b]{0.3\textwidth}
         \centering
-        \includegraphics[width=\textwidth]{../figures/T5-pv20-batt30-genCost/dopf/convergenceCurves/BoundaryRealPower_vs_t_vs_macroItr_T_5_Areas_1_2_genCost_pv_20_batt_30_crop.png}
+        \includegraphics[scale=0.3]{../figures/T5-pv20-batt30-genCost/dopf/convergenceCurves/BoundaryRealPower_vs_t_vs_macroItr_T_5_Areas_1_2_genCost_pv_20_batt_30_crop.png}
         \caption{\scriptsize Real Power flowing from Area $1$ into Area $2$}
         \label{fig:real_power_1_2}
     \end{subfigure}
     \hfill
     \begin{subfigure}[b]{0.3\textwidth}
         \centering
-        \includegraphics[width=\textwidth]{../figures/T5-pv20-batt30-genCost/dopf/convergenceCurves/BoundaryRealPower_vs_t_vs_macroItr_T_5_Areas_1_3_genCost_pv_20_batt_30_crop.png}
+        \includegraphics[scale=0.3]{../figures/T5-pv20-batt30-genCost/dopf/convergenceCurves/BoundaryRealPower_vs_t_vs_macroItr_T_5_Areas_1_3_genCost_pv_20_batt_30_crop.png}
         \caption{\scriptsize Real Power flowing from Area $1$ into Area $3$}
         \label{fig:real_power_1_3}
     \end{subfigure}
     \hfill
     \begin{subfigure}[b]{0.3\textwidth}
         \centering
-        \includegraphics[width=\textwidth]{../figures/T5-pv20-batt30-genCost/dopf/convergenceCurves/BoundaryRealPower_vs_t_vs_macroItr_T_5_Areas_2_4_genCost_pv_20_batt_30_crop.png}
+        \includegraphics[scale=0.3]{../figures/T5-pv20-batt30-genCost/dopf/convergenceCurves/BoundaryRealPower_vs_t_vs_macroItr_T_5_Areas_2_4_genCost_pv_20_batt_30_crop.png}
         \caption{\scriptsize Real Power flowing from Area $2$ into Area $4$}
         \label{fig:real_power_2_4}
     \end{subfigure}
@@ -105,21 +155,21 @@ The workflow of the MPDOPF algorithm, which involves exchange of boundary variab
     % Row 2
     \begin{subfigure}[b]{0.3\textwidth}
         \centering
-        \includegraphics[width=\textwidth]{../figures/T5-pv20-batt30-genCost/dopf/convergenceCurves/BoundaryVoltage_vs_t_vs_macroItr_T_5_Areas_1_2_genCost_pv_20_batt_30_crop.png}
+        \includegraphics[scale=0.3]{../figures/T5-pv20-batt30-genCost/dopf/convergenceCurves/BoundaryVoltage_vs_t_vs_macroItr_T_5_Areas_1_2_genCost_pv_20_batt_30_crop.png}
         \caption{\scriptsize Voltage at the PoI of Area $1$ and Area $2$}
         \label{fig:voltage_1_2}
     \end{subfigure}
     \hfill
     \begin{subfigure}[b]{0.3\textwidth}
         \centering
-        \includegraphics[width=\textwidth]{../figures/T5-pv20-batt30-genCost/dopf/convergenceCurves/BoundaryVoltage_vs_t_vs_macroItr_T_5_Areas_1_3_genCost_pv_20_batt_30_crop.png}
+        \includegraphics[scale=0.3]{../figures/T5-pv20-batt30-genCost/dopf/convergenceCurves/BoundaryVoltage_vs_t_vs_macroItr_T_5_Areas_1_3_genCost_pv_20_batt_30_crop.png}
         \caption{\scriptsize Voltage at the PoI of Area $1$ and Area $3$}
         \label{fig:voltage_1_3}
     \end{subfigure}
     \hfill
     \begin{subfigure}[b]{0.3\textwidth}
         \centering
-        \includegraphics[width=\textwidth]{../figures/T5-pv20-batt30-genCost/dopf/convergenceCurves/BoundaryVoltage_vs_t_vs_macroItr_T_5_Areas_2_4_genCost_pv_20_batt_30_crop.png}
+        \includegraphics[scale=0.3]{../figures/T5-pv20-batt30-genCost/dopf/convergenceCurves/BoundaryVoltage_vs_t_vs_macroItr_T_5_Areas_2_4_genCost_pv_20_batt_30_crop.png}
         \caption{\scriptsize Voltage at the PoI of Area $2$ and Area $4$}
         \label{fig:voltage_2_4}
     \end{subfigure}
