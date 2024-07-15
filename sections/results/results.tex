@@ -13,15 +13,15 @@ In the following subsections, the proposed algorithm is compared against the cen
 % Case 1: centralized OPF with battery
 % Case 2: ENApp based distributed OPF with battery
 
-\Cref{table:opt-5-20-30} represents a comparsion between MPCOPF and MPDOPF in their problem scope, results and computational performance.
+\Cref{table:opt-5-20-30} represents a comparison between MPCOPF and MPDOPF in their problem scope, results and computational performance.
 
 \subsubsection{Biggest Subproblem vs Computational Performance}
 This first section of the table, 'Biggest subproblem' provides specifics of the `computational bottleneck' encountered by either algorithm during its course. As described in \Cref{subsec:ENApp}, the bottleneck represents the OPF subproblem which is computationally the most intensive, and thus is a key indicator of the expected time the algorithm will take to complete. As can be seen in the third section 'Computation', there is more than a $10$x speedup in computation time with MPDOPF, despite the fact that $5$ such iterations were performed, totalling to $20$ OPF calls over the $4$ areas of the Test System.      
 
 \subsubsection{Optimality of Objective Function and Control Values}
-The second section of the table 'Simulation results' showcases that MPDOPF provides virtually zero optimality gap (same values for Substation Power Cost, the objective function). Interestingly, the values of the control variable themselves, prominently, there is a significant difference in the suggested optimal reactive power control values for inverters associated with DERs and Batteries (results aggregated over all components over the horizon for conciseness), and the substation. This highlights the fact that for a nonconvex nonlinear optimization problem may not necessarily have a unique global optimal point. 
+The second section of the table 'Simulation results' showcases that MPDOPF provides virtually zero optimality gap (same values for Substation Power Cost, the objective function). Interestingly, the values of the control variable themselves, prominently, there is a significant difference in the suggested optimal reactive power control values for inverters associated with DERs and Batteries (results aggregated over all components over the horizon for conciseness). This highlights the fact that for a nonconvex nonlinear optimization problem may not necessarily have a unique global optimal point. 
 
-\begin{table}[h!]
+\begin{table}[h!] % MPCOPF vs MPDOPF for T = 5
     \centering
     \caption{Comparative analyses between MPCOPF and MPDOPF - $5$ time-period horizon}
     \begin{tabular}{|l|c|c|}
@@ -45,8 +45,7 @@ The second section of the table 'Simulation results' showcases that MPDOPF provi
     \label{table:opt-5-20-30}
 \end{table}
 
-
-Further, here the 
+\Cref{table:feas-5-20-30} showcases the feasiblity of the control values suggested by the MPDOPF algorithm. First section 'Full horizon' describes the respective output variables for the entire horizon from MPDOPF and OpenDSS. Second section 'Max. all-time discrepancy' stores the highest discrepancy between key state/output variables for all components across at any time-period between MPDOPF and OpenDSS. In both sections, the discrepancies are small enough to warrant feasiblity of the obtained solution. 
 
 \begin{table}[h!]
     \centering
@@ -66,6 +65,8 @@ Further, here the
     \label{table:feas-5-20-30}
 \end{table}
 
+To ensure that the complementarity of charging and discharging of batteries are being respected despite not using integer constraints, the charging/discharging profiles for batteries were checked, and indeed that is the case. \Cref{fig:batt-plot-dopf-5-20-30-genCost} is shown as one example.
+
 \begin{figure}[h!]
     \centering
     \includegraphics[width=\linewidth]{../figures/T5-pv20-batt30-genCost/dopf/BatteryPlots/macroItr_5_genCost_Battery_1_alpha_0.001.png}
@@ -74,6 +75,8 @@ Further, here the
 \end{figure}
 
 \textcolor{red}{Boundary Variable Plots are too tall, make them slightly shorter, like 25\% of the page only.}
+
+The workflow of the MPDOPF algorithm, which involves exchange of boundary variables between parent-child area pairs, can be seen in the convergence plots in \Cref{fig:convergenceCurves-5-20-30}.
 
 \begin{figure*}[h!] % convergence curves
     \centering
@@ -122,8 +125,10 @@ Further, here the
     \end{subfigure}
 
     \caption{Convergence of Boundary variables with every iteration. Each plot represents a particular variable exchanged between a pair of connected areas. Each line graph within a plot represents a particular time period.}
-    \label{fig:boundary_variables_all}
+    \label{fig:convergenceCurves-5-20-30}
 \end{figure*}
+
+Similary, the convergence of the objective function to its optimal value with every iteration is shown by \Cref{fig:outputConvergence-5-pv20-batt30-genCost}.
 
 \begin{figure}[h!] % output variable convergence curve
     \centering
