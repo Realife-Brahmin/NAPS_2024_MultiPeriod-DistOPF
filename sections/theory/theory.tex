@@ -39,25 +39,29 @@
 \section{Problem Formulation}
 
 \subsection{Notations}
-In this study, the distribution network is accounted as a tree (connected graph) having $N$ number of buses (indexed with \(i\), \(j\), and \(k\)) and the study is conducted for $T$ time steps (indexed by $t$), each of interval length $\Delta t$. The set of all such buses is $N$, and the sets of all buses with DERs and batteries are $D$ and $B$ respectively, such that $D, B \subseteq N$.
-A directed edge in the tree is represented by $(i, j)$ or $ij$ and the set containing all such edges is $\mathcal{L}$. Unless otherwise noted, $(i, j)$ indicates that bus $i$ is the 'upstream' or 'parent' bus of bus $j$, which itself may be considered as the 'downstream' or 'child' bus in relation. Each such line has resistance and reactance of \(r_{ij}\) ohm and \(x_{ij}\) ohm, respectively. Magnitude of the current flowing through the line at time \(t\) is denoted by \(I_{ij}^t\) $\left(l_{ij}^t=\left(I_{ij}^t\right)^2\right)$. The voltage magnitude of bus \(j\) at time \(t\) is given by \(V_j^t\) $\left(v_j^t=\left(V_j^t\right)^2\right)$. Apparent power demand at a node \(j\) at time \(t\) is \(s^t_{L_j}\) (\(=p^t_{L_j}+\textit{j}q^t_{L_j}\)). The uncontrolled active power generation from the DER present at bus \(j\) at time step \(t\) is denoted by \(p^t_{D_j}\) and controlled reactive power dispatch from the DER inverter is \(q^t_{D_j}\). Static capacitance attached to a node $j$ is denoted by $q_{C_j}$. The apparent power flow through line {\(ij\)} at time step \(t\) is \(S_{ij}^t\) (\(=P_{ij}^t+\textit{j}Q_{ij}^t\)). In particular, the real power flowing from the substation into the network is denoted by $P^t_{Subs}$ and the associated cost involved per kW is $C^t$. The battery state of charge (soc) or energy level is \(B_j^t\). Charging and discharging active power from battery inverter (of apparent power capacity $S^{t}_{R_j}$) are denoted by \(P_{c_j}^t\) and \(P_{d_j}^t\), respectively and their associated efficiencies are $\eta_c$ and $\eta_d$ respectively. The total state of charge capacity of the batteries are denoted by $B_{R_j}$, and the Rated battery powers are denoted by $P_{B_{R_j}}$. $soc_{min}$ and $soc_{max}$ are fractional values for denoting safe soc limits of a battery in relation to it rated soc capacity. The reactive power support of the battery inverter is \(q_{B_j}^t\). Rated apparent powers of DERs and Batteries at node $j$ are denoted by $S_{D_{R_j}}$ and $S_{B_{R_j}}$ respectively.
+In this study, the distribution network is accounted as a tree (connected graph) having $N$ number of buses (indexed with \(i\), \(j\), and \(k\)) and the study is conducted for $T$ time steps (indexed by $t$), each of interval length $\Delta t$. The sets of buses with DERs and batteries are $D$ and $B$ respectively, such that $D, B \subseteq N$.
+A directed edge from bus $i$ to $j$ in the tree is represented by $ij$ and the set for edges is $\mathcal{L}$. Line resistance and reactance are \(r_{ij}\) ohm and \(x_{ij}\) ohm, respectively. Magnitude of the current flowing through the line at time \(t\) is denoted by \(I_{ij}^t\) and  $l_{ij}^t=\left(I_{ij}^t\right)^2$. The voltage magnitude of bus \(j\) at time \(t\) is given by \(V_j^t\) and  $v_j^t=\left(V_j^t\right)^2$. Apparent power demand at a node \(j\) at time \(t\) is \(s^t_{L_j}\) (\(=p^t_{L_j}+\textit{j}q^t_{L_j}\)). The active power generation from the DER present at bus \(j\) at time \(t\) is denoted by \(p^t_{D_j}\) and controlled reactive power dispatch from the DER inverter is \(q^t_{D_j}\). DER inverter capacity is $S_{D_{R_j}}$.
+% Static capacitance attached to a node $j$ is denoted by $q_{C_j}$. 
+The apparent power flow through line {\(ij\)} at time \(t\) is \(S_{ij}^t\) (\(=P_{ij}^t+\textit{j}Q_{ij}^t\)). The real power flowing from the substation into the network is denoted by $P^t_{Subs}$ and the associated cost involved per kWh is $C^t$. The battery energy level is \(B_j^t\). Charging and discharging active power from battery inverter (of apparent power capacity $S^{t}_{R_j}$) are denoted by \(P_{c_j}^t\) and \(P_{d_j}^t\), respectively and their associated efficiencies are $\eta_c$ and $\eta_d$ respectively. The energy capacity of the batteries is denoted by $B_{R_j}$, and the rated battery power is $P_{B_{R_j}}$. $soc_{min}$ and $soc_{max}$ are fractional values for denoting safe soc limits of a battery about its rated soc capacity. The reactive power support of the battery inverter is \(q_{B_j}^t\). 
+% Rated apparent powers of DERs and Batteries at node $j$ are denoted by $S_{D_{R_j}}$ and $S_{B_{R_j}}$ respectively.
 
-\subsection{Centralized Multi-Period OPF with Batteries}
-The OPF problem given in \cref{eq:genCost_withSCD} aims to minimize the cost of power borrowed from the substation for the entire horizon. The incorporation of an additional 'Battery Loss' term ($\alpha > 0$) helps us bypass the usage of binary (integer) constraints for modelling the operation of batteries, which would otherwise make the optimization problem harder to solve. The term still ensures the complementarity of charging and discharging operations for any battery during a particular time period \cite{Nazir2018Jun, Nazir2019Jun, Nazir2021Sep}.
+\subsection{MPCOPF with Batteries}
+The OPF problem aims to minimize two objectives 
+ as shown in \cref{eq:genCost_withSCD}. The first term in \cref{eq:genCost_withSCD} aims to minimize the total energy cost for the entire horizon. The incorporation of 'Battery Loss' cost as the second term ($\alpha > 0$) helps to avoid the usage of binary (integer) variables generally used to refrain from simultaneous charging/discharging. This is done to make the OPF problem a simple non-convex problem but not a MINCP. The term still ensures the complementarity of charging and discharging operations during a particular time \cite{Nazir2021Sep}.
 
 % \begin{equation}
 %     \min {\sum_{t = 1}^{T} \left[ C^t P^t_{Subs} + \alpha \sum_{j \in \mathcal{B}} \left\{ (1-\eta_C)P^t_{C_j} + \left( \frac{1}{\eta_D} - 1 \right) P^t_{D_j}\right\} \right] } \label{eq:genCost_withSCD}
 % \end{equation}
 \begin{equation}
     \begin{split}
-        \min \sum_{t = 1}^{T} \left[ C^t P^t_{Subs} + \alpha \sum_{j \in \mathcal{B}} \left\{ (1-\eta_C)P^t_{C_j} \right. \right. \\
+        \min \sum_{t = 1}^{T} \left[ C^t P^t_{Subs} \Delta t+ \alpha \sum_{j \in \mathcal{B}} \left\{ (1-\eta_C)P^t_{C_j} \right. \right. \\
         \left. \left. + \left( \frac{1}{\eta_D} - 1 \right) P^t_{D_j} \right\} \right]
     \end{split}
     \label{eq:genCost_withSCD}
 \end{equation}
 
 
-Subject to the constraints \crefrange{eq:RealPowerBalanceNodej}{eq:modelEndsHere-and-lim_Bj} given below:
+Subject to the constraints \crefrange{eq:RealPowerBalanceNodej}{eq:modelEndsHere-and-lim_Bj} as given below:
 
 \begin{align}
     % {p_j^t} & = {\sum_{(j, k) \in \mathcal{L}} P_{jk}^t - \left\{P_{ij}^t - r_{ij}l_{ij}^t\right\} - P_{d_j}^t + P_{c_j}^t} && \label{eq:RealPowerBalanceNodej} \\ 
@@ -79,7 +83,8 @@ Subject to the constraints \crefrange{eq:RealPowerBalanceNodej}{eq:modelEndsHere
     % \begin{align}
     {0} &= {\sum_{(j, k) \in \mathcal{L}} \left\{Q_{jk}^t\right\} 
         - \left(Q_{ij}^t - x_{ij}l_{ij}^t\right)} \nonumber && \\[-0.50em]
-    {} &\qquad \qquad { - q_{D_j}^t - q_{B_j}^t - q_{C_j} + q^t_{L_j} } 
+    {} & \qquad \qquad { - q_{D_j}^t - q_{B_j}^t + q^t_{L_j} }
+    % - q_{C_j}  
     % \label{eq:ReactivePowerBalanceNodej} && \\[0.75em]
     \label{eq:ReactivePowerBalanceNodej} &&
 \end{align}
@@ -91,10 +96,15 @@ Subject to the constraints \crefrange{eq:RealPowerBalanceNodej}{eq:modelEndsHere
 
 \vspace{-1.5em} % Adjust the space as needed
 
-\begin{align}
-    {0} &= {v_{i}^t - v_j^t - 2(r_{ij}P_{ij}^t + x_{ij}Q_{ij}^t)} \nonumber && \\[-0.00em]
-    {} &\qquad \qquad {+ \left\{r_{ij}^2 + x_{ij}^2\right\}l_{ij}^t} \label{eq:KVL-branch-ij} &&
-\end{align}
+\begin{equation}\label{eq:KVL-branch-ij}
+    {0} &= {v_{i}^t - v_j^t - 2(r_{ij}P_{ij}^t + x_{ij}Q_{ij}^t)} {\left\{r_{ij}^2 + x_{ij}^2\right\}l_{ij}^t} \label{eq:KVL-branch-ij} &&
+\end{equation}
+
+
+% \begin{align}
+%     {0} &= {v_{i}^t - v_j^t - 2(r_{ij}P_{ij}^t + x_{ij}Q_{ij}^t)} \nonumber && \\[-0.00em]
+%     {} &\qquad \qquad {+ \left\{r_{ij}^2 + x_{ij}^2\right\}l_{ij}^t} \label{eq:KVL-branch-ij} &&
+% \end{align}
 
 \vspace{-1.5em} % Adjust the space as needed
 
