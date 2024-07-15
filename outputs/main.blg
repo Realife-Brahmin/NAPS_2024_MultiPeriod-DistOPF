@@ -21,45 +21,45 @@ Warning--entry type for "Qian2014Jul" isn't style-file defined
 -- See the "IEEEtran_bst_HOWTO.pdf" manual for usage information.
 
 Done.
-You've used 24 entries,
+You've used 25 entries,
             4087 wiz_defined-function locations,
-            976 strings with 12271 characters,
-and the built_in function-call counts, 21451 in all, are:
-= -- 1788
-> -- 490
-< -- 233
-+ -- 292
-- -- 73
-* -- 1055
-:= -- 3097
-add.period$ -- 48
-call.type$ -- 24
-change.case$ -- 24
-chr.to.int$ -- 522
-cite$ -- 24
-duplicate$ -- 1487
-empty$ -- 1545
-format.name$ -- 97
-if$ -- 5039
+            982 strings with 12471 characters,
+and the built_in function-call counts, 22513 in all, are:
+= -- 1877
+> -- 510
+< -- 246
++ -- 310
+- -- 81
+* -- 1109
+:= -- 3241
+add.period$ -- 50
+call.type$ -- 25
+change.case$ -- 25
+chr.to.int$ -- 555
+cite$ -- 25
+duplicate$ -- 1555
+empty$ -- 1619
+format.name$ -- 100
+if$ -- 5286
 int.to.chr$ -- 0
-int.to.str$ -- 24
-missing$ -- 238
-newline$ -- 95
-num.names$ -- 24
-pop$ -- 468
+int.to.str$ -- 25
+missing$ -- 246
+newline$ -- 98
+num.names$ -- 25
+pop$ -- 484
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 2
-skip$ -- 1653
+skip$ -- 1731
 stack$ -- 0
-substring$ -- 1240
-swap$ -- 1387
-text.length$ -- 59
+substring$ -- 1334
+swap$ -- 1454
+text.length$ -- 61
 text.prefix$ -- 0
 top$ -- 5
-type$ -- 24
+type$ -- 25
 warning$ -- 0
-while$ -- 98
-width$ -- 26
-write$ -- 269
+while$ -- 102
+width$ -- 27
+write$ -- 279
 (There were 4 warnings)

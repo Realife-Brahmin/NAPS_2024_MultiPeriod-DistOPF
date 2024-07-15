@@ -71,6 +71,9 @@ F.~H. Aghdam, M.~W. Mudiyanselage, B.~Mohammadi-Ivatloo, and M.~Marzband, ``Opti
 \bibitem{Fan}
 F.~Fan, I.~Kockar, H.~Xu, and J.~Li, ``Scheduling framework using dynamic optimal power flow for battery energy storage systems,'' \emph{CSEE J. Power and Energy Syst.}, vol.~8, no.~1, pp. 271--280, 2022.
 
+\bibitem{Zhang1}
+J.~Zhang and Y.~He, ``Fast solving method for two-stage multi-period robust optimization of active and reactive power coordination in active distribution networks,'' \emph{IEEE Access}, vol.~11, pp. 30\,208--30\,222, 2023.
+
 \bibitem{Wu}
 C.~Wu, W.~Gu, S.~Zhou, and X.~Chen, ``Coordinated optimal power flow for integrated active distribution network and virtual power plants using decentralized algorithm,'' \emph{IEEE Trans. Power Syst.}, vol.~36, no.~4, pp. 3541--3551, Jul. 2021.
 
