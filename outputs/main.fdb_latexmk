@@ -1,13 +1,13 @@
 # Fdb version 4
-["bibtex main"] 1721030536.23636 "main.aux" "main.bbl" "main" 1721030549.01885 0
+["bibtex main"] 1721032040.29454 "main.aux" "main.bbl" "main" 1721032045.62915 0
   "./bibFIle.bib" 1721029875 11523 aea9661f9309f29001fd9e71704eec47 ""
   "c:/texlive/2023/texmf-dist/bibtex/bst/ieeetran/IEEEtran.bst" 1706171823 57748 7c8250ecf02814ce6ddc0cdbb63df1dd ""
-  "main.aux" 1721030544 12945 228580462dc4530560ff047a2c48a114 "pdflatex"
+  "main.aux" 1721032043 12945 ae039fcc758ff539bee4244a9d71c16f "pdflatex"
   (generated)
   "main.bbl"
   "main.blg"
   (rewritten before read)
-["pdflatex"] 1721030537.39141 "c:/Users/aryan/Documents/documents_general/UnknownPaper_MultiPeriod-DistOPF/outputs/main.tex" "main.pdf" "main" 1721030549.02142 0
+["pdflatex"] 1721032041.18367 "c:/Users/aryan/Documents/documents_general/UnknownPaper_MultiPeriod-DistOPF/outputs/main.tex" "main.pdf" "main" 1721032045.62985 0
   "../figures/T10-inputCurves/InputCurves_Horizon_10.png" 1720936996 60122 69585073d9ba51c2f0ba0f00ef49914a ""
   "../figures/T10-pv20-batt30-genCost/dopf/BatteryPlots/macroItr_5_genCost_Battery_1_alpha_0.001.png" 1720520348 41217 41c4f05c9921bc4a12b97a35b6b914d4 ""
   "../figures/T5-inputCurves/InputCurves_Horizon_5.png" 1720936057 60352 9ec9586e9c5515f77e92d6171a029a7d ""
@@ -24,9 +24,9 @@
   "../sections/intro/intro.tex" 1721029875 7930 2504b998f7abe944a1fec7ea02d13959 ""
   "../sections/results/results.tex" 1721025094 12126 41e8e3ebfc4f47f1efb7e37449d6f0a2 ""
   "../sections/simulation/simulation.tex" 1721030485 3641 a174ea9722d5d9db39019a0d06cab8d4 ""
-  "../sections/theory/theory.tex" 1721029537 8900 5dd723033115c009bd6c1e5f39a4674d ""
+  "../sections/theory/theory.tex" 1721031998 9321 acfe9d5e639bae8fa8937495577d1777 ""
   "IEEEtran.cls" 1720196288 288304 5b2e4fa15b0f7eabb840ebf67df4c0f7 ""
-  "c:/Users/aryan/Documents/documents_general/UnknownPaper_MultiPeriod-DistOPF/outputs/main.tex" 1721030526 5354 1c0d390d65adc10541fc5d1fc1f3697c ""
+  "c:/Users/aryan/Documents/documents_general/UnknownPaper_MultiPeriod-DistOPF/outputs/main.tex" 1721032032 5613 2ed1804183009fc12eb107ea816685ff ""
   "c:/texlive/2023/texmf-dist/fonts/enc/dvips/base/8r.enc" 1706170314 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "c:/texlive/2023/texmf-dist/fonts/map/fontname/texfonts.map" 1706171058 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "c:/texlive/2023/texmf-dist/fonts/tfm/adobe/courier/pcrr7t.tfm" 1706169764 960 379cc0019370a9e0208a0a3f949f847a ""
@@ -180,11 +180,11 @@
   "c:/texlive/2023/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1706177224 5035139 e8cdab388a5f122f6094769190400852 ""
   "c:/texlive/2023/texmf-var/web2c/pdftex/pdflatex.fmt" 1706177337 8211032 0375d62fdda5ac93a6b0452c591efeb3 ""
   "c:/texlive/2023/texmf.cnf" 1706177202 713 e69b156964470283e0530f5060668171 ""
-  "main.aux" 1721030544 12945 228580462dc4530560ff047a2c48a114 "pdflatex"
-  "main.bbl" 1721030537 5962 75df68c5fb162ad1ffbd1ec61f194582 "bibtex main"
-  "main.out" 1721030544 2610 1709aa12262c591c2820ea2fd8e1ff0a "pdflatex"
-  "main.sta" 1721030544 510 483e70781e4bbb980f1e4406fab19da8 "pdflatex"
-  "main.tex" 1721030526 5354 1c0d390d65adc10541fc5d1fc1f3697c ""
+  "main.aux" 1721032043 12945 ae039fcc758ff539bee4244a9d71c16f "pdflatex"
+  "main.bbl" 1721032041 5962 75df68c5fb162ad1ffbd1ec61f194582 "bibtex main"
+  "main.out" 1721032043 2610 1709aa12262c591c2820ea2fd8e1ff0a "pdflatex"
+  "main.sta" 1721032043 510 483e70781e4bbb980f1e4406fab19da8 "pdflatex"
+  "main.tex" 1721032032 5613 2ed1804183009fc12eb107ea816685ff ""
   (generated)
   "main.aux"
   "main.log"
