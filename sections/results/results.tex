@@ -16,7 +16,10 @@ In the following subsections, the proposed algorithm is compared against the cen
 \Cref{table:opt-5-20-30} represents a comparsion between MPCOPF and MPDOPF in their problem scope, results and computational performance.
 
 \subsubsection{Biggest Subproblem vs Computational Performance}
-This first section of the table, 'Biggest subproblem' provides specifics of the `computational bottleneck' encountered by either algorithm during its course. As described in \Cref{subsec:ENApp}, the bottleneck represents the OPF subproblem which is computationally the most intensive, and thus is a key indicator of the expected time the algorithm will take to complete.      
+This first section of the table, 'Biggest subproblem' provides specifics of the `computational bottleneck' encountered by either algorithm during its course. As described in \Cref{subsec:ENApp}, the bottleneck represents the OPF subproblem which is computationally the most intensive, and thus is a key indicator of the expected time the algorithm will take to complete. As can be seen in the third section 'Computation', there is more than a $10$x speedup in computation time with MPDOPF, despite the fact that $5$ such iterations were performed, totalling to $20$ OPF calls over the $4$ areas of the Test System.      
+
+\subsubsection{Optimality of Objective Function and Control Values}
+The second section of the table 'Simulation results' showcases that MPDOPF provides virtually zero optimality gap (same values for Substation Power Cost, the objective function). Interestingly, the values of the control variable themselves, prominently, there is a significant difference in the suggested optimal reactive power control values for inverters associated with DERs and Batteries (results aggregated over all components over the horizon for conciseness), and the substation. This highlights the fact that for a nonconvex nonlinear optimization problem may not necessarily have a unique global optimal point. 
 
 \begin{table}[h!]
     \centering
