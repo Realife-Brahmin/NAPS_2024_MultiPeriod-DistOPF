@@ -6,6 +6,8 @@
 \begin{document}
 
 \section{Conclusions}
-Aiming toward developing an MPDOPF framework for large distribution grids, this article proposes an ENApp-based spatially distributed multi-period OPF algorithm. The optimization portfolio is developed as a non-convex problem and tested on the IEEE 123 bus test system with four networked areas. The simulation results show that the proposed MPDOPF converges to almost the same global optimum as MPCOPF. However, the solution time for MPCOPF is very high and that also increases exponentially with the increase of study time horizon. 
+Aiming toward developing an MPDOPF framework for large distribution grids, this article proposes an ENApp-based spatially distributed multi-period OPF algorithm. The optimization portfolio is developed as a non-convex problem and tested on the IEEE 123 bus test system with four networked areas. The simulation results show that the proposed MPDOPF converges to almost the same global optimum as MPCOPF and produces ACOPF-feasible solutions. However, the solution time for MPCOPF is very high and that also increases exponentially with the increase in the number of total time steps. The solution time for MPDOPF is less than a minute for 5-hour horizon and around 6 min for 10 hours. However, The solution time is more than an hour for 10-hour MPCOPF. Therefore, it is worthy to conclude that spatial decomposition of the multi-period OPF problem reduces the solution time drastically.  
+
+It is noted that even for the MPDOPF the solution time increases with an increasing number of time steps. Hence, in the future authors would like to explore the merger of spatial and temporal decomposition aspects for the MPOPF problem, where the time-coupled operation will be approximated to make a simple single-period OPF problem solved at each time step. 
 
 \end{document}

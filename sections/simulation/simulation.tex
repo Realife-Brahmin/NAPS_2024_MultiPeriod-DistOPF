@@ -11,7 +11,9 @@
 % The energy price data is taken from the ComEd hourly live prices data \cite{comedLivePrices} for 10 November 2023. 
 
 \subsection{Simulation Data: IEEE 123 Bus Test System}
-The case studies are conducted on the balanced three-phase version of the IEEE 123 bus test system, which has $85$ Load Nodes. Additionally, $20 \% \, (17)$ and $30 \% \, (26)$ of these load nodes also contain reactive power controllable Solar photovoltaics (PVs) and batteries respectively. Their ratings are as per \Cref{table:parameter-values}. To demonstrate the effectiveness of the proposed algorithm, the test system has been divided into four areas like \cite{Sadnan}, as shown in \Cref{fig:ieee123-four-area-figure}. It is assumed that a horizon-wide forecast for loads $p^t_L$, solar power output $p^t_D$ and cost of substation power  $C^t$ is available to the distribution grid operator. Initially, the study is carried out for 5-time steps with input data shown in \Cref{fig:inputCurve-5}. The five-time step workflow is described below. 
+The case studies are conducted on the balanced three-phase version of the IEEE 123 bus test system, which has $85$ Load Nodes. Additionally, $20 \% \, (17)$ and $30 \% \, (26)$ of these load nodes also contain reactive power controllable Solar photovoltaics (PVs) and batteries respectively. Their ratings are as per \Cref{table:parameter-values}. To demonstrate the effectiveness of the proposed algorithm, the test system has been divided into four areas like \cite{Sadnan}, as shown in \Cref{fig:ieee123-four-area-figure}. It is assumed that a horizon-wide forecast for loads $p^t_L$, solar power output $p^t_D$ and cost of substation power  $C^t$ is available to the distribution grid operator. Initially, the study is carried out for 5 hours with input data shown in \Cref{fig:inputCurve-5}. The five-hour workflow is described below. 
+
+\def\ds{\rule{0pt}{1.5ex}} % this will lower the subscript by that amount, useful for $p_{D_{R_j}}$ where otherwise p and D appear to be almost at the same level.
 
 \begin{table}[t]
     \centering
