@@ -121,12 +121,12 @@ Subject to the constraints \crefrange{eq:RealPowerBalanceNodej}{eq:modelEndsHere
 
 \vspace{-1.5em} % Adjust the space as needed
 
-\begin{align}
-    { l^{t}_{ij} } &\in { \left[ 0, I^{2}_{R, ij}
-    \right] } \label{eq:lim_lij} &&
-\end{align}
+% \begin{align}
+%     { l^{t}_{ij} } &\in { \left[ 0, I^{2}_{R, ij}
+%     \right] } \label{eq:lim_lij} &&
+% \end{align}
 
-\vspace{-1.5em} % Adjust the space as needed
+% \vspace{-1.5em} % Adjust the space as needed
 
 \begin{align}
     { v^{t}_{j} } &\in { \left[ V^{2}_{min}, V^{2}_{max} \right]} \label{eq:lim_vj} &&
@@ -151,7 +151,7 @@ Subject to the constraints \crefrange{eq:RealPowerBalanceNodej}{eq:modelEndsHere
 \begin{align}
     { P^{t}_{c_{j}}, P^{t}_{d_{j}} }
     &\in
-    { \left[ 0, P_{B_{R_{j}}} \right]} \label{eq:lim_PcPdj} &&
+    { \left[ 0, P_{B_{R_{j}}} \right]}, \quad B_{j}^{0}=B_{j}^{T} \label{eq:lim_PcPdj} &&
 \end{align}
 
 \vspace{-1.5em} % Adjust the space as needed
@@ -176,25 +176,27 @@ Subject to the constraints \crefrange{eq:RealPowerBalanceNodej}{eq:modelEndsHere
 The distribution network is represented with the help of the branch power flow equations \crefrange{eq:RealPowerBalanceNodej}{eq:ApparentPowerEquationBFM}. Constraints \cref{eq:RealPowerBalanceNodej,eq:ReactivePowerBalanceNodej} signify the active and reactive power balance at node $j$, respectively
 % including contributions from any attached DERs ($p^t_{D_j} , q^t_{D_j}$) and/or batteries ($P^t_{c_j}, P^t_{d_j}, q^t_{B_j}$). 
 % The net active and reactive power injections at any bus \(j\) are represented by \cref{eq:pj,eq:qj} respectively. 
-The KVL equation for branch $(ij)$ is represented by \cref{eq:KVL-branch-ij}, while the equation describing the relationship between current magnitude, voltage magnitude and apparent power magnitude for branch $(ij)$ is \cref{eq:ApparentPowerEquationBFM}. Backflow of real power into the substation from the distribution system is avoided using the constraint \cref{eq:substationRealPowerLimits}.The box limits for squared branch current and squared node voltage are enforced via \cref{eq:lim_vj,eq:lim_lij}. \cref{eq:qDj} describes the reactive power limits of DER inverters. The trajectory of the state of charge of batteries versus time is given by \cref{eq:SOC-j} and is the only class of constraints in this paper coupling the optimal power flow problem in time. Battery charging and discharging powers are non-negative valued variables which should not exceed the battery's rated power capacity, as given by \cref{eq:lim_PcPdj}. Every battery's reactive power is also constrained based on the associated inverter's rated capacity, as described by \cref{eq:qBj}. For safe and sustainable operation of the batteries, the state of charge $B^{t}_{j}$ is constrained to be within some percentage limits of the rated battery soc capacity, as given in \cref{eq:modelEndsHere-and-lim_Bj}
+The KVL equation for branch $(ij)$ is represented by \cref{eq:KVL-branch-ij}, while the equation describing the relationship between current magnitude, voltage magnitude and apparent power magnitude for branch $(ij)$ is \cref{eq:ApparentPowerEquationBFM}. Backflow of real power into the substation from the distribution system is avoided using the constraint \cref{eq:substationRealPowerLimits}. The box limits for squared node voltage are enforced via \cref{eq:lim_vj}. \cref{eq:qDj} describes the reactive power limits of DER inverters. The trajectory of the battery energy versus time is given by \cref{eq:SOC-j} and is the only time-coupled constraint in this paper. Battery charging and discharging powers are limited by the battery's rated power capacity, as given by \cref{eq:lim_PcPdj}. \cref{eq:lim_PcPdj} also says that the initial and final energy levels must be the same. Every battery's reactive power is also constrained based on the associated inverter's rated capacity, as described by \cref{eq:qBj}. For the safe and sustainable operation of the batteries, the energy $B^{t}_{j}$ is constrained to be within some percentage limits of the rated battery soc capacity, as given in \cref{eq:modelEndsHere-and-lim_Bj}
 
 % Node $i$ denotes the `parent' node of node $j$, which itself may be the parent of a set of $k$ `children' nodes (the set may contain one, many or even zero nodes, if $j$ is a leaf node). It may be noted that for a radial distribution system, each node $j$ can have only one `parent' node $i$.
 
 
-\subsection{ENApp based Distributed Multi-Period OPF with Batteries} \label{subsec:ENApp}
+\subsection{ENApp based MPDOPF with Batteries} \label{subsec:ENApp}
+Assuming the 
 
-Solving a nonlinear nonconvex OPF problem is computationally intensive. In the ENApp paradigm, the original OPF problem is divided into several subproblems, based on physically connected `parent-child' area relationships in the radial distribution network. ENApp primiarly requires three classes of operations. The first is of course solving for the OPF of each individual subproblem, the second is checking for `boundary convergence' between related areas to check if further improvement iterations are needed and the third and last operation is exchange of variables between related areas for subsequent iterations. Out of these three operations, only solving the OPF is computationally intensive. 
 
-The key advantage of using ENApp in preference to MPCOPF is its efficient division of the OPF problem into several smaller problems via efficient exploitation of power flow physics in a radial network \cite{Sadnan}. Typically, Nonlinear Programming problems grow superlinearly in complexity with increase in problem size, and thus division of the OPF problem into smaller, more manageable chunks greatly speeds up the solution process.
+% Solving a nonlinear nonconvex OPF problem is computationally intensive. In the ENApp paradigm, the original OPF problem is divided into several subproblems, based on physically connected `parent-child' area relationships in the radial distribution network. ENApp primiarly requires three classes of operations. The first is of course solving for the OPF of each individual subproblem, the second is checking for `boundary convergence' between related areas to check if further improvement iterations are needed and the third and last operation is exchange of variables between related areas for subsequent iterations. Out of these three operations, only solving the OPF is computationally intensive. 
 
-The solution process for each subproblem can then be parallelized, saving computation time even further.
+% The key advantage of using ENApp in preference to MPCOPF is its efficient division of the OPF problem into several smaller problems via efficient exploitation of power flow physics in a radial network \cite{Sadnan}. Typically, Nonlinear Programming problems grow superlinearly in complexity with increase in problem size, and thus division of the OPF problem into smaller, more manageable chunks greatly speeds up the solution process.
 
-Additionally, on paper it might appear that ENApp requires solving of the subproblems across multiple iterations, potentially nullifying the benefit from reduction in problem size. However in practice, once the first OPF iteration is completed for each area, the results can be used to `warm-start' subsequent iterations with significant speedups in solution times.
+% The solution process for each subproblem can then be parallelized, saving computation time even further.
 
-Thus, in essence, the `computational bottleneck' for ENApp is computing the OPF solution of its biggest subproblem, which typically translates to the single biggest area as part of the spatial decomposition of the radial distribution grid (assuming the number of DERs and Batteries is not significantly higher in another area).
+% Additionally, on paper it might appear that ENApp requires solving of the subproblems across multiple iterations, potentially nullifying the benefit from reduction in problem size. However in practice, once the first OPF iteration is completed for each area, the results can be used to `warm-start' subsequent iterations with significant speedups in solution times.
 
-The advantage of this smaller computational bottleneck will be readily seen in \Cref{subsec:simulationResults,subsec:scalabilityAnalysis} when compared against MPCOPF on the Test System. 
+% Thus, in essence, the `computational bottleneck' for ENApp is computing the OPF solution of its biggest subproblem, which typically translates to the single biggest area as part of the spatial decomposition of the radial distribution grid (assuming the number of DERs and Batteries is not significantly higher in another area).
 
-For the rest of this paper, we'll be addressing ENAPpp based Distributed Multi-Period OPF simply as MPDOPF for brevity.
+% The advantage of this smaller computational bottleneck will be readily seen in \Cref{subsec:simulationResults,subsec:scalabilityAnalysis} when compared against MPCOPF on the Test System. 
+
+% For the rest of this paper, we'll be addressing ENAPpp based Distributed Multi-Period OPF simply as MPDOPF for brevity.
 
 \end{document}
