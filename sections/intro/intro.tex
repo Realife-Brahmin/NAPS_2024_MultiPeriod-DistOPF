@@ -37,7 +37,7 @@ To overcome the scalability issues related to the COPF methods, distributed OPF 
 
 % Fazio et al. \cite{Fazio} used the Auxiliary Problem Principle (APP) based DOPF to minimize the voltage deviation by segregating the entire distribution network into multiple voltage control zones. The non-convex problem is relaxed and solved as quadratic convex programming. Alternating direction method of multipliers (ADMM) based DOPF is proposed in \cite{Zheng} for determining the reactive power dispatch schedules for capacitor banks and static VAR compensators. The original non-convex problem is solved by adopting SOCP relaxation. Another ADMM based semidefinite programming (SDP) relaxed DOPF portfolio is designed in  \cite{Wang} for an AC network having only wind generators. Biswas et al. \cite{Biswas} also used SDP relaxation to develop DOPF algorithms using vanilla and accelerated ADMM methods. 
 
-The above references \cite{Wei}-\cite{Paul2} mainly focused on developing single-time step OPF problems by neglecting the grid-edge devices having time-coupled operation, like batteries. The inclusion of battery models transforms a single-time step OPF into a multi-period OPF (MPOPF). Reference \cite{Gabash} propound a nonlinear multi-period centralized OPF (MPCOPF) framework to solve the active-reactive power dispatch from the batteries and DERs in a distribution network. Wu et al. \cite{Wu} framed an MPCOPF problem for a virtual power plant (VPP) collocated distribution network. The original centralized multi-parametric quadratic problem is decomposed into one master and multiple sub-problems for distribution network and VPPs, respectively by utilizing the concept of Benders Decomposition (BD). However, BD suffers from slow convergence. Alizadeh and Capitanescu \cite{Alizadeh} proposed a stochastic security-constrained MPCOPF which is solved by sequentially solving a specific number of linear approximations of the original problem. Usman and Capitanescu \cite{Usman} developed three different MPCOPF frameworks to solve stochastic AC OPF problems. All three approaches start by solving a linear program to fix the binary variables followed by either a linear or non-linear program to determine the continuous variables.
+The above references \cite{Wei}-\cite{Paul2} mainly focused on developing single-time step OPF problems by neglecting the grid-edge devices having time-coupled operation, like batteries. The inclusion of battery models transforms a single-time step OPF into a multi-period OPF (MPOPF). Reference \cite{Gabash} propound a nonlinear multi-period centralized OPF (MPCOPF) framework to solve the active-reactive power dispatch from the batteries and DERs in a distribution network. Alizadeh and Capitanescu \cite{Alizadeh} proposed a stochastic security-constrained MPCOPF which is solved by sequentially solving a specific number of linear approximations of the original problem. Usman and Capitanescu \cite{Usman} developed three different MPCOPF frameworks to solve stochastic AC OPF problems. All three approaches start by solving a linear program to fix the binary variables followed by either a linear or non-linear program to determine the continuous variables. Wu et al. \cite{Wu} framed an MPOPF problem for a virtual power plant (VPP) collocated distribution network. The original centralized multi-parametric quadratic problem is decomposed into one master and multiple sub-problems for distribution network and VPPs, respectively by utilizing the concept of Benders Decomposition (BD). The sub-problems are solved in parallel and 
 
 It is evident from the above 
 
@@ -56,21 +56,26 @@ It is evident from the above
     \spheading{Distributed OPF} &
     \spheading{Framework} \\
     \hline
-    \cite{Yuan}     &      &            & \checkmark     &      & \checkmark     &    & Linear \\ \hline
-
-    \cite{Wei}     &      &      &  \checkmark    &      &  \checkmark &   & Convex\\ \hline 
+    
+    \cite{Wei, Chowdhury}     &      &      &  \checkmark    &      &  \checkmark &   & Convex\\ \hline 
 
     \cite{Guo}     &  \checkmark    &            & \checkmark     &      & \checkmark  &    & Linear \\ \hline
-    
-    \cite{}-\cite{}     & \checkmark     &           &      & \checkmark     &      &     & \checkmark \\ \hline
-    
-    \cite{}, \cite{}     &      & \checkmark          &      & \checkmark     &      &   & \checkmark\\ \hline
 
-    \cite{Fazio}     & \checkmark     &           & \checkmark      &      &       &  \checkmark   & Convex (APP)\\ \hline
+    \cite{Yuan}     &      &            & \checkmark     &      & \checkmark     &    & Linear \\ \hline
+    
+    \cite{Fazio}     & \checkmark     &           & \checkmark      &      &       &  \checkmark   & Convex (APP)\\ \hline  
     
     \cite{Zheng}- \cite{Biswas}     & \checkmark     &           & \checkmark      &      &       &  \checkmark   & Convex (ADMM)\\ \hline
 
+    \cite{Paul2}     & \checkmark     &           &  \checkmark    &      &      & \checkmark  & Linear (Accelerated ADMM)\\ \hline
+
+    \cite{Sadnan}     & \checkmark     &           &  \checkmark    &      &      & \checkmark  & Non-convex (ENApp)\\ \hline
+
     \cite{Gabash}     & \checkmark     &  \checkmark         &       & \checkmark     & \checkmark      &    & Non-convex\\ \hline
+
+    \cite{Alizadeh, Usman}     & \checkmark     &  \checkmark         &       & \checkmark     & \checkmark      &    & Non-convex\\ \hline
+
+    \cite{Wu}     & \checkmark     &  \checkmark         &       & \checkmark     & \checkmark      &    & Non-convex\\ \hline
     
     This paper &  \checkmark    & \checkmark  &      &   \checkmark   &    & \checkmark    &  Non-convex (ENApp) \\
     \hline
@@ -81,6 +86,10 @@ It is evident from the above
 
 % \subsection{Research Gaps and Contributions}
 A taxonomy table to compare the existing studies and the present work is provided in \ref{table1}.
+
+
+However, BD suffers from slow convergence and needs a central contro.
+
 
 The specific contributions are as follows:
 \begin{enumerate}
