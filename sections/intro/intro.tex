@@ -37,11 +37,11 @@ To overcome the scalability issues related to the COPF methods, distributed OPF 
 
 % Fazio et al. \cite{Fazio} used the Auxiliary Problem Principle (APP) based DOPF to minimize the voltage deviation by segregating the entire distribution network into multiple voltage control zones. The non-convex problem is relaxed and solved as quadratic convex programming. Alternating direction method of multipliers (ADMM) based DOPF is proposed in \cite{Zheng} for determining the reactive power dispatch schedules for capacitor banks and static VAR compensators. The original non-convex problem is solved by adopting SOCP relaxation. Another ADMM based semidefinite programming (SDP) relaxed DOPF portfolio is designed in  \cite{Wang} for an AC network having only wind generators. Biswas et al. \cite{Biswas} also used SDP relaxation to develop DOPF algorithms using vanilla and accelerated ADMM methods. 
 
-The above references \cite{Wei}-\cite{Paul2} mainly focused on developing single-time step OPF problems by neglecting the grid-edge devices having time-coupled operation, like batteries. The inclusion of battery models transforms a single-time step OPF into a multi-period OPF (MPOPF). Reference \cite{Gabash} propound a nonlinear multi-period centralized OPF (MPCOPF) framework to solve the active-reactive power dispatch from the batteries and DERs in a distribution network. Alizadeh and Capitanescu \cite{Alizadeh} proposed a stochastic security-constrained MPCOPF which is solved by sequentially solving a specific number of linear approximations of the original problem. Usman and Capitanescu \cite{Usman} developed three different MPCOPF frameworks to solve stochastic AC OPF problems. All three approaches start by solving a linear program to fix the binary variables followed by either a linear or non-linear program to determine the continuous variables. Optimal battery schedules are determined in \cite{Aghdam, Fan} considering uncertain renewable power generation by solving an MPCOPF.  A bi-level robust MPCOPF is suggested in \cite{Zhang1} for determining active and reactive power dispatches from the grid edge devices. Wu et al. \cite{Wu} framed a Benders Decomposition (BD) based distributed OPF for a virtual power plant (VPP) collocated distribution network after decomposing the original centralized multi-parametric quadratic problem into one master and multiple sub-problems. The sub-problems are solved in parallel and then the master problem is solved with the reported solutions of all the sub-problems. 
+The above references \cite{Wei}-\cite{Paul2} mainly focused on developing single-time step OPF problems by neglecting the grid-edge devices having time-coupled operation, like batteries. The inclusion of battery models transforms a single-time step OPF into a multi-period OPF (MPOPF). Reference \cite{Gabash} propound a nonlinear multi-period centralized OPF (MPCOPF) framework to solve the active-reactive power dispatch from the batteries and DERs in a distribution network. Alizadeh and Capitanescu \cite{Alizadeh} proposed a stochastic security-constrained MPCOPF which is solved by sequentially solving a specific number of linear approximations of the original problem. Usman and Capitanescu \cite{Usman} developed three different MPCOPF frameworks to solve stochastic AC OPF problems. All three approaches start by solving a linear program to fix the binary variables followed by either a linear or non-linear program to determine the continuous variables. Optimal battery schedules are determined in \cite{Aghdam} considering uncertain renewable power generation by solving an MPCOPF.  A bi-level robust MPCOPF is suggested in \cite{Zhang1} for determining active and reactive power dispatches from the grid edge devices. Wu et al. \cite{Wu} framed a Benders Decomposition (BD) based distributed OPF for a virtual power plant (VPP) collocated distribution network after decomposing the original centralized multi-parametric quadratic problem into one master and multiple sub-problems. The sub-problems are solved in parallel and then the master problem is solved with the reported solutions of all the sub-problems. 
 
 It is evident from the above discussion that for the past few years several pieces of research have been conducted for developing MPOPF portfolios. However, the following research gaps persist.
 \begin{enumerate}
-    \item The MPOPF frameworks are mainly solved centrally \cite{Gabash}-\cite{Usman}. The centralized methods suffer from scalability and computation challenges for bulk distribution grids and require longer solution time (in the range of a few thousand seconds).
+    \item The MPOPF frameworks are mainly solved centrally \cite{Gabash}-\cite{Zhang1}. The centralized methods suffer from scalability and computation challenges for bulk distribution grids and require longer solution time (in the range of a few thousand seconds).
     \item Reference \cite{Wu} proposed a distributed algorithm framework using BD. However, BD suffers from slow convergence and needs a central controller to solve the master problem. 
 \end{enumerate}
 
@@ -77,7 +77,7 @@ It is evident from the above discussion that for the past few years several piec
 
     \cite{Gabash}     & \checkmark     &  \checkmark         &       & \checkmark     & \checkmark      &    & Non-convex\\ \hline
 
-    \cite{Alizadeh, Usman}     & \checkmark     &  \checkmark         &       & \checkmark     & \checkmark      &    & Linear/convex\\ \hline
+    \cite{Alizadeh, Usman, Aghdam, Zhang1}     & \checkmark     &  \checkmark         &       & \checkmark     & \checkmark      &    & Linear/convex\\ \hline
 
     \cite{Wu}     & \checkmark     &  \checkmark         &       & \checkmark     &       &  \checkmark  & Quadratic (BD)\\ \hline
     
@@ -90,17 +90,9 @@ It is evident from the above discussion that for the past few years several piec
 
 
 % \subsection{Research Gaps and Contributions}
-This article aims to address the above research gaps by developing a spatially distributed MPOPF framework. The bulk distribution grid is divided into multiple networked areas, each solving its own local MPOPF problem and periodically communicating the values of boundary variables with neighboring areas. The interaction between the areas is modeled by following the principles of the ENApp distributed OPF algorithm. ENApp outperforms the other distributed algorithms  
-
-A taxonomy table to compare the existing studies and the present work is provided in \ref{table1}.
-
-
-
-
-
-The specific contributions are as follows:
+This article aims to address the above research gaps by developing a spatially distributed MPOPF framework. The bulk distribution grid is divided into multiple networked areas, each solving its own local MPOPF problem and periodically communicating the values of boundary variables with neighboring areas. The interaction between the areas is modeled by following the principles of the ENApp distributed OPF algorithm. ENApp outperforms the other distributed algorithms in terms of convergence speed and requires very few macro iterations \cite{Sadnan}. A taxonomy table to compare the existing studies and the present work is provided in \ref{table1}. The specific contributions are listed below:
 \begin{enumerate}
-    \item The overall problem is formulated as a non-convex programming and the 
+    \item  
 \end{enumerate}
 
 \end{document}
