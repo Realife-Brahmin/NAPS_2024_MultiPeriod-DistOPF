@@ -337,8 +337,6 @@ INPUT c:/texlive/2023/texmf-dist/tex/latex/psnfss/ot1pcr.fd
 INPUT c:/texlive/2023/texmf-dist/tex/latex/psnfss/ot1pcr.fd
 INPUT c:/texlive/2023/texmf-dist/tex/latex/psnfss/ot1pcr.fd
 INPUT c:/texlive/2023/texmf-dist/fonts/tfm/adobe/courier/pcrr7t.tfm
-INPUT c:/texlive/2023/texmf-dist/fonts/vf/adobe/times/ptmb7t.vf
-INPUT c:/texlive/2023/texmf-dist/fonts/tfm/adobe/times/ptmb8r.tfm
 INPUT ../sections/results/results.tex
 INPUT ../sections/results/results.tex
 INPUT ../sections/results/results.tex
@@ -385,6 +383,11 @@ INPUT ../figures/T5-pv20-batt30-genCost/dopf/outputCurves/ObjectiveConvergenceCu
 INPUT ../figures/T5-pv20-batt30-genCost/dopf/outputCurves/ObjectiveConvergenceCurves_Horizon_5.png
 INPUT ../figures/T5-pv20-batt30-genCost/dopf/outputCurves/ObjectiveConvergenceCurves_Horizon_5.png
 INPUT ../figures/T5-pv20-batt30-genCost/dopf/outputCurves/ObjectiveConvergenceCurves_Horizon_5.png
+INPUT c:/texlive/2023/texmf-dist/fonts/vf/adobe/times/ptmb7t.vf
+INPUT c:/texlive/2023/texmf-dist/fonts/tfm/adobe/times/ptmb8r.tfm
+INPUT c:/texlive/2023/texmf-dist/fonts/vf/adobe/courier/pcrr7t.vf
+INPUT c:/texlive/2023/texmf-dist/fonts/tfm/adobe/courier/pcrr8r.tfm
+INPUT c:/texlive/2023/texmf-dist/fonts/vf/adobe/times/ptmr8c.vf
 INPUT ../figures/T10-inputCurves/InputCurves_Horizon_10.png
 INPUT ../figures/T10-inputCurves/InputCurves_Horizon_10.png
 INPUT ../figures/T10-inputCurves/InputCurves_Horizon_10.png
@@ -403,9 +406,6 @@ INPUT ../sections/conclusion/conclusion.tex
 INPUT ./main.bbl
 INPUT ./main.bbl
 INPUT main.bbl
-INPUT c:/texlive/2023/texmf-dist/fonts/vf/adobe/courier/pcrr7t.vf
-INPUT c:/texlive/2023/texmf-dist/fonts/tfm/adobe/courier/pcrr8r.tfm
-INPUT c:/texlive/2023/texmf-dist/fonts/vf/adobe/times/ptmr8c.vf
 INPUT c:/texlive/2023/texmf-dist/fonts/vf/adobe/times/ptmr7t.vf
 INPUT c:/texlive/2023/texmf-dist/fonts/tfm/adobe/times/ptmr8r.tfm
 INPUT c:/texlive/2023/texmf-dist/fonts/vf/adobe/times/ptmr7t.vf

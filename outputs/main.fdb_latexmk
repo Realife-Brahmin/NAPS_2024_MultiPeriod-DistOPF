@@ -1,13 +1,13 @@
 # Fdb version 4
-["bibtex main"] 1721039487.30491 "main.aux" "main.bbl" "main" 1721039623.17161 0
+["bibtex main"] 1721056604.59362 "main.aux" "main.bbl" "main" 1721056607.68626 0
   "./bibFIle.bib" 1721038845 13010 c1f2af35cf84610dfd4007f0e0ec6c33 ""
   "c:/texlive/2023/texmf-dist/bibtex/bst/ieeetran/IEEEtran.bst" 1706171823 57748 7c8250ecf02814ce6ddc0cdbb63df1dd ""
-  "main.aux" 1721039620 13503 13101233d1f49c07b8ea2e14f327a810 "pdflatex"
+  "main.aux" 1721056606 13737 5c79b893f48d4ec7de5db1f0ba74f91c "pdflatex"
   (generated)
   "main.bbl"
   "main.blg"
   (rewritten before read)
-["pdflatex"] 1721039617.2147 "c:/Users/aryan/Documents/documents_general/UnknownPaper_MultiPeriod-DistOPF/outputs/main.tex" "main.pdf" "main" 1721039623.17249 0
+["pdflatex"] 1721056605.08521 "c:/Users/aryan/Documents/documents_general/UnknownPaper_MultiPeriod-DistOPF/outputs/main.tex" "main.pdf" "main" 1721056607.68677 0
   "../figures/T10-inputCurves/InputCurves_Horizon_10.png" 1720936996 60122 69585073d9ba51c2f0ba0f00ef49914a ""
   "../figures/T10-pv20-batt30-genCost/dopf/BatteryPlots/macroItr_5_genCost_Battery_1_alpha_0.001.png" 1720520348 41217 41c4f05c9921bc4a12b97a35b6b914d4 ""
   "../figures/T5-inputCurves/InputCurves_Horizon_5.png" 1720936057 60352 9ec9586e9c5515f77e92d6171a029a7d ""
@@ -21,12 +21,12 @@
   "../figures/T5-pv20-batt30-genCost/dopf/outputCurves/ObjectiveConvergenceCurves_Horizon_5.png" 1720819871 41641 3eb7e3c80719a8051e8ac8e12ae37b88 ""
   "../figures/ieee123-FourAreas-pv20-batt30.png" 1721003548 548038 4ca7e14ee0fa45e4a10c487a0bed835e ""
   "../sections/conclusion/conclusion.tex" 1720196288 172 62d91c3552fb0ef485a87f62fab8e97e ""
-  "../sections/intro/intro.tex" 1721039471 9703 202391ad75d9da4211f6b1cc924a7626 ""
-  "../sections/results/results.tex" 1721033766 9885 fa3b61808963adba6cb4ebe0405f369d ""
+  "../sections/intro/intro.tex" 1721042999 10609 c6fc2fba1547e26cc207b46868b05d00 ""
+  "../sections/results/results.tex" 1721053485 10273 e60f11ba436ffeb4f2afccc56c9ac106 ""
   "../sections/simulation/simulation.tex" 1721039505 3636 3780e8c22c8678d1a46d72b6b7a3d037 ""
-  "../sections/theory/theory.tex" 1721039603 11483 fc60ea81dce54d5e31b2a3c8cf4c0a8d ""
+  "../sections/theory/theory.tex" 1721056588 13769 3c28896f768acbf4636a5d63bd815834 ""
   "IEEEtran.cls" 1720196288 288304 5b2e4fa15b0f7eabb840ebf67df4c0f7 ""
-  "c:/Users/aryan/Documents/documents_general/UnknownPaper_MultiPeriod-DistOPF/outputs/main.tex" 1721039614 6035 63494cf2419f72b4dae016fd9bc91f31 ""
+  "c:/Users/aryan/Documents/documents_general/UnknownPaper_MultiPeriod-DistOPF/outputs/main.tex" 1721056594 6035 63494cf2419f72b4dae016fd9bc91f31 ""
   "c:/texlive/2023/texmf-dist/fonts/enc/dvips/base/8r.enc" 1706170314 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "c:/texlive/2023/texmf-dist/fonts/map/fontname/texfonts.map" 1706171058 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "c:/texlive/2023/texmf-dist/fonts/tfm/adobe/courier/pcrr7t.tfm" 1706169764 960 379cc0019370a9e0208a0a3f949f847a ""
@@ -180,11 +180,11 @@
   "c:/texlive/2023/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1706177224 5035139 e8cdab388a5f122f6094769190400852 ""
   "c:/texlive/2023/texmf-var/web2c/pdftex/pdflatex.fmt" 1706177337 8211032 0375d62fdda5ac93a6b0452c591efeb3 ""
   "c:/texlive/2023/texmf.cnf" 1706177202 713 e69b156964470283e0530f5060668171 ""
-  "main.aux" 1721039620 13503 13101233d1f49c07b8ea2e14f327a810 "pdflatex"
-  "main.bbl" 1721039488 6705 3c917e622db6b9f395e96359455e97b7 "bibtex main"
-  "main.out" 1721039620 2610 1709aa12262c591c2820ea2fd8e1ff0a "pdflatex"
-  "main.sta" 1721039620 510 483e70781e4bbb980f1e4406fab19da8 "pdflatex"
-  "main.tex" 1721039614 6035 63494cf2419f72b4dae016fd9bc91f31 ""
+  "main.aux" 1721056606 13737 5c79b893f48d4ec7de5db1f0ba74f91c "pdflatex"
+  "main.bbl" 1721056605 6485 326d9e7266da7abe498fc8c0e5e45cf0 "bibtex main"
+  "main.out" 1721056606 2665 c99784b4860044c8211a2751216405cb "pdflatex"
+  "main.sta" 1721056606 510 483e70781e4bbb980f1e4406fab19da8 "pdflatex"
+  "main.tex" 1721056594 6035 63494cf2419f72b4dae016fd9bc91f31 ""
   (generated)
   "main.aux"
   "main.log"

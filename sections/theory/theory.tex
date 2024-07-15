@@ -170,6 +170,20 @@ The KVL equation for branch $(i, j)$ is represented by \cref{eq:KVL-branch-ij}, 
 % Node $i$ denotes the `parent' node of node $j$, which itself may be the parent of a set of $k$ `children' nodes (the set may contain one, many or even zero nodes, if $j$ is a leaf node). It may be noted that for a radial distribution system, each node $j$ can have only one `parent' node $i$.
 
 
-\subsection{ENApp based Distributed Multi-Period OPF with Batteries}
+\subsection{ENApp based Distributed Multi-Period OPF with Batteries} \label{subsec:ENApp}
+
+Solving a nonlinear nonconvex OPF problem is computationally intensive. In the ENApp paradigm, the original OPF problem is divided into several subproblems, based on physically connected `parent-child' area relationships in the radial distribution network. ENApp primiarly requires three classes of operations. The first is of course solving for the OPF of each individual subproblem, the second is checking for `boundary convergence' between related areas to check if further improvement iterations are needed and the third and last operation is exchange of variables between related areas for subsequent iterations. Out of these three operations, only solving the OPF is computationally intensive. 
+
+The key advantage of using ENApp in preference to MPCOPF is its efficient division of the OPF problem into several smaller problems via efficient exploitation of power flow physics in a radial network \cite{Sadnan}. Typically, Nonlinear Programming problems grow superlinearly in complexity with increase in problem size, and thus division of the OPF problem into smaller, more manageable chunks greatly speeds up the solution process.
+
+The solution process for each subproblem can then be parallelized, saving computation time even further.
+
+Additionally, on paper it might appear that ENApp requires solving of the subproblems across multiple iterations, potentially nullifying the benefit from reduction in problem size. However in practice, once the first OPF iteration is completed for each area, the results can be used to `warm-start' subsequent iterations with significant speedups in solution times.
+
+Thus, in essence, the `computational bottleneck' for ENApp is computing the OPF solution of its biggest subproblem, which typically translates to the single biggest area as part of the spatial decomposition of the radial distribution grid (assuming the number of DERs and Batteries is not significantly higher in another area).
+
+The advantage of this smaller computational bottleneck will be readily seen in \Cref{subsec:simulationResults,subsec:scalabilityAnalysis} when compared against MPCOPF on the Test System. 
+
+For the rest of this paper, we'll be addressing ENAPpp based Distributed Multi-Period OPF simply as MPDOPF for brevity.
 
 \end{document}
