@@ -56,7 +56,7 @@ To showcase the workflow of the proposed algorithm, simulations were run for a $
 
 \subsection{Simulation Workflow}
 
-We use MATLAB 2023a to set up our simulations. This includes both the high level algorithms as well as calling the optimization solver. We use MATLAB's \texttt{fmincon} function to parse nonlinear nonconvex optimization problem described by \crefrange{eq:genCost_withSCD}{eq:qBj} and the SQP optimization algorithm to solve it. Once the simulations are completed and resulting optimial control variables obtained, they are passed through an OpenDSS engine (which already has the known system data and forecasted values configured) in order to check for the feasiblity of the results. The associated code may be found \href{https://github.com/Realife-Brahmin/MultiPeriod-DistOPF-Benchmark}{here}.
+We use MATLAB 2023a to set up our simulations. This includes both the high level algorithms as well as calling the optimization solver. We use MATLAB's \texttt{fmincon} function to parse nonlinear nonconvex optimization problem described by \crefrange{eq:genCost_withSCD}{eq:modelEndsHere} and the SQP optimization algorithm to solve it. Once the simulations are completed and resulting optimial control variables obtained, they are passed through an OpenDSS engine (which already has the known system data and forecasted values configured) in order to check for the feasiblity of the results. The associated code may be found \href{https://github.com/Realife-Brahmin/MultiPeriod-DistOPF-Benchmark}{here}.
 
 % \href{https://t.ly/dUCfC}{here}. % shortened link
 
