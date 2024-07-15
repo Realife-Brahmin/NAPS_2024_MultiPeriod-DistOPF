@@ -65,6 +65,12 @@ M.~I. Alizadeh and F.~Capitanescu, ``A tractable linearization-based approximate
 \bibitem{Usman}
 M.~Usman and F.~Capitanescu, ``Three solution approaches to stochastic multi-period ac optimal power flow in active distribution systems,'' \emph{IEEE Trans. Sustain. Energy}, vol.~14, no.~1, pp. 178--192, 2023.
 
+\bibitem{Aghdam}
+F.~H. Aghdam, M.~W. Mudiyanselage, B.~Mohammadi-Ivatloo, and M.~Marzband, ``Optimal scheduling of multi-energy type virtual energy storage system in reconfigurable distribution networks for congestion management,'' \emph{Applied Energy}, vol.~33, no. 120569, pp. 1--17, 2023.
+
+\bibitem{Fan}
+F.~Fan, I.~Kockar, H.~Xu, and J.~Li, ``Scheduling framework using dynamic optimal power flow for battery energy storage systems,'' \emph{CSEE J. Power and Energy Syst.}, vol.~8, no.~1, pp. 271--280, 2022.
+
 \bibitem{Wu}
 C.~Wu, W.~Gu, S.~Zhou, and X.~Chen, ``Coordinated optimal power flow for integrated active distribution network and virtual power plants using decentralized algorithm,'' \emph{IEEE Trans. Power Syst.}, vol.~36, no.~4, pp. 3541--3551, Jul. 2021.
 
