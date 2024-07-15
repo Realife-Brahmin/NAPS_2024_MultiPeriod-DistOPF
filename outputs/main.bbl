@@ -63,7 +63,7 @@ A.~Gabash and P.~Li, ``Active-reactive optimal power flow in distribution networ
 M.~I. Alizadeh and F.~Capitanescu, ``A tractable linearization-based approximated solution methodology to stochastic multi-period ac security-constrained optimal power flow,'' \emph{IEEE Trans. Power Syst.}, vol.~38, no.~6, pp. 5896--5908, 2023.
 
 \bibitem{Usman}
-M.~Usman and F.~Capitanescu, ``Three solution approaches to stochastic multi-period ac optimal power flow in active distribution systems,'' \emph{IEEE Transactions on Sustainable Energy}, vol.~14, no.~1, pp. 178--192, 2023.
+M.~Usman and F.~Capitanescu, ``Three solution approaches to stochastic multi-period ac optimal power flow in active distribution systems,'' \emph{IEEE Trans. Sustain. Energy}, vol.~14, no.~1, pp. 178--192, 2023.
 
 \bibitem{Wu}
 C.~Wu, W.~Gu, S.~Zhou, and X.~Chen, ``Coordinated optimal power flow for integrated active distribution network and virtual power plants using decentralized algorithm,'' \emph{IEEE Trans. Power Syst.}, vol.~36, no.~4, pp. 3541--3551, Jul. 2021.

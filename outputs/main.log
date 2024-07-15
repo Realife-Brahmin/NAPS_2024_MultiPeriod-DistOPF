@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2024.1.25)  15 JUL 2024 03:05
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2024.1.25)  15 JUL 2024 03:20
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -747,7 +747,7 @@ Overfull \hbox (0.97623pt too wide) in paragraph at lines 84--84
  []
 
 ) (../sections/theory/theory.tex [2]) (../sections/simulation/simulation.tex
-<../figures/ieee123-FourAreas-pv20-batt30.png, id=174, 1437.87187pt x 764.8575pt>
+<../figures/ieee123-FourAreas-pv20-batt30.png, id=173, 1437.87187pt x 764.8575pt>
 File: ../figures/ieee123-FourAreas-pv20-batt30.png Graphic file (type png)
 <use ../figures/ieee123-FourAreas-pv20-batt30.png>
 Package pdftex.def Info: ../figures/ieee123-FourAreas-pv20-batt30.png  used on input line 21.
@@ -756,7 +756,7 @@ Package pdftex.def Info: ../figures/ieee123-FourAreas-pv20-batt30.png  used on i
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<../figures/T5-inputCurves/InputCurves_Horizon_5.png, id=176, 421.575pt x 316.0608pt>
+<../figures/T5-inputCurves/InputCurves_Horizon_5.png, id=175, 421.575pt x 316.0608pt>
 File: ../figures/T5-inputCurves/InputCurves_Horizon_5.png Graphic file (type png)
 <use ../figures/T5-inputCurves/InputCurves_Horizon_5.png>
 Package pdftex.def Info: ../figures/T5-inputCurves/InputCurves_Horizon_5.png  used on input line 30.
@@ -863,13 +863,13 @@ Package rerunfilecheck Info: File `main.out' has not changed.
 Here is how much of TeX's memory you used:
  17146 strings out of 474222
  303413 string characters out of 5750209
- 1984978 words of memory out of 5000000
+ 1983978 words of memory out of 5000000
  39002 multiletter control sequences out of 15000+600000
  599428 words of font info for 119 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  95i,18n,131p,2001b,730s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb><c:/texlive/2023/texmf-dist/fonts/type1/urw/times/utmb8a.pfb><c:/texlive/2023/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb><c:/texlive/2023/texmf-dist/fonts/type1/urw/times/utmr8a.pfb><c:/texlive/2023/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on main.pdf (6 pages, 1622986 bytes).
+Output written on main.pdf (6 pages, 1623351 bytes).
 PDF statistics:
  341 PDF objects out of 1000 (max. 8388607)
  277 compressed objects within 3 object streams
