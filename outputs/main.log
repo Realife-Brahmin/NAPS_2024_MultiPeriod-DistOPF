@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2024.1.25)  15 JUL 2024 00:46
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2024.1.25)  15 JUL 2024 00:52
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -554,137 +554,137 @@ Underfull \hbox (badness 1881) in paragraph at lines 97--99
  []
 
 (../sections/intro/intro.tex
-Overfull \hbox (1.49738pt too wide) in paragraph at lines 56--56
+Overfull \hbox (1.49738pt too wide) in paragraph at lines 53--53
 [][]| 
  []
 
 
-Overfull \hbox (1.49738pt too wide) in paragraph at lines 57--57
+Overfull \hbox (1.49738pt too wide) in paragraph at lines 54--54
 [][]| 
  []
 
 
-Overfull \hbox (0.97623pt too wide) in paragraph at lines 62--62
+Overfull \hbox (0.97623pt too wide) in paragraph at lines 59--59
 [][]| 
  []
 
 
-Overfull \hbox (0.97623pt too wide) in paragraph at lines 62--62
+Overfull \hbox (0.97623pt too wide) in paragraph at lines 59--59
 [][]| 
  []
 
 
-Overfull \hbox (0.97623pt too wide) in paragraph at lines 64--64
+Overfull \hbox (0.97623pt too wide) in paragraph at lines 61--61
 [][]| 
  []
 
 
-Overfull \hbox (0.97623pt too wide) in paragraph at lines 64--64
+Overfull \hbox (0.97623pt too wide) in paragraph at lines 61--61
 [][]| 
  []
 
 
-Overfull \hbox (0.97623pt too wide) in paragraph at lines 66--66
+Overfull \hbox (0.97623pt too wide) in paragraph at lines 63--63
 [][]| 
  []
 
 
-Overfull \hbox (0.97623pt too wide) in paragraph at lines 66--66
+Overfull \hbox (0.97623pt too wide) in paragraph at lines 63--63
 [][]| 
  []
 
 
-Overfull \hbox (0.97623pt too wide) in paragraph at lines 66--66
+Overfull \hbox (0.97623pt too wide) in paragraph at lines 63--63
 [][]| 
  []
 
 
-Overfull \hbox (0.97623pt too wide) in paragraph at lines 68--68
+Overfull \hbox (0.97623pt too wide) in paragraph at lines 65--65
 [][]| 
  []
 
 
-Overfull \hbox (0.97623pt too wide) in paragraph at lines 68--68
+Overfull \hbox (0.97623pt too wide) in paragraph at lines 65--65
 [][]| 
  []
 
 
-Overfull \hbox (0.97623pt too wide) in paragraph at lines 70--70
+Overfull \hbox (0.97623pt too wide) in paragraph at lines 67--67
 [][]| 
  []
 
 
-Overfull \hbox (0.97623pt too wide) in paragraph at lines 70--70
+Overfull \hbox (0.97623pt too wide) in paragraph at lines 67--67
 [][]| 
  []
 
 
-Overfull \hbox (0.97623pt too wide) in paragraph at lines 72--72
+Overfull \hbox (0.97623pt too wide) in paragraph at lines 69--69
 [][]| 
  []
 
 
-Overfull \hbox (0.97623pt too wide) in paragraph at lines 72--72
+Overfull \hbox (0.97623pt too wide) in paragraph at lines 69--69
 [][]| 
  []
 
 
-Overfull \hbox (0.97623pt too wide) in paragraph at lines 72--72
+Overfull \hbox (0.97623pt too wide) in paragraph at lines 69--69
 [][]| 
  []
 
 
-Overfull \hbox (0.97623pt too wide) in paragraph at lines 74--74
+Overfull \hbox (0.97623pt too wide) in paragraph at lines 71--71
 [][]| 
  []
 
 
-Overfull \hbox (0.97623pt too wide) in paragraph at lines 74--74
+Overfull \hbox (0.97623pt too wide) in paragraph at lines 71--71
 [][]| 
  []
 
 
-Overfull \hbox (0.97623pt too wide) in paragraph at lines 74--74
+Overfull \hbox (0.97623pt too wide) in paragraph at lines 71--71
 [][]| 
  []
 
 
-Overfull \hbox (0.97623pt too wide) in paragraph at lines 76--76
+Overfull \hbox (0.97623pt too wide) in paragraph at lines 73--73
 [][]| 
  []
 
 
-Overfull \hbox (0.97623pt too wide) in paragraph at lines 76--76
+Overfull \hbox (0.97623pt too wide) in paragraph at lines 73--73
 [][]| 
  []
 
 
-Overfull \hbox (0.97623pt too wide) in paragraph at lines 76--76
+Overfull \hbox (0.97623pt too wide) in paragraph at lines 73--73
 [][]| 
  []
 
 
-Overfull \hbox (0.97623pt too wide) in paragraph at lines 76--76
+Overfull \hbox (0.97623pt too wide) in paragraph at lines 73--73
 [][]| 
  []
 
 
-Overfull \hbox (0.97623pt too wide) in paragraph at lines 78--78
+Overfull \hbox (0.97623pt too wide) in paragraph at lines 75--75
 [][]| 
  []
 
 
-Overfull \hbox (0.97623pt too wide) in paragraph at lines 78--78
+Overfull \hbox (0.97623pt too wide) in paragraph at lines 75--75
 [][]| 
  []
 
 
-Overfull \hbox (0.97623pt too wide) in paragraph at lines 78--78
+Overfull \hbox (0.97623pt too wide) in paragraph at lines 75--75
 [][]| 
  []
 
 
-Overfull \hbox (0.97623pt too wide) in paragraph at lines 78--78
+Overfull \hbox (0.97623pt too wide) in paragraph at lines 75--75
 [][]| 
  []
 
@@ -696,9 +696,6 @@ Overfull \hbox (49.56802pt too wide) detected at line 92
 []
  []
 
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
 ) (../sections/simulation/simulation.tex [2]
 <../figures/ieee123-FourAreas-pv20-batt30.png, id=169, 1437.87187pt x 764.8575pt>
 File: ../figures/ieee123-FourAreas-pv20-batt30.png Graphic file (type png)
@@ -708,9 +705,9 @@ Package pdftex.def Info: ../figures/ieee123-FourAreas-pv20-batt30.png  used on i
 <../figures/T5-inputCurves/InputCurves_Horizon_5.png, id=172, 421.575pt x 316.0608pt>
 File: ../figures/T5-inputCurves/InputCurves_Horizon_5.png Graphic file (type png)
 <use ../figures/T5-inputCurves/InputCurves_Horizon_5.png>
-Package pdftex.def Info: ../figures/T5-inputCurves/InputCurves_Horizon_5.png  used on input line 30.
+Package pdftex.def Info: ../figures/T5-inputCurves/InputCurves_Horizon_5.png  used on input line 28.
 (pdftex.def)             Requested size: 224.08981pt x 168.0pt.
-LaTeX Font Info:    Trying to load font information for OT1+pcr on input line 59.
+LaTeX Font Info:    Trying to load font information for OT1+pcr on input line 57.
  (c:/texlive/2023/texmf-dist/tex/latex/psnfss/ot1pcr.fd
 File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
 )) (../sections/results/results.tex
@@ -802,21 +799,21 @@ LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2020/03/25>
  ***********
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 76FBDCF40117D1F5FABDF93AB2172492;2832.
+(rerunfilecheck)             Checksum: 1709AA12262C591C2820EA2FD8E1FF0A;2610.
  ) 
 Here is how much of TeX's memory you used:
- 17130 strings out of 474222
- 303200 string characters out of 5750209
- 1982978 words of memory out of 5000000
- 38992 multiletter control sequences out of 15000+600000
- 597883 words of font info for 113 fonts, out of 8000000 for 9000
+ 17140 strings out of 474222
+ 303283 string characters out of 5750209
+ 1981978 words of memory out of 5000000
+ 38998 multiletter control sequences out of 15000+600000
+ 599428 words of font info for 119 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  95i,18n,131p,1890b,728s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb><c:/texlive/2023/texmf-dist/fonts/type1/urw/times/utmb8a.pfb><c:/texlive/2023/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb><c:/texlive/2023/texmf-dist/fonts/type1/urw/times/utmr8a.pfb><c:/texlive/2023/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on main.pdf (6 pages, 1602292 bytes).
+<c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb><c:/texlive/2023/texmf-dist/fonts/type1/urw/times/utmb8a.pfb><c:/texlive/2023/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb><c:/texlive/2023/texmf-dist/fonts/type1/urw/times/utmr8a.pfb><c:/texlive/2023/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
+Output written on main.pdf (6 pages, 1619823 bytes).
 PDF statistics:
- 320 PDF objects out of 1000 (max. 8388607)
- 260 compressed objects within 3 object streams
+ 328 PDF objects out of 1000 (max. 8388607)
+ 264 compressed objects within 3 object streams
  70 named destinations out of 1000 (max. 500000)
- 181 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 173 words of extra memory for PDF output out of 10000 (max. 10000000)
 
