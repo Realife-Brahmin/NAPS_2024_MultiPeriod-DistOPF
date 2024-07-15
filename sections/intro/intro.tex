@@ -41,7 +41,8 @@ The above references \cite{Wei}-\cite{Paul2} mainly focused on developing single
 
 It is evident from the above discussion that for the past few years several pieces of research have been conducted for developing MPOPF portfolios. However, the following research gaps persist.
 \begin{enumerate}
-    \item The MPOPF frameworks are mainly solved centrally \cite{Gabash}-\cite{Usman}. The centralized methods suffers from scalability and computation challenges for bulk distribution grids and require  
+    \item The MPOPF frameworks are mainly solved centrally \cite{Gabash}-\cite{Usman}. The centralized methods suffer from scalability and computation challenges for bulk distribution grids and require longer solution time (in the range of a few thousand seconds).
+    \item Reference \cite{Wu} proposed a distributed algorithm framework using BD. However, BD suffers from slow convergence and needs a central controller to solve the master problem. 
 \end{enumerate}
 
 \begin{table}[t]
@@ -84,14 +85,17 @@ It is evident from the above discussion that for the past few years several piec
     \hline
   \end{tabular}
 \end{center}
+\vspace{-5mm}
 \end{table}
 
 
 % \subsection{Research Gaps and Contributions}
+This article aims to address the above research gaps by developing a spatially distributed MPOPF framework. The bulk distribution grid is divided into multiple networked areas, each solving its own local MPOPF problem and periodically communicating the values of boundary variables with neighboring areas. 
+
 A taxonomy table to compare the existing studies and the present work is provided in \ref{table1}.
 
 
-However, BD suffers from slow convergence and needs a central contro.
+
 
 
 The specific contributions are as follows:
