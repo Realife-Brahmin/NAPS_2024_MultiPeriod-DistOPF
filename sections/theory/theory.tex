@@ -61,13 +61,27 @@ Subject to the constraints \crefrange{eq:RealPowerBalanceNodej}{eq:modelEndsHere
 
 \begin{align}
     % {p_j^t} & = {\sum_{(j, k) \in \mathcal{L}} P_{jk}^t - \left\{P_{ij}^t - r_{ij}l_{ij}^t\right\} - P_{d_j}^t + P_{c_j}^t} && \label{eq:RealPowerBalanceNodej} \\ 
-    {0} &= {\sum_{(j, k) \in \mathcal{L}} \left\{P_{jk}^t\right\} - \left(P_{ij}^t - r_{ij}l_{ij}^t\right) - \left(P_{d_j}^t - P_{c_j}^t\right) - p^t_{D_j} + p^t_{L_j}} && \label{eq:RealPowerBalanceNodej} \\ 
+    % {0} &= {\sum_{(j, k) \in \mathcal{L}} \left\{P_{jk}^t\right\} - \left(P_{ij}^t - r_{ij}l_{ij}^t\right) - \left(P_{d_j}^t - P_{c_j}^t\right) - p^t_{D_j} + p^t_{L_j}} && \label{eq:RealPowerBalanceNodej} \\ 
+    % \begin{align}
+    {0} &= {\sum_{(j, k) \in \mathcal{L}} \left\{P_{jk}^t\right\} 
+        - \left(P_{ij}^t - r_{ij}l_{ij}^t\right)} \nonumber && \\[-0.50em]
+    {}  &\qquad \qquad {- \left(P_{d_j}^t - P_{c_j}^t\right) - p^t_{D_j} + p^t_{L_j}}
+    \label{eq:RealPowerBalanceNodej} && \\[0.75em]
+    % \end{align}
     % {q_j^t} & = {\sum_{(j, k) \in \mathcal{L}} Q_{jk}^t - \left\{Q_{ij}^t - x_{ij}l_{ij}^t\right\} - q_{D_j}^t - q_{B_j}^t} && \label{eq:Qij} \\ 
-    {0} &= {\sum_{(j, k) \in \mathcal{L}} \left\{Q_{jk}^t\right\} - \left(Q_{ij}^t - x_{ij}l_{ij}^t\right) - q_{D_j}^t - q_{B_j}^t - q_{C_j} + q^t_{L_j}} && \label{eq:ReactivePowerBalanceNodej} \\ 
+    % {0} &= {\sum_{(j, k) \in \mathcal{L}} \left\{Q_{jk}^t\right\} - \left(Q_{ij}^t - x_{ij}l_{ij}^t\right) - q_{D_j}^t - q_{B_j}^t - q_{C_j} + q^t_{L_j}} && \label{eq:ReactivePowerBalanceNodej} \\ 
+    % \begin{align}
+    {0} &= {\sum_{(j, k) \in \mathcal{L}} \left\{Q_{jk}^t\right\} 
+        - \left(Q_{ij}^t - x_{ij}l_{ij}^t\right)} \nonumber && \\[-0.50em]
+    {} &\qquad \qquad { - q_{D_j}^t - q_{B_j}^t - q_{C_j} + q^t_{L_j} } 
+    \label{eq:ReactivePowerBalanceNodej} && \\[0.75em]
+    % \end{align}
     % {p_j^t} &= {p_D{_j}^t - p_L{_j}^t} \label{eq:pj}\\
     % {q_j^t} &= {q_C{_j} -q_L{_j}^t} \label{eq:qj}\\
     % {v_j^t} & = {v_{i}^t +  \left\{r_{ij}^2 + x_{ij}^2\right\}l_{ij}^t - 2(r_{ij}P_{ij}^t + x_{ij}Q_{ij}^t)} \label{eq:vj} && \\
-    {0} &= {v_{i}^t - v_j^t - 2(r_{ij}P_{ij}^t + x_{ij}Q_{ij}^t) + \left\{r_{ij}^2 + x_{ij}^2\right\}l_{ij}^t} \label{eq:KVL-branch-ij} && \\
+    % {0} &= {v_{i}^t - v_j^t - 2(r_{ij}P_{ij}^t + x_{ij}Q_{ij}^t) + \left\{r_{ij}^2 + x_{ij}^2\right\}l_{ij}^t} \label{eq:KVL-branch-ij} && \\
+    {0} &= {v_{i}^t - v_j^t - 2(r_{ij}P_{ij}^t + x_{ij}Q_{ij}^t)} \nonumber && \\[-0.00em]
+    {} &\qquad \qquad {+ \left\{r_{ij}^2 + x_{ij}^2\right\}l_{ij}^t} \label{eq:KVL-branch-ij} && \\[0.75em]
     % {l_{ij}^t} & = {\frac{(P_{ij}^{t})^2 + (Q_{ij}^{t})^2}{v_i^t}} \label{eq:lij} && \\
     {0} &= {(P_{ij}^{t})^2 + (Q_{ij}^{t})^2 - l_{ij}^t v_i^t} \label{eq:ApparentPowerEquationBFM} && \\
     {P^t_{Subs}} &\geq {0} \label{eq:substationRealPowerLimits} \\
