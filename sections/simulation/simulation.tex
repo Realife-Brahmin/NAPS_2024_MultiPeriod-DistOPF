@@ -14,6 +14,8 @@
 
 We're using a Balanced Three-Phase version of the IEEE 123 Bus Test System, which has $85$ Load Nodes. Additionally, $20 \% \, (17)$ and $30 \% \, (26)$ of these load nodes also contain reactive power controllable Solar photovolatics (PVs) and Batteries respectively. Their ratings are as per \Cref{table:parameter-values}. To demonstrate the effectiveness of the proposed algorithm, the Test System has been divided into four areas on similar lines as \cite{Sadnan}. The full test system along with the area-wise division is shown in \Cref{fig:ieee123-four-area-figure}.
 
+It is assumed that a horizon-wide forecast for loads $p^t_L$, solar power output $p^t_D$ and cost of substation power  $C^t$ is available to the distribution grid operator. \Cref{fig:inputCurve-5} shows the forecasted profiles for load, solar irradiance and cost of substation power over a $5$ time-period horizon. 
+
 \begin{figure}[h!]
     \centering
     \includegraphics[width=\linewidth]{../figures/ieee123-FourAreas-pv20-batt30.png}
@@ -21,7 +23,7 @@ We're using a Balanced Three-Phase version of the IEEE 123 Bus Test System, whic
     \label{fig:ieee123-four-area-figure}
 \end{figure}
 
-To showcase the workflow of the proposed algorithm, simulations were run for a $5$ time-period horizon. \Cref{fig:inputCurve-5} shows the forecasted profiles for load, solar irradiance and cost of substation power over the horizon. 
+To showcase the workflow of the proposed algorithm, simulations were run for a $5$ time-period horizon. 
 
 \begin{figure}[h!]
     \centering
