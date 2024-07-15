@@ -56,7 +56,7 @@ The OPF problem given in \cref{eq:genCost_withSCD} aims to minimize the cost of 
 \end{equation}
 
 
-Subject to the constraints \crefrange{eq:RealPowerBalanceNodej}{eq:qDj} given below:
+Subject to the constraints \crefrange{eq:RealPowerBalanceNodej}{eq:modelEndsHere} given below:
 \begin{align}
     % {p_j^t} & = {\sum_{(j, k) \in \mathcal{L}} P_{jk}^t - \left\{P_{ij}^t - r_{ij}l_{ij}^t\right\} - P_{d_j}^t + P_{c_j}^t} && \label{eq:RealPowerBalanceNodej} \\ 
     {0} &= {\sum_{(j, k) \in \mathcal{L}} \left\{P_{jk}^t\right\} - \left(P_{ij}^t - r_{ij}l_{ij}^t\right) - \left(P_{d_j}^t - P_{c_j}^t\right) - p^t_{D_j} + p^t_{L_j}} && \label{eq:RealPowerBalanceNodej} \\ 
@@ -69,25 +69,30 @@ Subject to the constraints \crefrange{eq:RealPowerBalanceNodej}{eq:qDj} given be
     % {l_{ij}^t} & = {\frac{(P_{ij}^{t})^2 + (Q_{ij}^{t})^2}{v_i^t}} \label{eq:lij} && \\
     {0} &= {(P_{ij}^{t})^2 + (Q_{ij}^{t})^2 - l_{ij}^t v_i^t} \label{eq:ApparentPowerEquationBFM} && \\
     {P^t_{Subs}} &\geq {0} \label{eq:substationRealPowerLimits} \\
-    { v^{t}_{j} } &\in { \left[ V^{2}_{min}, V^{2}_{max} \right]} \label{eq:lim_vj} && \\
     { l^{t}_{ij} } &\in { \left[ 0, I^{2}_{R, ij}
     \right] } \label{eq:lim_lij} && \\
-    { B_{j}^{t} } &= {  B_{j}^{t-1} + \Delta t  \eta_c P_{c_j}^t - \Delta t\frac{1}{\eta_d} P_{d_j}^t } \label{eq:Bj} &&  \\
-    { B^{t}_{j} } &\in { \left[ soc_{min}E_{R, j}, soc_{max}E_{R, j} \right] } \label{eq:lim_Bj} && \\
+    { v^{t}_{j} } &\in { \left[ V^{2}_{min}, V^{2}_{max} \right]} \label{eq:lim_vj} && \\
+    { q^{t}_{D_{j}} } 
+    &\in
+    { \left[-\sqrt{ {S_{D_{R, j}}}^2 - {p^{t}_{D_{j}}}^2}, \sqrt{ {S_{D_{R, j}}}^2 - {p^{t}_{D_{j}}}^2}\right] } \label{eq:qDj} && \\
+    {0} &= {  B_{j}^{t} - \left\{B_{j}^{t-1} + \Delta t  \eta_c P_{c_j}^t - \Delta t\frac{1}{\eta_d} P_{d_j}^t \right\} } \label{eq:SOC-j} &&  \\
     { P^{t}_{c_{j}}, P^{t}_{d_{j}} }
     &\in
     { \left[ 0, P_{B_{R_{j}}} \right]} \label{eq:lim_PcPdj} && \\
+    % { q^{t}_{B_{j}} } 
+    % &\in 
+    % { \left[-\sqrt{ {S_{B_{R, j}}}^2 - {P_{B_{R, j}}}^2}, \sqrt{ {S_{B_{R, j}}}^2 - {P_{B_{R, j}}}^2}\right] } \label{eq:qBj} && \\
     { q^{t}_{B_{j}} } 
     &\in 
-    { \left[-\sqrt{ {S_{B_{R, j}}}^2 - {P_{B_{R, j}}}^2}, \sqrt{ {S_{B_{R, j}}}^2 - {P_{B_{R, j}}}^2}\right] } \label{eq:qBj} && \\
-    { q^{t}_{D_{j}} } 
-    &\in
-    { \left[-\sqrt{ {S_{D_{R, j}}}^2 - {p^{t}_{D_{j}}}^2}, \sqrt{ {S_{D_{R, j}}}^2 - {p^{t}_{D_{j}}}^2}\right] } \label{eq:qDj} &&
+    { \left[-0.44P_{B_{R, j}}, 0.44P_{B_{R, j}}\right] } \label{eq:qBj} && \\
+    % { B^{t}_{j} } &\in { \left[ soc_{min}B_{R, j}, soc_{max}B_{R, j} \right] } \label{eq:lim_Bj} && \\
+    { B^{t}_{j} } &\in { \left[ soc_{min}B_{R, j}, soc_{max}B_{R, j} \right] } \label{eq:modelEndsHere} &&
+    % {} & {} \nonumber \label{eq:modelEndsHere}
 \end{align}
 
 The distribution network is represented with the help of the branch power flow equations \crefrange{eq:RealPowerBalanceNodej}{eq:ApparentPowerEquationBFM}. Constraints \cref{eq:RealPowerBalanceNodej,eq:ReactivePowerBalanceNodej} signify the active and reactive power balance at node $j$. 
 % The net active and reactive power injections at any bus \(j\) are represented by \cref{eq:pj,eq:qj} respectively. 
-The KVL equation for branch $(i, j)$ is represented by \cref{eq:KVL-branch-ij}, while the equation describing the relationship between current magnitude, voltage magnitude and apparent power magnitude for nodes $i$ and $j$ is \cref{eq:ApparentPowerEquationBFM}. The limits of node voltage and branch current are enforced via \cref{eq:lim_vj,eq:lim_lij}. The trajectory of the state of charge of batteries versus time is given by \cref{eq:Bj} and is the only class of constraints in this paper coupling the optimal power flow problem in time. Battery charging and discharging efficiency values used in this paper are $\eta_c = 95\%$ and $\eta_d = 95\%$ \textcolor{red}{literature?}. For a safe and sustainable operation of the batteries \textcolor{red}{based on what literature?}, the state of charge $B^{t}_{j}$ is constrained to be within some percentage limits of the rated battery soc capacity, as given in \cref{eq:lim_Bj}. In this paper, we're using $soc_{min} = 30\%$ and $soc_{max} = 95\%$. Similarly, battery charging and discharging powers should not exceed its rated power capacity, as given by \cref{eq:lim_PcPdj}.  \cref{eq:qDj,eq:qBj} describe the limits for two-quadrant operation of the controlled reactive power support of DERs and Batteries respectively. It may be noted that while both of these limits are non-controllable, only the limits for DERs are time-varying, due to $p^{t}_{D_j}$ component. For this simulation study, the limits for battery reactive support have been curtailed, i.e. the bounds of the limit have been artificially set smaller than what would be physically permissible. The reason for doing so was to avoid a non-linear inequality coupling decision variables. \textcolor{red}{Should I specify this justification?}
+The KVL equation for branch $(i, j)$ is represented by \cref{eq:KVL-branch-ij}, while the equation describing the relationship between current magnitude, voltage magnitude and apparent power magnitude for nodes $i$ and $j$ is \cref{eq:ApparentPowerEquationBFM}. The limits of node voltage and branch current are enforced via \cref{eq:lim_vj,eq:lim_lij}. The trajectory of the state of charge of batteries versus time is given by \cref{eq:SOC-j} and is the only class of constraints in this paper coupling the optimal power flow problem in time. Battery charging and discharging efficiency values used in this paper are $\eta_c = 95\%$ and $\eta_d = 95\%$ \textcolor{red}{literature?}. For a safe and sustainable operation of the batteries \textcolor{red}{based on what literature?}, the state of charge $B^{t}_{j}$ is constrained to be within some percentage limits of the rated battery soc capacity, as given in \cref{eq:lim_Bj}. In this paper, we're using $soc_{min} = 30\%$ and $soc_{max} = 95\%$. Similarly, battery charging and discharging powers should not exceed its rated power capacity, as given by \cref{eq:lim_PcPdj}.  \cref{eq:qDj,eq:qBj} describe the limits for two-quadrant operation of the controlled reactive power support of DERs and Batteries respectively. It may be noted that while both of these limits are non-controllable, only the limits for DERs are time-varying, due to $p^{t}_{D_j}$ component. For this simulation study, the limits for battery reactive support have been curtailed, i.e. the bounds of the limit have been artificially set smaller than what would be physically permissible. The reason for doing so was to avoid a non-linear inequality coupling decision variables. \textcolor{red}{Should I specify this justification?}
 
 % Node $i$ denotes the `parent' node of node $j$, which itself may be the parent of a set of $k$ `children' nodes (the set may contain one, many or even zero nodes, if $j$ is a leaf node). It may be noted that for a radial distribution system, each node $j$ can have only one `parent' node $i$.
 
