@@ -248,12 +248,12 @@ INPUT c:/texlive/2023/texmf-dist/tex/latex/amsfonts/umsb.fd
 INPUT c:/texlive/2023/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm10.tfm
 INPUT c:/texlive/2023/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm7.tfm
 INPUT c:/texlive/2023/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm5.tfm
-INPUT ../figures/ieee123-FourAreas.png
-INPUT ../figures/ieee123-FourAreas.png
-INPUT ../figures/ieee123-FourAreas.png
-INPUT ../figures/ieee123-FourAreas.png
+INPUT ../figures/ieee123-FourAreas-pv20-batt30.png
+INPUT ../figures/ieee123-FourAreas-pv20-batt30.png
+INPUT ../figures/ieee123-FourAreas-pv20-batt30.png
+INPUT ../figures/ieee123-FourAreas-pv20-batt30.png
 OUTPUT c:/Users/aryan/Documents/documents_general/UnknownPaper_MultiPeriod-DistOPF/sections/simulation/simulation.pdf
-INPUT ../figures/ieee123-FourAreas.png
+INPUT ../figures/ieee123-FourAreas-pv20-batt30.png
 INPUT ../figures/T5-inputCurves/InputCurves_Horizon_5.png
 INPUT ../figures/T5-inputCurves/InputCurves_Horizon_5.png
 INPUT ../figures/T5-inputCurves/InputCurves_Horizon_5.png

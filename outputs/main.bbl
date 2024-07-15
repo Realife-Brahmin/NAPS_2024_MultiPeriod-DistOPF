@@ -30,7 +30,7 @@ S.~Paul and N.~P. Padhy, ``Real-time advanced energy-efficient management of an 
 W.~Wei, J.~Wang, and L.~Wu, ``Distribution optimal power flow with real-time price elasticity,'' \emph{IEEE Trans. Power Syst.}, vol.~33, no.~1, pp. 1097--1098, Jan. 2018.
 
 \bibitem{Chowdhury}
-M.~M.-U.-T. Chowdhury, B.~D. Biswas, and S.~Kamalasadan, ``Second-order cone programming (socp) model for three phase optimal power flow (opf) in active distribution networks,'' \emph{IEEE Transactions on Smart Grid}, vol.~14, no.~5, pp. 3732--3743, 2023.
+M.~M.-U.-T. Chowdhury, B.~D. Biswas, and S.~Kamalasadan, ``Second-order cone programming (socp) model for three phase optimal power flow (opf) in active distribution networks,'' \emph{IEEE Trans. Smart Grid}, vol.~14, no.~5, pp. 3732--3743, 2023.
 
 \bibitem{Guo}
 Z.~Guo, W.~Wei, L.~Chen, Z.~Dong, and S.~Mei, ``Parametric distribution optimal power flow with variable renewable generation,'' \emph{IEEE Trans. Power Syst.}, vol.~37, no.~3, pp. 1831--1841, May 2022.
@@ -50,14 +50,20 @@ P.~Wang, Q.~Wu, S.~Huang, C.~Li, and B.~Zhou, ``Admm-based distributed active an
 \bibitem{Biswas}
 B.~D. Biswas, M.~S. Hasan, and S.~Kamalasadan, ``Decentralized distributed convex optimal power flow model for power distribution system based on alternating direction method of multipliers,'' \emph{IEEE Trans. Ind. Appl.}, vol.~59, no.~1, pp. 627--640, Jan.-Feb. 2023.
 
+\bibitem{Paul2}
+S.~Paul, B.~Ganguly, and S.~Chatterjee, ``Nesterov-type accelerated admm (n-admm) with adaptive penalty for three-phase distributed opf under non-ideal data transfer scenarios,'' in \emph{2023 IEEE 3rd International Conference on Smart Technologies for Power, Energy and Control (STPEC)}, 2023, pp. 1--6.
+
+\bibitem{Sadnan}
+R.~Sadnan and A.~Dubey, ``Distributed optimization using reduced network equivalents for radial power distribution systems,'' \emph{IEEE Trans. Power Syst.}, vol.~36, no.~4, pp. 3645--3656, Jul. 2021.
+
 \bibitem{Gabash}
 A.~Gabash and P.~Li, ``Active-reactive optimal power flow in distribution networks with embedded generation and battery storage,'' \emph{IEEE Trans. Power Syst.}, vol.~27, no.~4, pp. 2026--2035, Nov. 2012.
 
 \bibitem{Wu}
 C.~Wu, W.~Gu, S.~Zhou, and X.~Chen, ``Coordinated optimal power flow for integrated active distribution network and virtual power plants using decentralized algorithm,'' \emph{IEEE Trans. Power Syst.}, vol.~36, no.~4, pp. 3541--3551, Jul. 2021.
 
-\bibitem{Sadnan}
-R.~Sadnan and A.~Dubey, ``Distributed optimization using reduced network equivalents for radial power distribution systems,'' \emph{IEEE Trans. Power Syst.}, vol.~36, no.~4, pp. 3645--3656, Jul. 2021.
+\bibitem{Alizadeh}
+M.~I. Alizadeh and F.~Capitanescu, ``A tractable linearization-based approximated solution methodology to stochastic multi-period ac security-constrained optimal power flow,'' \emph{IEEE Trans. Power Syst.}, vol.~38, no.~6, pp. 5896--5908, 2023.
 
 \bibitem{Nazir2018Jun}
 N.~Nazir and M.~Almassalkhi, ``{Receding-Horizon Optimization of Unbalanced Distribution Systems with Time-Scale Separation for Discrete and Continuous Control Devices},'' pp. 1--7, Jun. 2018.
