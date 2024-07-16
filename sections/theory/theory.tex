@@ -63,27 +63,32 @@ The OPF problem aims to minimize two objectives as shown in \cref{eq:genCost_wit
 Subject to the constraints \crefrange{eq:RealPowerBalanceNodej}{eq:modelEndsHere-and-lim_Bj} as given below:
 
 \begin{align}
+    % {\sum_{(j, k) \in \mathcal{L}} \left\{P_{jk}^t\right\} 
+    % - \left(P_{ij}^t - r_{ij}l_{ij}^t\right)} \nonumber &\ {} \\[-0.50em]
+    % {\hspace{2em} - \left(P_{d_j}^t - P_{c_j}^t\right) - p^t_{D_j} + p^t_{L_j}} &= {0} \label{eq:RealPowerBalanceNodej} && 
     {\sum_{(j, k) \in \mathcal{L}} \left\{P_{jk}^t\right\} 
-    - \left(P_{ij}^t - r_{ij}l_{ij}^t\right)} \nonumber &\ {} \\[-0.50em]
-    {\hspace{2em} - \left(P_{d_j}^t - P_{c_j}^t\right) - p^t_{D_j} + p^t_{L_j}} &= {0} \label{eq:RealPowerBalanceNodej} && 
+    - \left(P_{ij}^t - r_{ij}l_{ij}^t\right)} &= {P_{d_j}^t - P_{c_j}^t + p^t_{D_j} - p^t_{L_j}} \label{eq:RealPowerBalanceNodej} 
 \end{align}
 
-\vspace{-1.5em} % Adjust the space as needed
+\vspace{-2.0em} % Adjust the space as needed
 
 \begin{align}
     % {\sum_{(j, k) \in \mathcal{L}} \left\{Q_{jk}^t\right\} 
     % - \left(Q_{ij}^t - x_{ij}l_{ij}^t\right) - q_{D_j}^t - q_{B_j}^t + q^t_{L_j}} &= {0}
+    % {\sum_{(j, k) \in \mathcal{L}} \left\{Q_{jk}^t\right\}  
+    % - \left(Q_{ij}^t - x_{ij}l_{ij}^t\right)} & {} \nonumber \\[-0.50em]
+    % {- q_{D_j}^t - q_{B_j}^t + q^t_{L_j}} &= {0}
     {\sum_{(j, k) \in \mathcal{L}} \left\{Q_{jk}^t\right\}  
-    - \left(Q_{ij}^t - x_{ij}l_{ij}^t\right)} & {} \nonumber \\[-0.50em]
-    {- q_{D_j}^t - q_{B_j}^t + q^t_{L_j}} &= {0}
-    \label{eq:ReactivePowerBalanceNodej} &&
+    - \left(Q_{ij}^t - x_{ij}l_{ij}^t\right)} &= {q_{D_j}^t + q_{B_j}^t - q^t_{L_j}}
+    \label{eq:ReactivePowerBalanceNodej}
 \end{align}
 
 \vspace{-1.5em} % Adjust the space as needed
 
 \begin{align}
     % {0} = {v_{i}^t - v_j^t - 2(r_{ij}P_{ij}^t + x_{ij}Q_{ij}^t) + \left\{r_{ij}^2 + x_{ij}^2\right\}l_{ij}^t} \label{eq:KVL-branch-ij}
-    {v_{i}^t - v_j^t - 2(r_{ij}P_{ij}^t + x_{ij}Q_{ij}^t) + \left\{r_{ij}^2 + x_{ij}^2\right\}l_{ij}^t} &= {0} && \label{eq:KVL-branch-ij}
+    {v_j^t} &= {v_{i}^t - 2(r_{ij}P_{ij}^t + x_{ij}Q_{ij}^t) + \left\{r_{ij}^2 + x_{ij}^2\right\}l_{ij}^t}  
+    \label{eq:KVL-branch-ij} &&
 \end{align}
 
 
@@ -97,7 +102,9 @@ Subject to the constraints \crefrange{eq:RealPowerBalanceNodej}{eq:modelEndsHere
 \begin{align}
     % {l_{ij}^t} & = {\frac{(P_{ij}^{t})^2 + (Q_{ij}^{t})^2}{v_i^t}} \label{eq:lij} && \\
     % {0} &= {(P_{ij}^{t})^2 + (Q_{ij}^{t})^2 - l_{ij}^t v_i^t} \label{eq:ApparentPowerEquationBFM} &&
-    {(P_{ij}^{t})^2 + (Q_{ij}^{t})^2 - l_{ij}^t v_i^t} &= {0} \label{eq:ApparentPowerEquationBFM} &&
+    % {(P_{ij}^{t})^2 + (Q_{ij}^{t})^2 - l_{ij}^t v_i^t} &= {0} \label{eq:ApparentPowerEquationBFM} &&
+    {(P_{ij}^{t})^2 + (Q_{ij}^{t})^2} &= {l_{ij}^t v_i^t} 
+    \label{eq:ApparentPowerEquationBFM} &&
 \end{align}
 
 \vspace{-2.0em} % Adjust the space as needed
@@ -130,7 +137,7 @@ Subject to the constraints \crefrange{eq:RealPowerBalanceNodej}{eq:modelEndsHere
 \vspace{-1.5em} % Adjust the space as needed
 
 \begin{align}
-    {0} &= {  B_{j}^{t} - \left\{B_{j}^{t-1} + \Delta t  \eta_c P_{c_j}^t - \Delta t\frac{1}{\eta_d} P_{d_j}^t \right\} } \label{eq:SOC-j} &&
+    {B_{j}^{t}} &= {B_{j}^{t-1} + \Delta t  \eta_c P_{c_j}^t - \Delta t\frac{1}{\eta_d} P_{d_j}^t } \label{eq:SOC-j} &&
 \end{align}
 
 \vspace{-1.5em} % Adjust the space as needed
