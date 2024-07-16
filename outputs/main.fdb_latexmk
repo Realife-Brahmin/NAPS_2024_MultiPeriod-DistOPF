@@ -1,13 +1,13 @@
 # Fdb version 4
-["bibtex main"] 1721090012.34033 "main.aux" "main.bbl" "main" 1721103199.86207 0
+["bibtex main"] 1721103610.41518 "main.aux" "main.bbl" "main" 1721103660.75844 0
   "./bibFIle.bib" 1721074204 13252 55ae654a426102aaf60d32beab74d7be ""
   "c:/texlive/2023/texmf-dist/bibtex/bst/ieeetran/IEEEtran.bst" 1706171823 57748 7c8250ecf02814ce6ddc0cdbb63df1dd ""
-  "main.aux" 1721103197 11400 cd6ebb648a199da6cc80f68d5cebc37f "pdflatex"
+  "main.aux" 1721103657 11400 87ef329184bed4365bc15083245cf5cf "pdflatex"
   (generated)
   "main.bbl"
   "main.blg"
   (rewritten before read)
-["pdflatex"] 1721103193.58486 "c:/Users/aryan/Documents/documents_general/UnknownPaper_MultiPeriod-DistOPF/outputs/main.tex" "main.pdf" "main" 1721103199.86284 0
+["pdflatex"] 1721103653.30041 "c:/Users/aryan/Documents/documents_general/UnknownPaper_MultiPeriod-DistOPF/outputs/main.tex" "main.pdf" "main" 1721103660.75959 0
   "../figures/T10-inputCurves/InputCurves_Horizon_10.png" 1720936996 60122 69585073d9ba51c2f0ba0f00ef49914a ""
   "../figures/T5-inputCurves/InputCurves_Horizon_5.png" 1720936057 60352 9ec9586e9c5515f77e92d6171a029a7d ""
   "../figures/T5-pv20-batt30-genCost/dopf/BatteryPlots/macroItr_5_genCost_Battery_1_alpha_0.001.png" 1720589472 35431 6bb4f3c84bbe1180e78d874a70c75e81 ""
@@ -16,12 +16,12 @@
   "../figures/T5-pv20-batt30-genCost/dopf/outputCurves/ObjectiveConvergenceCurves_Horizon_5.png" 1720819871 41641 3eb7e3c80719a8051e8ac8e12ae37b88 ""
   "../figures/ieee123-FourAreas-pv20-batt30.png" 1721003548 548038 4ca7e14ee0fa45e4a10c487a0bed835e ""
   "../sections/conclusion/conclusion.tex" 1721089995 2765 61bfb941c66aa9c7b28e42da58dc2802 ""
-  "../sections/intro/intro.tex" 1721089995 10631 c40d95c79fbcf35e2e7f7b96391af945 ""
+  "../sections/intro/intro.tex" 1721103650 10610 180b12b61eb95d7b1d28dcb504d0c3b1 ""
   "../sections/results/results.tex" 1721089995 22992 06693a8c3d9b3fa1713249f75b812706 ""
   "../sections/simulation/simulation.tex" 1721089995 3983 eae425c019083942780bad66d99cf8e8 ""
-  "../sections/theory/theory.tex" 1721103137 14711 96eac1b252ef156f8682730dfc902318 ""
+  "../sections/theory/theory.tex" 1721103583 14914 3a0d8acda411b2154f003285a6572b32 ""
   "IEEEtran.cls" 1720196288 288304 5b2e4fa15b0f7eabb840ebf67df4c0f7 ""
-  "c:/Users/aryan/Documents/documents_general/UnknownPaper_MultiPeriod-DistOPF/outputs/main.tex" 1721103188 6129 c210f6a5c87700ef7a94c588daa3e62a ""
+  "c:/Users/aryan/Documents/documents_general/UnknownPaper_MultiPeriod-DistOPF/outputs/main.tex" 1721103653 6129 c210f6a5c87700ef7a94c588daa3e62a ""
   "c:/texlive/2023/texmf-dist/fonts/enc/dvips/base/8r.enc" 1706170314 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "c:/texlive/2023/texmf-dist/fonts/map/fontname/texfonts.map" 1706171058 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "c:/texlive/2023/texmf-dist/fonts/tfm/adobe/courier/pcrr7t.tfm" 1706169764 960 379cc0019370a9e0208a0a3f949f847a ""
@@ -177,11 +177,11 @@
   "c:/texlive/2023/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1706177224 5035139 e8cdab388a5f122f6094769190400852 ""
   "c:/texlive/2023/texmf-var/web2c/pdftex/pdflatex.fmt" 1706177337 8211032 0375d62fdda5ac93a6b0452c591efeb3 ""
   "c:/texlive/2023/texmf.cnf" 1706177202 713 e69b156964470283e0530f5060668171 ""
-  "main.aux" 1721103197 11400 cd6ebb648a199da6cc80f68d5cebc37f "pdflatex"
-  "main.bbl" 1721090013 5799 6e82d9940e2cf8e76cd8bec734bbd4ac "bibtex main"
-  "main.out" 1721103197 3013 1439ec34f719ce8affc5a70724df6b3c "pdflatex"
-  "main.sta" 1721103197 510 483e70781e4bbb980f1e4406fab19da8 "pdflatex"
-  "main.tex" 1721103188 6129 c210f6a5c87700ef7a94c588daa3e62a ""
+  "main.aux" 1721103657 11400 87ef329184bed4365bc15083245cf5cf "pdflatex"
+  "main.bbl" 1721103611 5799 6e82d9940e2cf8e76cd8bec734bbd4ac "bibtex main"
+  "main.out" 1721103657 3013 1439ec34f719ce8affc5a70724df6b3c "pdflatex"
+  "main.sta" 1721103657 510 483e70781e4bbb980f1e4406fab19da8 "pdflatex"
+  "main.tex" 1721103653 6129 c210f6a5c87700ef7a94c588daa3e62a ""
   (generated)
   "main.aux"
   "main.log"
