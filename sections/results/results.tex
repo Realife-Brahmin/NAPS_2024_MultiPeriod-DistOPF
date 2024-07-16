@@ -48,21 +48,10 @@ The second section of the \Cref{table:opt-5-20-30} i.e. 'Simulation results' sho
     \vspace{-3mm}
 \end{table}
 
-To ensure that the complementarity of charging and discharging of batteries are being respected despite not using integer constraints, the charging/discharging profiles for batteries were checked, and indeed that is the case. \Cref{fig:batt-plot-dopf-5-20-30-genCost} is shown as one example.
-
-\begin{figure}[t]
-    \centering
-    \includegraphics[width=\linewidth]{../figures/T5-pv20-batt30-genCost/dopf/BatteryPlots/macroItr_5_genCost_Battery_1_alpha_0.001.png}
-    \vspace{-5mm}
-    \caption{Charging-discharging and SOC graphs for battery at bus 3 located in Area 1 obtained by MPDOPF}
-    \label{fig:batt-plot-dopf-5-20-30-genCost}
-    \vspace{-3mm}
-\end{figure}
-
 \subsubsection{ACOPF Feasibility Analysis}
 \Cref{table:feas-5-20-30} showcases the ACOPF feasibility of the control values suggested by the MPDOPF algorithm. The first section 'Full horizon' describes the respective output variables for the entire horizon from MPDOPF and OpenDSS. The second section 'Max. all-time discrepancy' stores the highest discrepancy between key state/output variables for all components across any time between MPDOPF and OpenDSS. In both sections, the discrepancies are small enough to warrant the feasibility of the obtained solution. 
 
-\begin{table}[t]
+\begin{table}[H]
     \centering
     \caption{ACOPF feasibility analyses - $5$ hour}
     \begin{tabular}{|l|c|c|}
@@ -81,9 +70,19 @@ To ensure that the complementarity of charging and discharging of batteries are 
     \vspace{-3mm}
 \end{table}
 
+To ensure that the complementarity of charging and discharging of batteries are being respected despite not using integer constraints, the charging/discharging profiles for batteries were checked, and indeed that is the case. \Cref{fig:batt-plot-dopf-5-20-30-genCost} is shown as one example.
+
+\begin{figure}[t]
+    \centering
+    \includegraphics[width=\linewidth]{../figures/T5-pv20-batt30-genCost/dopf/BatteryPlots/macroItr_5_genCost_Battery_1_alpha_0.001.png}
+    \vspace{-5mm}
+    \caption{Charging-discharging and SOC graphs for battery at bus 3 located in Area 1 obtained by MPDOPF}
+    \label{fig:batt-plot-dopf-5-20-30-genCost}
+    \vspace{-3mm}
+\end{figure}
 
 \subsubsection{Workflow Analysis}
-The workflow of the MPDOPF algorithm, which involves the exchange of boundary variables between parent-child area pairs, can be seen in the convergence plots in \Cref{fig:convergenceCurves-5-20-30}. Similarly, the convergence of the objective function to its optimal value with every iteration is shown by \Cref{fig:outputConvergence-5-pv20-batt30-genCost}. It is noted that, though at the starting the values are not at their optimal values, but with rolling iterations the values move to their optimum conditions and converge after 5 macro iterations. 
+The workflow of the MPDOPF algorithm, which involves the exchange of boundary variables between parent-child area pairs, can be seen in the convergence plots in \Cref{fig:voltage_1_2,fig:convergenceCurves-5-20-30}, with each line graph representing a particular time period in both plots. Similarly, the convergence of the objective function to its optimal value with every iteration is shown by \Cref{fig:outputConvergence-5-pv20-batt30-genCost}. It is noted that, though at the starting the values are not at their optimal values, but with rolling iterations the values move to their optimum conditions and converge after 5 macro iterations. 
 
 % \begin{figure*}[h!] % convergence curves
 %     \centering
@@ -285,26 +284,43 @@ The workflow of the MPDOPF algorithm, which involves the exchange of boundary va
 %     \label{fig:convergenceCurves-5-20-30}
 % \end{figure*}
 
+% \begin{figure}[t]
+%     \centering
+%     % First plot: Voltage at the PoI of Area 1 and Area 2
+%     \begin{subfigure}[b]{\columnwidth}
+%         \centering
+%         \includegraphics[width=0.8\columnwidth]{../figures/T5-pv20-batt30-genCost/dopf/convergenceCurves/BoundaryVoltage_vs_t_vs_macroItr_T_5_Areas_1_2_genCost_pv_20_batt_30_crop.png}
+%         \caption{\scriptsize Shared voltage data from Area $1$ to Area $2$}
+%         \label{fig:voltage_1_2}
+%     \end{subfigure}
+%     \vfill
+%     % Second plot: Real Power flowing from Area 2 into Area 4
+%     \begin{subfigure}[b]{\columnwidth}
+%         \centering
+%         \includegraphics[width=0.8\columnwidth]{../figures/T5-pv20-batt30-genCost/dopf/convergenceCurves/BoundaryRealPower_vs_t_vs_macroItr_T_5_Areas_2_4_genCost_pv_20_batt_30_crop.png}
+%         \caption{\scriptsize Shared real power data from Area $4$ into Area $2$}
+%         \label{fig:real_power_2_4}
+%     \end{subfigure}
+    
+%     \caption{Convergence of boundary variables. Each plot represents a particular variable exchanged between a pair of connected areas. Each line graph within a plot represents a particular time period.}
+%     \label{fig:convergenceCurves-5-20-30}
+%     \vspace{-4mm}
+% \end{figure}
+
 \begin{figure}[t]
     \centering
-    % First plot: Voltage at the PoI of Area 1 and Area 2
-    \begin{subfigure}[b]{\columnwidth}
-        \centering
-        \includegraphics[width=0.8\columnwidth]{../figures/T5-pv20-batt30-genCost/dopf/convergenceCurves/BoundaryVoltage_vs_t_vs_macroItr_T_5_Areas_1_2_genCost_pv_20_batt_30_crop.png}
-        \caption{\scriptsize Shared voltage data from Area $1$ to Area $2$}
-        \label{fig:voltage_1_2}
-    \end{subfigure}
-    \vfill
-    % Second plot: Real Power flowing from Area 2 into Area 4
-    \begin{subfigure}[b]{\columnwidth}
-        \centering
-        \includegraphics[width=0.8\columnwidth]{../figures/T5-pv20-batt30-genCost/dopf/convergenceCurves/BoundaryRealPower_vs_t_vs_macroItr_T_5_Areas_2_4_genCost_pv_20_batt_30_crop.png}
-        \caption{\scriptsize Shared real power data from Area $4$ into Area $2$}
-        \label{fig:real_power_2_4}
-    \end{subfigure}
-    
-    \caption{Convergence of boundary variables. Each plot represents a particular variable exchanged between a pair of connected areas. Each line graph within a plot represents a particular time period.}
-    \label{fig:convergenceCurves-5-20-30}
+    \includegraphics[width=0.8\columnwidth]{../figures/T5-pv20-batt30-genCost/dopf/convergenceCurves/BoundaryVoltage_vs_t_vs_macroItr_T_5_Areas_1_2_genCost_pv_20_batt_30_crop.png}
+    \caption{ Shared voltage data from Area $1$ to Area $2$.}
+    \label{fig:voltage_1_2}
+    \vspace{-4mm}
+\end{figure}
+
+\begin{figure}[t]
+    \centering
+    \includegraphics[width=0.8\columnwidth]{../figures/T5-pv20-batt30-genCost/dopf/convergenceCurves/BoundaryRealPower_vs_t_vs_macroItr_T_5_Areas_2_4_genCost_pv_20_batt_30_crop.png}
+    \caption{Shared real power data from Area $4$ into Area $2$.}
+    % \label{fig:real_power_2_4}
+  \label{fig:convergenceCurves-5-20-30}
     \vspace{-4mm}
 \end{figure}
 
@@ -322,18 +338,19 @@ To demonstrate the effectiveness of the proposed algorithm over a bigger horizon
 
 From the comparison against MPCOPF in \Cref{table:opt-10-20-30}, it can again be seen that MPDOPF is able to converge to the same optimal solution as MPCOPF. The computational speed up is even more pronounced than for the $5$ time-period simulation. It is noted that the solution time increased drastically for MPCOPF with the increasing length of the study horizon. However, the solution time increment for MPDOPF is comparatively less. Therefore, the proposed spatially distributed MPOPF framework is scalable to some extent.
 
+
 \begin{figure}[t]
     \centering
     \includegraphics[height=0.25\textheight]{../figures/T10-inputCurves/InputCurves_Horizon_10.png}
     \caption{Forecasts for demand power, irradiance and cost of substation power over a 10 hour Horizon}
     \label{fig:inputCurve-10}
-    \vspace{-4mm}
+    % \vspace{-4mm}
 \end{figure}
 
 
-\begin{table}[t]
+\begin{table}[H]
     \centering
-    \caption{Comparative analyses between MPCOPF and MPDOPF - $10$ hour}
+    \caption{Comparison between MPCOPF and MPDOPF - $10$ hour}
     \begin{tabular}{|l|c|c|}
     \hline
     \textbf{Metric} & \textbf{MPCOPF} & \textbf{MPDOPF} \\ \hline
@@ -353,9 +370,8 @@ From the comparison against MPCOPF in \Cref{table:opt-10-20-30}, it can again be
     \quad Total Simulation Time (s) & 4620.73 & 358.69 \\ \hline
     \end{tabular}
     \label{table:opt-10-20-30}
-    \vspace{-1mm}
+    % \vspace{-1mm}
 \end{table}
-
 
 Again, as can be seen in \Cref{table:feas-copf-10-20-30} comparison against OpenDSS has yielded small discrepancies, attesting to the feasibility of the solution. 
 
