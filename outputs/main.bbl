@@ -77,4 +77,9 @@ C.~Wu, W.~Gu, S.~Zhou, and X.~Chen, ``Coordinated optimal power flow for integra
 \bibitem{Nazir2021Sep}
 N.~Nazir and M.~Almassalkhi, ``{Guaranteeing a Physically Realizable Battery Dispatch Without Charge-Discharge Complementarity Constraints},'' \emph{IEEE Trans. Smart Grid}, vol.~14, no.~3, pp. 2473--2476, Sep. 2021.
 
+\bibitem{MPOPFRepo}
+\BIBentryALTinterwordspacing
+``{MultiPeriod-DistOPF-Benchmark},'' Jul. 2024, [Online; accessed 15. Jul. 2024]. [Online]. Available: \url{https://github.com/Realife-Brahmin/MultiPeriod-DistOPF-Benchmark}
+\BIBentrySTDinterwordspacing
+
 \end{thebibliography}
