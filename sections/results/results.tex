@@ -56,7 +56,7 @@ To ensure that the complementarity of charging and discharging of batteries are 
     \vspace{-5mm}
     \caption{Charging-discharging and SOC graphs for battery at bus 3 located in Area 1 obtained by MPDOPF}
     \label{fig:batt-plot-dopf-5-20-30-genCost}
-    
+    \vspace{-3mm}
 \end{figure}
 
 \subsubsection{ACOPF Feasibility Analysis}
@@ -78,6 +78,7 @@ To ensure that the complementarity of charging and discharging of batteries are 
     \quad Substation power (kW) & \multicolumn{2}{c|}{0.3431} \\ \hline
     \end{tabular}
     \label{table:feas-5-20-30}
+    \vspace{-3mm}
 \end{table}
 
 
@@ -319,6 +320,8 @@ The workflow of the MPDOPF algorithm, which involves the exchange of boundary va
 
 To demonstrate the effectiveness of the proposed algorithm over a bigger horizon to demonstrate scalability, further simulations were run for a $10$ hour horizon. \Cref{fig:inputCurve-10} shows the forecasted profiles for load, solar irradiance and cost of substation power over the 10-hour horizon. The simulation results are summarized in \Cref{table:opt-10-20-30} and \Cref{table:feas-copf-10-20-30}.
 
+From the comparison against MPCOPF in \Cref{table:opt-10-20-30}, it can again be seen that MPDOPF is able to converge to the same optimal solution as MPCOPF. The computational speed up is even more pronounced than for the $5$ time-period simulation. It is noted that the solution time increased drastically for MPCOPF with the increasing length of the study horizon. However, the solution time increment for MPDOPF is comparatively less. Therefore, the proposed spatially distributed MPOPF framework is scalable to some extent.
+
 \begin{figure}[t]
     \centering
     \includegraphics[height=0.25\textheight]{../figures/T10-inputCurves/InputCurves_Horizon_10.png}
@@ -327,7 +330,6 @@ To demonstrate the effectiveness of the proposed algorithm over a bigger horizon
     \vspace{-4mm}
 \end{figure}
 
-From the comparison against MPCOPF in \Cref{table:opt-10-20-30}, it can again be seen that MPDOPF is able to converge to the same optimal solution as MPCOPF. The computational speed up is even more pronounced than for the $5$ time-period simulation. It is noted that the solution time increased drastically for MPCOPF with the increasing length of the study horizon. However, the solution time increment for MPDOPF is comparatively less. Therefore, the proposed spatially distributed MPOPF framework is scalable to some extent. 
 
 \begin{table}[t]
     \centering
@@ -357,7 +359,7 @@ From the comparison against MPCOPF in \Cref{table:opt-10-20-30}, it can again be
 
 Again, as can be seen in \Cref{table:feas-copf-10-20-30} comparison against OpenDSS has yielded small discrepancies, attesting to the feasibility of the solution. 
 
-\begin{table}[h!]
+\begin{table}[t]
     \centering
     \caption{ACOPF feasibility analyses - $10$ hour}
     \begin{tabular}{|l|c|c|}
