@@ -1,13 +1,13 @@
 # Fdb version 4
-["bibtex main"] 1728516375 "main.aux" "main.bbl" "main" 1728516950 0
+["bibtex main"] 1728516375 "main.aux" "main.bbl" "main" 1728517539 0
   "./bibFile.bib" 1724196152 13252 55ae654a426102aaf60d32beab74d7be ""
   "C:/Users/Aryan Ritwajeet Jha/AppData/Local/Programs/MiKTeX/bibtex/bst/ieeetran/IEEEtran.bst" 1440622569 57748 7c8250ecf02814ce6ddc0cdbb63df1dd ""
-  "main.aux" 1728516948 11067 9b64ad825306948ed71d5df12b32427b "pdflatex"
+  "main.aux" 1728517538 11067 9b64ad825306948ed71d5df12b32427b "pdflatex"
   (generated)
   "main.bbl"
   "main.blg"
   (rewritten before read)
-["pdflatex"] 1728516947 "c:/Users/Aryan Ritwajeet Jha/Documents/documents_general/NAPS2024_MultiPeriod-DistOPF/outputs/main.tex" "main.pdf" "main" 1728516950 0
+["pdflatex"] 1728517537 "c:/Users/Aryan Ritwajeet Jha/Documents/documents_general/NAPS2024_MultiPeriod-DistOPF/outputs/main.tex" "main.pdf" "main" 1728517539 0
   "../figures/T10-inputCurves/InputCurves_Horizon_10.png" 1724196151 60122 69585073d9ba51c2f0ba0f00ef49914a ""
   "../figures/T5-inputCurves/InputCurves_Horizon_5.png" 1724196152 60352 9ec9586e9c5515f77e92d6171a029a7d ""
   "../figures/T5-pv20-batt30-genCost/dopf/BatteryPlots/macroItr_5_genCost_Battery_1_alpha_0.001.png" 1724196152 35431 6bb4f3c84bbe1180e78d874a70c75e81 ""
@@ -17,7 +17,7 @@
   "../figures/ieee123-FourAreas-pv20-batt30.png" 1724196152 548038 4ca7e14ee0fa45e4a10c487a0bed835e ""
   "../sections/conclusion/conclusion.tex" 1724196152 2765 61bfb941c66aa9c7b28e42da58dc2802 ""
   "../sections/intro/intro.tex" 1728515935 10611 8e89490e8b3c3d35458cf239161a592f ""
-  "../sections/results/results.tex" 1724196153 23886 319b09b2dac5356d09bbb8867cff1e19 ""
+  "../sections/results/results.tex" 1728517532 23886 cd8c7b0a211e8ba92c678cde32ac20f7 ""
   "../sections/simulation/simulation.tex" 1728516532 4036 b749b97dd35d0c3a8f865bda203a3513 ""
   "../sections/theory/theory.tex" 1728516944 14929 c8d2ded66c86d60d033b1ae9618df314 ""
   "C:/Users/Aryan Ritwajeet Jha/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1728516341 83609 ebbc432e6cbbb238d39535255db2c8bd ""
@@ -174,12 +174,12 @@
   "C:/Users/Aryan Ritwajeet Jha/AppData/Local/Programs/MiKTeX/tex/latex/xkeyval/xkeyval.sty" 1656236919 4937 4ce600ce9bd4ec84d0250eb6892fcf4f ""
   "C:/Users/Aryan Ritwajeet Jha/AppData/Local/Programs/MiKTeX/tex/latex/xpatch/xpatch.sty" 1585221260 8510 7803f78066c4f9d008405191a4b43073 ""
   "IEEEtran.cls" 1696959462 288304 5b2e4fa15b0f7eabb840ebf67df4c0f7 ""
-  "c:/Users/Aryan Ritwajeet Jha/Documents/documents_general/NAPS2024_MultiPeriod-DistOPF/outputs/main.tex" 1728516946 6129 c210f6a5c87700ef7a94c588daa3e62a ""
-  "main.aux" 1728516948 11067 9b64ad825306948ed71d5df12b32427b "pdflatex"
+  "c:/Users/Aryan Ritwajeet Jha/Documents/documents_general/NAPS2024_MultiPeriod-DistOPF/outputs/main.tex" 1728517533 6129 c210f6a5c87700ef7a94c588daa3e62a ""
+  "main.aux" 1728517538 11067 9b64ad825306948ed71d5df12b32427b "pdflatex"
   "main.bbl" 1728516375 6034 a5e0faf244fdfb789248945a3f6dd9c0 "bibtex main"
-  "main.out" 1728516949 3013 852358204557259662d01adcc1172a01 "pdflatex"
-  "main.sta" 1728516948 510 483e70781e4bbb980f1e4406fab19da8 "pdflatex"
-  "main.tex" 1728516946 6129 c210f6a5c87700ef7a94c588daa3e62a ""
+  "main.out" 1728517538 3013 852358204557259662d01adcc1172a01 "pdflatex"
+  "main.sta" 1728517538 510 483e70781e4bbb980f1e4406fab19da8 "pdflatex"
+  "main.tex" 1728517533 6129 c210f6a5c87700ef7a94c588daa3e62a ""
   (generated)
   "main.aux"
   "main.log"
