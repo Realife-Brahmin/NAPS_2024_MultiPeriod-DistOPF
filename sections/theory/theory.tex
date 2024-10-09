@@ -46,7 +46,7 @@ The apparent power flow through line {\(ij\)} at time \(t\) is \(S_{ij}^t\) (\(=
 % Rated apparent powers of DERs and Batteries at node $j$ are denoted by $S_{D_{R_j}}$ and $S_{B_{R_j}}$ respectively.
 
 \subsection{MPCOPF with Batteries}
-The OPF problem aims to minimize two objectives as shown in \cref{eq:genCost_withSCD}. The first term in \cref{eq:genCost_withSCD} aims to minimize the total energy cost for the entire horizon. Including the 'Battery Loss' cost as the second term ($\alpha > 0$) helps eliminate the need for binary (integer) variables typically used to prevent simultaneous charging and discharging. The resulting OPF problem is a non-convex optimization problem \cite{Nazir2021Sep}.
+The OPF problem aims to minimize two objectives as shown in \cref{eq:genCost_withSCD}. The first term in \cref{eq:genCost_withSCD} aims to minimize the total energy cost for the entire horizon. Including the `Battery Loss' cost as the second term ($\alpha > 0$) helps eliminate the need for binary (integer) variables typically used to prevent simultaneous charging and discharging. The resulting OPF problem is a non-convex optimization problem \cite{Nazir2021Sep}.
 
 % \begin{equation}
 %     \min {\sum_{t = 1}^{T} \left[ C^t P^t_{Subs} + \alpha \sum_{j \in \mathcal{B}} \left\{ (1-\eta_C)P^t_{C_j} + \left( \frac{1}{\eta_D} - 1 \right) P^t_{D_j}\right\} \right] } \label{eq:genCost_withSCD}
