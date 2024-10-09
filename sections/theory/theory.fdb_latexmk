@@ -1,11 +1,11 @@
 # Fdb version 4
-["pdflatex"] 1721103585.40697 "c:/Users/aryan/Documents/documents_general/UnknownPaper_MultiPeriod-DistOPF/sections/theory/theory.tex" "c:/Users/aryan/Documents/documents_general/UnknownPaper_MultiPeriod-DistOPF/sections/theory/theory.pdf" "theory" 1721103588.42784 0
-  "IEEEtran.cls" 1720196288 288304 5b2e4fa15b0f7eabb840ebf67df4c0f7 ""
-  "c:/Users/aryan/Documents/documents_general/UnknownPaper_MultiPeriod-DistOPF/sections/theory/../../outputs/main.tex" 1721103188 6129 c210f6a5c87700ef7a94c588daa3e62a ""
-  "c:/Users/aryan/Documents/documents_general/UnknownPaper_MultiPeriod-DistOPF/sections/theory/theory.aux" 1721103588 2652 4ebee8aca2904b530a0e71ef36886af1 "pdflatex"
-  "c:/Users/aryan/Documents/documents_general/UnknownPaper_MultiPeriod-DistOPF/sections/theory/theory.out" 1721103588 645 99ff351ddb3a67d876dc30fa55eb210c "pdflatex"
-  "c:/Users/aryan/Documents/documents_general/UnknownPaper_MultiPeriod-DistOPF/sections/theory/theory.sta" 1721103588 45 5977ee01d6365feae7164ffda30d2c8b "pdflatex"
-  "c:/Users/aryan/Documents/documents_general/UnknownPaper_MultiPeriod-DistOPF/sections/theory/theory.tex" 1721103583 14914 3a0d8acda411b2154f003285a6572b32 ""
+["pdflatex"] 1728482235.96844 "c:/Users/aryan/Documents/documents_general/NAPS_2024_MultiPeriod-DistOPF/sections/theory/theory.tex" "c:/Users/aryan/Documents/documents_general/NAPS_2024_MultiPeriod-DistOPF/sections/theory/theory.pdf" "theory" 1728482237.56742 0
+  "IEEEtran.cls" 1728479835 288304 5b2e4fa15b0f7eabb840ebf67df4c0f7 ""
+  "c:/Users/aryan/Documents/documents_general/NAPS_2024_MultiPeriod-DistOPF/sections/theory/../../outputs/main.tex" 1728482236 6129 c210f6a5c87700ef7a94c588daa3e62a ""
+  "c:/Users/aryan/Documents/documents_general/NAPS_2024_MultiPeriod-DistOPF/sections/theory/theory.aux" 1728482237 2652 4ebee8aca2904b530a0e71ef36886af1 "pdflatex"
+  "c:/Users/aryan/Documents/documents_general/NAPS_2024_MultiPeriod-DistOPF/sections/theory/theory.out" 1728482237 645 99ff351ddb3a67d876dc30fa55eb210c "pdflatex"
+  "c:/Users/aryan/Documents/documents_general/NAPS_2024_MultiPeriod-DistOPF/sections/theory/theory.sta" 1728482237 45 5977ee01d6365feae7164ffda30d2c8b "pdflatex"
+  "c:/Users/aryan/Documents/documents_general/NAPS_2024_MultiPeriod-DistOPF/sections/theory/theory.tex" 1728482234 14906 637c5bb50d39f21e69d6b38fd2e74d54 ""
   "c:/texlive/2023/texmf-dist/fonts/enc/dvips/base/8r.enc" 1706170314 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "c:/texlive/2023/texmf-dist/fonts/map/fontname/texfonts.map" 1706171058 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "c:/texlive/2023/texmf-dist/fonts/tfm/adobe/times/ptmb7t.tfm" 1706176242 2172 fd0c924230362ff848a33632ed45dc23 ""
@@ -132,9 +132,9 @@
   "c:/texlive/2023/texmf-var/web2c/pdftex/pdflatex.fmt" 1706177337 8211032 0375d62fdda5ac93a6b0452c591efeb3 ""
   "c:/texlive/2023/texmf.cnf" 1706177202 713 e69b156964470283e0530f5060668171 ""
   (generated)
-  "c:/Users/aryan/Documents/documents_general/UnknownPaper_MultiPeriod-DistOPF/sections/theory/theory.aux"
-  "c:/Users/aryan/Documents/documents_general/UnknownPaper_MultiPeriod-DistOPF/sections/theory/theory.log"
-  "c:/Users/aryan/Documents/documents_general/UnknownPaper_MultiPeriod-DistOPF/sections/theory/theory.out"
-  "c:/Users/aryan/Documents/documents_general/UnknownPaper_MultiPeriod-DistOPF/sections/theory/theory.pdf"
-  "c:/Users/aryan/Documents/documents_general/UnknownPaper_MultiPeriod-DistOPF/sections/theory/theory.sta"
+  "c:/Users/aryan/Documents/documents_general/NAPS_2024_MultiPeriod-DistOPF/sections/theory/theory.aux"
+  "c:/Users/aryan/Documents/documents_general/NAPS_2024_MultiPeriod-DistOPF/sections/theory/theory.log"
+  "c:/Users/aryan/Documents/documents_general/NAPS_2024_MultiPeriod-DistOPF/sections/theory/theory.out"
+  "c:/Users/aryan/Documents/documents_general/NAPS_2024_MultiPeriod-DistOPF/sections/theory/theory.pdf"
+  "c:/Users/aryan/Documents/documents_general/NAPS_2024_MultiPeriod-DistOPF/sections/theory/theory.sta"
   (rewritten before read)
