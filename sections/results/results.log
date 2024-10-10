@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.10) (preloaded format=pdflatex 2023.10.10)  9 OCT 2024 17:46
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.10) (preloaded format=pdflatex 2023.10.10)  9 OCT 2024 18:10
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -579,7 +579,7 @@ Package pdftex.def Info: ../figures/T5-pv20-batt30-genCost/dopf/outputCurves/Obj
  [1{C:/Users/Aryan Ritwajeet Jha/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{C:/Users/Aryan Ritwajeet Jha/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc}
 
  <../figures/T5-pv20-batt30-genCost/dopf/BatteryPlots/macroItr_5_genCost_Battery_1_alpha_0.001.png (PNG copy)>]
-<../figures/T10-inputCurves/InputCurves_Horizon_10.png, id=61, 422.0568pt x 316.5426pt>
+<../figures/T10-inputCurves/InputCurves_Horizon_10.png, id=60, 422.0568pt x 316.5426pt>
 File: ../figures/T10-inputCurves/InputCurves_Horizon_10.png Graphic file (type png)
 <use ../figures/T10-inputCurves/InputCurves_Horizon_10.png>
 Package pdftex.def Info: ../figures/T10-inputCurves/InputCurves_Horizon_10.png  used on input line 347.
@@ -622,7 +622,7 @@ Here is how much of TeX's memory you used:
  1141 hyphenation exceptions out of 8191
  115i,9n,148p,850b,438s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/Aryan Ritwajeet Jha/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/Aryan Ritwajeet Jha/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Users/Aryan Ritwajeet Jha/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Users/Aryan Ritwajeet Jha/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
-Output written on "c:/Users\Aryan Ritwajeet Jha\Documents\documents_general\NAPS2024_MultiPeriod-DistOPF\sections\results\results.pdf" (3 pages, 442428 bytes).
+Output written on "c:/Users\Aryan Ritwajeet Jha\Documents\documents_general\NAPS2024_MultiPeriod-DistOPF\sections\results\results.pdf" (3 pages, 442416 bytes).
 PDF statistics:
  98 PDF objects out of 1000 (max. 8388607)
  19 named destinations out of 1000 (max. 500000)
