@@ -21,7 +21,7 @@ In the following subsections, the proposed MPDOPF algorithm is compared against 
 This first section of the \Cref{table:opt-5-20-30}, `largest subproblem' provides specifics of the `computational bottleneck' encountered by either algorithm during its course. As described in \Cref{subsec:ENApp}, the bottleneck represents the OPF subproblem which is computationally the most intensive and thus is a key indicator of the expected time the algorithm will take to complete. As can be seen in the third section `Computation', there is more than a $10$x speedup in computation time with MPDOPF, even though $5$ such iterations were performed, totalling to $20$ OPF calls over the $4$ areas of the test system.      
 
 \subsubsection{Optimality of Objective Function and Control Variables}
-The second section of the \Cref{table:opt-5-20-30} i.e. 'Simulation results' showcases that MPDOPF provides almost zero optimality gap (same values for Substation Power Cost, the objective function). Interestingly, the values of the control variable themselves, prominently, there is a significant difference in the suggested optimal reactive power control values for inverters associated with DERs and batteries (results aggregated over all components over the horizon for conciseness). This highlights the fact that a nonconvex nonlinear optimization problem may not necessarily have a unique global optimal point. There is a possibility of having multiple feasible solutions with the same objective function value. 
+The second section of the \Cref{table:opt-5-20-30} i.e. `Simulation results' showcases that MPDOPF provides almost zero optimality gap (same values for Substation Power Cost, the objective function). Interestingly, there is a significant difference in the suggested optimal reactive power control values for inverters associated with DERs and batteries (results aggregated over all components over the horizon for conciseness). This highlights the fact that a nonconvex nonlinear optimization problem may not necessarily have a unique global optimal point. There is a possibility of having multiple feasible solutions with the same objective function value. 
 
 \begin{table}[t] % MPCOPF vs MPDOPF for T = 5
     \centering
@@ -49,7 +49,7 @@ The second section of the \Cref{table:opt-5-20-30} i.e. 'Simulation results' sho
 \end{table}
 
 \subsubsection{ACOPF Feasibility Analysis}
-\Cref{table:feas-5-20-30} showcases the ACOPF feasibility of the control values suggested by the MPDOPF algorithm. The first section 'Full horizon' describes the respective output variables for the entire horizon from MPDOPF and OpenDSS. The second section 'Max. all-time discrepancy' stores the highest discrepancy between key state/output variables for all components across any time between MPDOPF and OpenDSS. In both sections, the discrepancies are small enough to warrant the feasibility of the obtained solution. 
+\Cref{table:feas-5-20-30} showcases the ACOPF feasibility of the control values suggested by the MPDOPF algorithm. The first section `Full horizon' describes the respective output variables for the entire horizon from MPDOPF and OpenDSS. The second section `Max. all-time discrepancy' stores the highest discrepancy between key state/output variables for all components across any time between MPDOPF and OpenDSS. In both sections, the discrepancies are small enough to warrant the feasibility of the obtained solution. 
 
 \begin{table}[H]
     \centering
@@ -70,7 +70,9 @@ The second section of the \Cref{table:opt-5-20-30} i.e. 'Simulation results' sho
     \vspace{-3mm}
 \end{table}
 
-To ensure that the complementarity of charging and discharging of batteries are being respected despite not using integer constraints, the charging/discharging profiles for batteries were checked, and indeed that is the case. \Cref{fig:batt-plot-dopf-5-20-30-genCost} is shown as one example.
+% To ensure that the complementarity of charging and discharging of batteries is being respected, given our avoidance of the usage of integer constraints, the charging/discharging profiles for batteries were checked. and indeed that is the case. \Cref{fig:batt-plot-dopf-5-20-30-genCost} is shown as one example.
+
+To ensure that battery charging and discharging complementarity is respected without relying on integer constraints, the battery charging and discharging profiles were carefully examined. The results confirm this complementarity, as illustrated in \Cref{fig:batt-plot-dopf-5-20-30-genCost} as one such example.
 
 \begin{figure}[t]
     \centering
@@ -82,7 +84,8 @@ To ensure that the complementarity of charging and discharging of batteries are 
 \end{figure}
 
 \subsubsection{Workflow Analysis}
-The workflow of the MPDOPF algorithm, which involves the exchange of boundary variables between parent-child area pairs, can be seen in the convergence plots in \Cref{fig:voltage_1_2,fig:convergenceCurves-5-20-30}, with each line graph representing a particular time period in both plots. Similarly, the convergence of the objective function to its optimal value with every iteration is shown by \Cref{fig:outputConvergence-5-pv20-batt30-genCost}. It is noted that, though at the starting the values are not at their optimal values, but with rolling iterations the values move to their optimum conditions and converge after 5 macro iterations. 
+% The workflow of the MPDOPF algorithm, which involves the exchange of boundary variables between parent-child area pairs, can be seen in the convergence plots in \Cref{fig:voltage_1_2,fig:convergenceCurves-5-20-30}, with each line graph representing a particular time period in both plots. Similarly, the convergence of the objective function to its optimal value with every iteration is shown by \Cref{fig:outputConvergence-5-pv20-batt30-genCost}. From these plots, it may be noted that though initially the decision variables may be away from their optimal values, with rolling iterations they make their way to optimum values, in this case converging after 5 macro iterations. 
+The workflow of the MPDOPF algorithm, which involves the exchange of boundary variables between parent-child area pairs, is illustrated in the convergence plots in \Cref{fig:voltage_1_2,fig:convergenceCurves-5-20-30}. Each line graph represents a specific time period for both plots. Similarly, \Cref{fig:outputConvergence-5-pv20-batt30-genCost} shows the convergence of the objective function towards its optimal value over successive iterations. From these plots, we observe that although the decision variables may initially deviate from their optimal values, they gradually approach optimality with each rolling iteration, converging after 5 macro iterations in this instance.
 
 % \begin{figure*}[h!] % convergence curves
 %     \centering
@@ -334,10 +337,11 @@ The workflow of the MPDOPF algorithm, which involves the exchange of boundary va
 
 \subsection{Scalability Analysis} \label{subsec:scalabilityAnalysis}
 
-To demonstrate the effectiveness of the proposed algorithm over a bigger horizon to demonstrate scalability, further simulations were run for a $10$ hour horizon. \Cref{fig:inputCurve-10} shows the forecasted profiles for load, solar irradiance and cost of substation power over the 10-hour horizon. The simulation results are summarized in \Cref{table:opt-10-20-30} and \Cref{table:feas-copf-10-20-30}.
+To demonstrate the scalability of the proposed algorithm, additional simulations were conducted over a 10-hour time horizon. \Cref{fig:inputCurve-10} shows the forecasted profiles for load, solar irradiance and cost of substation power over the 10-hour horizon. The simulation results are summarized in \Cref{table:opt-10-20-30} and \Cref{table:feas-copf-10-20-30}.
 
-From the comparison against MPCOPF in \Cref{table:opt-10-20-30}, it can again be seen that MPDOPF is able to converge to the same optimal solution as MPCOPF. The computational speed up is even more pronounced than for the $5$ time-period simulation. It is noted that the solution time increased drastically for MPCOPF with the increasing length of the study horizon. However, the solution time increment for MPDOPF is comparatively less. Therefore, the proposed spatially distributed MPOPF framework is scalable to some extent.
-
+From the comparison against MPCOPF in \Cref{table:opt-10-20-30}, it can again be seen that MPDOPF is able to converge to the same optimal solution as MPCOPF. The computational speed up is even more pronounced than for the $5$ time-period simulation. 
+% It is noted that the solution time increased drastically for MPCOPF with the increasing length of the study horizon. However, the solution time increment for MPDOPF is comparatively less. Therefore, the proposed spatially distributed MPOPF framework is scalable to some extent.
+It was observed that the solution time for MPCOPF increased significantly with the length of the study horizon, whereas the increase in solution time for MPDOPF was comparatively smaller. This indicates that the proposed spatially distributed MPOPF framework is scalable to a certain extent.
 
 \begin{figure}[t]
     \centering

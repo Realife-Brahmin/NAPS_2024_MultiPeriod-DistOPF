@@ -4,5 +4,13 @@
 			"path": "."
 		}
 	],
-	"settings": {}
+	"settings": {
+		"cSpell.words": [
+			"ACOPF",
+			"Eauthorrefmark",
+			"MPCOPF",
+			"MPDOPF",
+			"MPOPF"
+		]
+	}
 }
